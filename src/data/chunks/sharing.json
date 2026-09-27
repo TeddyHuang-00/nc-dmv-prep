@@ -1,0 +1,762 @@
+{
+  "version": 1,
+  "batch": "sharing",
+  "questions": [
+    {
+      "id": "sharing-001",
+      "topic": "sharing",
+      "chapter": "Chapter 6 — Sharing the Road",
+      "page": 89,
+      "question": "Under North Carolina state law, bicycles are:",
+      "choices": [
+        "vehicles that must obey traffic laws",
+        "pedestrians with no legal duties",
+        "motor vehicles that require registration",
+        "prohibited on public roads"
+      ],
+      "answer": 0,
+      "explanation": "State law considers bicycles to be vehicles. Bicyclists must obey the same traffic laws as other drivers, including DWI laws.",
+      "sourceQuote": "Because bicycles are vehicles, bicyclists must obey the same traffic laws as other drivers, this includes DWI laws.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "sharing-002",
+      "topic": "sharing",
+      "chapter": "Chapter 6 — Sharing the Road",
+      "page": 89,
+      "question": "Bicyclists may legally choose to ride:",
+      "choices": [
+        "Only in designated bicycle lanes",
+        "Only on paved shoulders",
+        "In bicycle lanes, on paved shoulders, or in all-purpose travel lanes",
+        "Only on sidewalks"
+      ],
+      "answer": 2,
+      "explanation": "Bicyclists may ride in bicycle lanes, on paved shoulders, or in all-purpose travel lanes, choosing based on roadway conditions and conflicts with right-turning traffic.",
+      "sourceQuote": "Bicyclists may choose to ride in bicycle lanes, on paved shoulders, or in all-purpose travel lanes.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "sharing-003",
+      "topic": "sharing",
+      "chapter": "Chapter 6 — Sharing the Road",
+      "page": 90,
+      "question": "A driver may pass a bicyclist only when:",
+      "choices": [
+        "The bicyclist waves the driver around",
+        "There is abundant clearance and no oncoming traffic in the opposing lane",
+        "The driver sounds the horn first",
+        "There is at least one foot of space"
+      ],
+      "answer": 1,
+      "explanation": "Drivers wishing to pass a bicyclist may do so only when there is abundant clearance and no oncoming traffic in the opposing lane.",
+      "sourceQuote": "Drivers wishing to pass a bicyclist may do so only when there is abundant clearance and no oncoming traffic is in the opposing lane.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "sharing-004",
+      "topic": "sharing",
+      "chapter": "Chapter 6 — Sharing the Road",
+      "page": 90,
+      "question": "The safest way to pass a bicyclist is to:",
+      "choices": [
+        "Change lanes",
+        "Stay in your lane and slow down",
+        "Pass on the shoulder",
+        "Follow closely until the bicyclist pulls over"
+      ],
+      "answer": 0,
+      "explanation": "The safest way to pass a bicyclist is to change lanes. To pass a cyclist lawfully, a driver must follow vehicle passing laws.",
+      "sourceQuote": "The safest way to pass a bicyclist is to change lanes.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "sharing-005",
+      "topic": "sharing",
+      "chapter": "Chapter 6 — Sharing the Road",
+      "page": 90,
+      "question": "Bicyclists should ride:",
+      "choices": [
+        "Against the flow of traffic to see oncoming cars",
+        "With the flow of traffic, not against it",
+        "In the center of the road at all times",
+        "Only on sidewalks"
+      ],
+      "answer": 1,
+      "explanation": "It is especially important for bicyclists to go with the flow of traffic. Motorists often do not look in the direction of bicyclists riding the wrong way.",
+      "sourceQuote": "It is especially important for bicyclists to go with the flow of traffic, NOT against the flow.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "sharing-006",
+      "topic": "sharing",
+      "chapter": "Chapter 6 — Sharing the Road",
+      "page": 90,
+      "question": "At night, the law requires a bicycle to have a light on the front visible for a distance of at least:",
+      "choices": [
+        "100 feet",
+        "200 feet",
+        "300 feet",
+        "500 feet"
+      ],
+      "answer": 2,
+      "explanation": "At night the law requires a light on the front visible for at least 300 feet and a red light or reflector on the rear visible for at least 200 feet.",
+      "sourceQuote": "the law requires that a bicycle be equipped with a light on the front visible for a distance of at least 300 feet",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "sharing-007",
+      "topic": "sharing",
+      "chapter": "Chapter 6 — Sharing the Road",
+      "page": 90,
+      "question": "At night, a bicycle must have a red light or reflector on the rear visible for a distance of at least:",
+      "choices": [
+        "20 feet",
+        "50 feet",
+        "100 feet",
+        "200 feet"
+      ],
+      "answer": 3,
+      "explanation": "The rear of a bicycle must show a red light or reflector visible for at least 200 feet at night.",
+      "sourceQuote": "a red light or reflector on the rear visible for a distance of at least 200 feet",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "sharing-008",
+      "topic": "sharing",
+      "chapter": "Chapter 6 — Sharing the Road",
+      "page": 90,
+      "question": "Who must wear an approved protective bicycle helmet?",
+      "choices": [
+        "All riders regardless of age",
+        "Only riders on state highways",
+        "Only children under age 10",
+        "All bicycle riders and passengers under age 16"
+      ],
+      "answer": 3,
+      "explanation": "All bicycle riders and passengers under age 16 must wear an approved protective bicycle helmet and must be seated on a saddle seat.",
+      "sourceQuote": "All bicycle riders and passengers under age 16 must wear an approved protective bicycle helmet",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "sharing-009",
+      "topic": "sharing",
+      "chapter": "Chapter 6 — Sharing the Road",
+      "page": 90,
+      "question": "A bicycle passenger who weighs less than 40 pounds or is less than 40 inches tall must:",
+      "choices": [
+        "Ride in front of the rider",
+        "Wear a motorcycle helmet",
+        "Ride only on the sidewalk",
+        "Be seated in a bicycle restraining seat"
+      ],
+      "answer": 3,
+      "explanation": "A passenger weighing less than 40 pounds or less than 40 inches in height must be seated in a bicycle restraining seat.",
+      "sourceQuote": "A passenger weighing less than 40 pounds or less than 40 inches in height must be seated in a bicycle restraining seat.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "sharing-010",
+      "topic": "sharing",
+      "chapter": "Chapter 6 — Sharing the Road",
+      "page": 91,
+      "question": "When walking along a road, a pedestrian should:",
+      "choices": [
+        "Walk on the right side with traffic",
+        "Walk on the left side of the road facing traffic",
+        "Walk in the center of the lane",
+        "Walk on the right shoulder facing away from traffic"
+      ],
+      "answer": 1,
+      "explanation": "Pedestrians should always walk on the left side of the road facing traffic, and make themselves visible to drivers.",
+      "sourceQuote": "Walk on the left side of the road facing traffic",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "sharing-011",
+      "topic": "sharing",
+      "chapter": "Chapter 6 — Sharing the Road",
+      "page": 91,
+      "question": "At night, pedestrians should:",
+      "choices": [
+        "Wear dark clothing",
+        "Assume drivers can see them",
+        "Use a flashlight",
+        "Walk in the center of the lane"
+      ],
+      "answer": 2,
+      "explanation": "At night it is more difficult for drivers to see pedestrians, so a pedestrian should use a flashlight.",
+      "sourceQuote": "At night, remember that it is more difficult for drivers to see you",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "sharing-012",
+      "topic": "sharing",
+      "chapter": "Chapter 6 — Sharing the Road",
+      "page": 91,
+      "question": "In cities, about how many of the persons killed by motor vehicle crashes are pedestrians?",
+      "choices": [
+        "One of every 10",
+        "One of every 20",
+        "One of every 100",
+        "Two of every five"
+      ],
+      "answer": 3,
+      "explanation": "In cities, about two of every five persons killed by motor vehicle crashes are pedestrians.",
+      "sourceQuote": "In cities, about two of every five persons killed by motor vehicle crashes are pedestrians",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "sharing-013",
+      "topic": "sharing",
+      "chapter": "Chapter 6 — Sharing the Road",
+      "page": 91,
+      "question": "In rural areas, about how many of the persons killed by motor vehicle crashes are pedestrians?",
+      "choices": [
+        "One of every 10",
+        "Two of every five",
+        "One of every three",
+        "One of every 50"
+      ],
+      "answer": 0,
+      "explanation": "In rural areas, the rate is about one of every 10 persons killed by motor vehicle crashes.",
+      "sourceQuote": "in rural areas, the rate is about one of every 10",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "sharing-014",
+      "topic": "sharing",
+      "chapter": "Chapter 6 — Sharing the Road",
+      "page": 91,
+      "question": "Most pedestrians killed in motor vehicle crashes are:",
+      "choices": [
+        "Teenagers walking to school",
+        "Adults commuting after dark",
+        "People using crosswalks",
+        "Children, elderly persons, or those who have been drinking alcoholic beverages"
+      ],
+      "answer": 3,
+      "explanation": "Most of the pedestrians killed are children, elderly persons or those who have been drinking alcoholic beverages.",
+      "sourceQuote": "Most of the pedestrians killed are children, elderly persons or those who have been drinking alcoholic beverages.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "sharing-015",
+      "topic": "sharing",
+      "chapter": "Chapter 6 — Sharing the Road",
+      "page": 91,
+      "question": "Compared with passenger cars, heavy trucks:",
+      "choices": [
+        "Gain speed more quickly",
+        "Require less turning room",
+        "Cannot gain speed as quickly, especially while traveling uphill",
+        "Stop more easily downhill"
+      ],
+      "answer": 2,
+      "explanation": "Heavy trucks cannot gain speed as quickly as cars, especially while traveling uphill.",
+      "sourceQuote": "Heavy trucks cannot gain speed as quickly as cars, especially while traveling uphill.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "sharing-016",
+      "topic": "sharing",
+      "chapter": "Chapter 6 — Sharing the Road",
+      "page": 91,
+      "question": "Because of its large size, a tractor-trailer often:",
+      "choices": [
+        "Appears to be traveling at a slower speed than it is",
+        "Appears to be traveling faster than it is",
+        "Has no blind spots",
+        "Stops more quickly than a car"
+      ],
+      "answer": 0,
+      "explanation": "Because of its large size, a tractor-trailer often appears to be traveling at a slower speed than it is.",
+      "sourceQuote": "because of its large size, a tractor-trailer often appears to be traveling at a slower speed than it is",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "sharing-017",
+      "topic": "sharing",
+      "chapter": "Chapter 6 — Sharing the Road",
+      "page": 91,
+      "question": "Large trucks require additional turning room because:",
+      "choices": [
+        "They steer with the rear wheels",
+        "They must turn at very low speed",
+        "Their brakes overheat in turns",
+        "Their rear wheels do not follow the path of their front wheels"
+      ],
+      "answer": 3,
+      "explanation": "Large trucks require additional turning room because their rear wheels do not follow the path of their front wheels.",
+      "sourceQuote": "Large trucks require additional turning room because their rear wheels do not follow the path of their front wheels.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "sharing-018",
+      "topic": "sharing",
+      "chapter": "Chapter 6 — Sharing the Road",
+      "page": 91,
+      "question": "When following a tractor-trailer that appears to be starting a left turn, you should:",
+      "choices": [
+        "Pass it on the left immediately",
+        "Assume it is signaling a right turn",
+        "Check which way the driver is signaling before you attempt to pass",
+        "Flash your headlights and pass"
+      ],
+      "answer": 2,
+      "explanation": "Observe the tractor-trailer's turn signals before trying to pass. If it appears to be starting a left turn, check which way the driver is signaling before you attempt to pass.",
+      "sourceQuote": "check to see which way the driver is signaling before you attempt to pass",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "sharing-019",
+      "topic": "sharing",
+      "chapter": "Chapter 6 — Sharing the Road",
+      "page": 91,
+      "question": "Truck brakes create heat when the truck is traveling downhill. This condition:",
+      "choices": [
+        "Improves the truck's braking",
+        "Has no effect on stopping distance",
+        "Allows the truck to gain speed",
+        "Requires additional stopping distance for the truck"
+      ],
+      "answer": 3,
+      "explanation": "Truck brakes create heat when the truck is traveling downhill, and this condition requires additional stopping distance for the truck.",
+      "sourceQuote": "Truck brakes create heat when the truck is traveling downhill. This condition requires additional stopping distance for the truck.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "sharing-020",
+      "topic": "sharing",
+      "chapter": "Chapter 6 — Sharing the Road",
+      "page": 92,
+      "question": "A truck's NO-ZONE blind spot can extend up to how far in front of the cab?",
+      "choices": [
+        "5 feet",
+        "10 feet",
+        "20 feet",
+        "100 feet"
+      ],
+      "answer": 2,
+      "explanation": "A car can disappear from the trucker's view up to 20 feet in front of the cab, on either side of the tractor-trailer, and up to 200 feet in the rear.",
+      "sourceQuote": "20 feet in front of the cab, on either side of the tractor-trailer, particularly alongside the cab, and up to 200 feet in the rear",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "sharing-021",
+      "topic": "sharing",
+      "chapter": "Chapter 6 — Sharing the Road",
+      "page": 92,
+      "question": "A truck's NO-ZONE blind spot can extend up to how far behind the trailer?",
+      "choices": [
+        "250 feet",
+        "200 feet",
+        "100 feet",
+        "50 feet"
+      ],
+      "answer": 1,
+      "explanation": "The NO-ZONE extends up to 200 feet in the rear of the tractor-trailer.",
+      "sourceQuote": "up to 200 feet in the rear",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "sharing-022",
+      "topic": "sharing",
+      "chapter": "Chapter 6 — Sharing the Road",
+      "page": 92,
+      "question": "A general rule for motorists sharing the road with a tractor-trailer is:",
+      "choices": [
+        "If you can't see the truck driver in their side-view mirror, they can't see you",
+        "Truck drivers sit high enough to see everything around them",
+        "Staying in the truck's blind spot keeps you visible",
+        "Pass trucks only on the right"
+      ],
+      "answer": 0,
+      "explanation": "The general rule is, if you can't see the truck driver in their side-view mirror, they can't see you. Motorists lingering in NO-ZONES hamper the trucker's ability to take evasive action.",
+      "sourceQuote": "if you can’t see the truck driver in their side-view mirror, they can’t see you",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "sharing-023",
+      "topic": "sharing",
+      "chapter": "Chapter 6 — Sharing the Road",
+      "page": 92,
+      "question": "Compared with passenger cars, recreational vehicles and trailers:",
+      "choices": [
+        "Accelerate faster",
+        "Need less turning room",
+        "Accelerate and stop more slowly and require more room for turning",
+        "Stop more quickly"
+      ],
+      "answer": 2,
+      "explanation": "Most recreational vehicles, including motor homes, campers and travel trailers, are longer, higher and wider than passenger cars, and they accelerate and stop more slowly and require more room for turning.",
+      "sourceQuote": "Recreational vehicles and trailers accelerate and stop more slowly than cars and require more room for turning.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "sharing-024",
+      "topic": "sharing",
+      "chapter": "Chapter 6 — Sharing the Road",
+      "page": 92,
+      "question": "As you approach a recreational vehicle, what happens to your field of vision?",
+      "choices": [
+        "It improves with proximity",
+        "The closer you are, the more the recreational vehicle blocks your view",
+        "It is unaffected by proximity",
+        "It narrows only at night"
+      ],
+      "answer": 1,
+      "explanation": "Visibility is a major problem with recreational vehicles. The closer you are as you approach one, the more it will block your field of vision.",
+      "sourceQuote": "the closer you are as you approach a recreational vehicle, the more it will block your field of vision",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "sharing-025",
+      "topic": "sharing",
+      "chapter": "Chapter 6 — Sharing the Road",
+      "page": 92,
+      "question": "When approaching a vehicle towing a trailer, sudden braking might:",
+      "choices": [
+        "Straighten the trailer",
+        "Reduce sway",
+        "Improve traction",
+        "Cause the trailer to jackknife"
+      ],
+      "answer": 3,
+      "explanation": "Be aware that sudden braking might cause the trailer to jackknife when you approach a vehicle towing a trailer.",
+      "sourceQuote": "sudden braking might cause the trailer to jackknife",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "sharing-026",
+      "topic": "sharing",
+      "chapter": "Chapter 6 — Sharing the Road",
+      "page": 92,
+      "question": "Safely passing a trailer and the towing vehicle may require:",
+      "choices": [
+        "Half a mile of clear roadway",
+        "About 200 feet of clear roadway",
+        "A quarter mile of clear roadway",
+        "One city block"
+      ],
+      "answer": 0,
+      "explanation": "Use extreme caution while passing a trailer and the towing vehicle. It may take you a half mile of clear roadway to safely pass.",
+      "sourceQuote": "it may take you a half mile of clear roadway to safely pass",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "sharing-027",
+      "topic": "sharing",
+      "chapter": "Chapter 6 — Sharing the Road",
+      "page": 92,
+      "question": "Motorcycles are entitled to:",
+      "choices": [
+        "The right half of the lane",
+        "The full width of their lane",
+        "The shoulder only",
+        "No specific lane position"
+      ],
+      "answer": 1,
+      "explanation": "Motorcycles are entitled to the full width of their lane.",
+      "sourceQuote": "Motorcycles are entitled to the full width of their lane.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "sharing-028",
+      "topic": "sharing",
+      "chapter": "Chapter 6 — Sharing the Road",
+      "page": 92,
+      "question": "To pass a motorcycle, you must:",
+      "choices": [
+        "Share its lane with the rider",
+        "Sound your horn first",
+        "Pass on the shoulder",
+        "Change lanes and pass in the same manner as you would for a larger motor vehicle"
+      ],
+      "answer": 3,
+      "explanation": "To pass a motorcycle, you must change lanes and pass in the same manner as you would for a larger motor vehicle.",
+      "sourceQuote": "To pass a motorcycle, you must change lanes and pass in the same manner as you would for a larger motor vehicle",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "sharing-029",
+      "topic": "sharing",
+      "chapter": "Chapter 6 — Sharing the Road",
+      "page": 92,
+      "question": "To pass a moped, you must stay at least:",
+      "choices": [
+        "Two feet to the left",
+        "One foot to the left",
+        "Three feet to the left",
+        "Four feet to the left"
+      ],
+      "answer": 0,
+      "explanation": "A moped should travel using the right side of the lane. To pass a moped, you must stay at least two feet to the left.",
+      "sourceQuote": "To pass a moped, you must stay at least two feet to the left",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "sharing-030",
+      "topic": "sharing",
+      "chapter": "Chapter 6 — Sharing the Road",
+      "page": 92,
+      "question": "When passing a cyclist, you must leave enough room so that:",
+      "choices": [
+        "Your horn does not startle the rider",
+        "Your mirrors clear the handlebars",
+        "Your vehicle's windstream cannot cause the rider to lose control",
+        "The rider cannot draft behind you"
+      ],
+      "answer": 2,
+      "explanation": "You must leave any cyclist enough room when you pass so your vehicle's windstream cannot cause the rider to lose control.",
+      "sourceQuote": "your vehicle’s windstream cannot cause the rider to lose control",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "sharing-031",
+      "topic": "sharing",
+      "chapter": "Chapter 6 — Sharing the Road",
+      "page": 93,
+      "question": "About what portion of motorcycle crashes in North Carolina involve a car?",
+      "choices": [
+        "One-quarter",
+        "One-third",
+        "One-half",
+        "Two-thirds"
+      ],
+      "answer": 3,
+      "explanation": "About two-thirds of motorcycle crashes in North Carolina involve a car, and in most of these crashes the driver of the car is at fault.",
+      "sourceQuote": "About two-thirds of motorcycle crashes in North Carolina involve a car.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "sharing-032",
+      "topic": "sharing",
+      "chapter": "Chapter 6 — Sharing the Road",
+      "page": 93,
+      "question": "Moped riders and all passengers are required to wear:",
+      "choices": [
+        "Eye protection only",
+        "A helmet with a retention strap properly secured",
+        "A reflective vest",
+        "No protective gear"
+      ],
+      "answer": 1,
+      "explanation": "Moped riders and all passengers are required to wear a helmet with a retention strap properly secured.",
+      "sourceQuote": "Moped riders and all passengers are required to wear a helmet with a retention strap properly secured.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "sharing-033",
+      "topic": "sharing",
+      "chapter": "Chapter 6 — Sharing the Road",
+      "page": 93,
+      "question": "A moped helmet must comply with:",
+      "choices": [
+        "ANSI Z90.4",
+        "No standard applies",
+        "State motorcycle helmet rules",
+        "Federal Motor Vehicle Safety Standard (FMVSS 218)"
+      ],
+      "answer": 3,
+      "explanation": "The helmet must be a type that complies with Federal Motor Vehicle Safety Standard (FMVSS 218).",
+      "sourceQuote": "The helmet must be a type that complies with Federal Motor Vehicle Safety Standard (FMVSS 218).",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "sharing-034",
+      "topic": "sharing",
+      "chapter": "Chapter 6 — Sharing the Road",
+      "page": 93,
+      "question": "Compared with cars, most motorcycles:",
+      "choices": [
+        "Stop more slowly in all conditions",
+        "Have identical stopping distances",
+        "Can stop more quickly, but stop more slowly with a second rider or on poor road surfaces",
+        "Cannot stop as quickly under any condition"
+      ],
+      "answer": 2,
+      "explanation": "Most motorcycles can stop more quickly than cars, but they stop more slowly when there is a second rider or when traveling on poor road surfaces.",
+      "sourceQuote": "Most can stop more quickly than cars, but motorcycles stop more slowly when there is a second rider or when traveling on poor road surfaces",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "sharing-035",
+      "topic": "sharing",
+      "chapter": "Chapter 6 — Sharing the Road",
+      "page": 93,
+      "question": "In North Carolina, a moped is defined as a vehicle with:",
+      "choices": [
+        "Two wheels and a motor of no more than 250 cubic centimeters",
+        "Four wheels and a motor of no more than 50 cubic centimeters",
+        "Two or three wheels, a motor of no more than 50 cubic centimeters, and no external shifting device",
+        "Any two-wheeled vehicle with a motor"
+      ],
+      "answer": 2,
+      "explanation": "A moped is defined as a vehicle with two or three wheels with a motor of no more than 50 cubic centimeters of piston displacement and no external shifting device.",
+      "sourceQuote": "a vehicle with two or three wheels with a motor of no more than 50 cubic centimeters of piston displacement and no external shifting device",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "sharing-036",
+      "topic": "sharing",
+      "chapter": "Chapter 6 — Sharing the Road",
+      "page": 93,
+      "question": "By law, a moped's top speed cannot exceed:",
+      "choices": [
+        "20 mph",
+        "30 mph",
+        "25 mph",
+        "35 mph"
+      ],
+      "answer": 1,
+      "explanation": "Legally, a moped's top speed cannot exceed 30 miles per hour.",
+      "sourceQuote": "Legally, a moped’s top speed cannot exceed 30 miles per hour.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "sharing-037",
+      "topic": "sharing",
+      "chapter": "Chapter 6 — Sharing the Road",
+      "page": 93,
+      "question": "To operate a moped on a public roadway in North Carolina, you must be at least:",
+      "choices": [
+        "14 years old",
+        "15 years old",
+        "16 years old",
+        "18 years old"
+      ],
+      "answer": 2,
+      "explanation": "In North Carolina you must be at least 16 years old to operate a moped on a public roadway or public vehicular area.",
+      "sourceQuote": "In North Carolina you must be at least 16 years old to operate a moped on a public roadway or public vehicular area.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "sharing-038",
+      "topic": "sharing",
+      "chapter": "Chapter 6 — Sharing the Road",
+      "page": 94,
+      "question": "The cost of registering a moped is:",
+      "choices": [
+        "$9.50 annually",
+        "$19.50 annually",
+        "$50 annually",
+        "$29.50 annually"
+      ],
+      "answer": 3,
+      "explanation": "The cost of registering each moped is $29.50 annually. Some counties charge an additional transit tax.",
+      "sourceQuote": "The cost of registering each moped is $29.50 annually.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "sharing-039",
+      "topic": "sharing",
+      "chapter": "Chapter 6 — Sharing the Road",
+      "page": 95,
+      "question": "If litter is thrown from or blown from a vehicle, who is held responsible?",
+      "choices": [
+        "The passenger",
+        "No one",
+        "The driver of the vehicle",
+        "The vehicle's registered owner only"
+      ],
+      "answer": 2,
+      "explanation": "When litter is thrown from or blown from a vehicle, the driver of the vehicle is held responsible.",
+      "sourceQuote": "When litter is thrown from or blown from a vehicle, the driver of the vehicle is held responsible.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "sharing-040",
+      "topic": "sharing",
+      "chapter": "Chapter 6 — Sharing the Road",
+      "page": 95,
+      "question": "For a first conviction of littering, the fine is:",
+      "choices": [
+        "$250 to $1,000",
+        "$50 to $250",
+        "$100 to $500",
+        "$500 to $2,000"
+      ],
+      "answer": 0,
+      "explanation": "If convicted of littering, the minimum fine is $250 and the maximum fine is $1,000.",
+      "sourceQuote": "the minimum fine is $250, and the maximum fine is $1,000",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "sharing-041",
+      "topic": "sharing",
+      "chapter": "Chapter 6 — Sharing the Road",
+      "page": 95,
+      "question": "A second or subsequent littering offense within three years of a prior offense is punishable by a fine of:",
+      "choices": [
+        "$250 to $1,000",
+        "$1,000 to $3,000",
+        "$2,000 to $5,000",
+        "$500 to $2,000"
+      ],
+      "answer": 3,
+      "explanation": "Any second or subsequent offense within three years after the date of a prior offense is punishable by a fine of not less than $500 nor more than $2,000.",
+      "sourceQuote": "punishable by a fine of not less than $500 nor more than $2,000",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "sharing-042",
+      "topic": "sharing",
+      "chapter": "Chapter 6 — Sharing the Road",
+      "page": 95,
+      "question": "To join the Adopt-A-Highway program, a group agrees to pick up litter:",
+      "choices": [
+        "Once a year along a two-mile section",
+        "At least four times a year along a two-mile section",
+        "Monthly along a five-mile section",
+        "Weekly along a one-mile section"
+      ],
+      "answer": 1,
+      "explanation": "A group agrees to pick up litter at least four times a year along a two-mile section of state-maintained roadway.",
+      "sourceQuote": "agrees to pick up litter at least four times a year along a two–mile section of state–maintained roadway",
+      "image": null,
+      "imageAlt": null
+    }
+  ]
+}

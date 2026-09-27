@@ -1,0 +1,1032 @@
+{
+  "version": 1,
+  "batch": "safety-special",
+  "questions": [
+    {
+      "id": "safety-001",
+      "topic": "safety",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 40,
+      "question": "At 55 mph, about how long does it take a vehicle to travel the length of a football field?",
+      "choices": [
+        "7.3 seconds",
+        "13 seconds",
+        "3.7 seconds",
+        "5.2 seconds"
+      ],
+      "answer": 2,
+      "explanation": "At 55 mph a vehicle covers the length of a football field in only 3.7 seconds, so there is no time for even a brief snooze.",
+      "sourceQuote": "At 55 mph, a vehicle travels the length of a football field in 3.7 seconds",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "safety-002",
+      "topic": "safety",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 40,
+      "question": "Which of these is a warning sign that you may be driving drowsy?",
+      "choices": [
+        "You feel fully rested and alert",
+        "You remember the last several miles of your trip",
+        "You find it easy to keep your eyes open",
+        "You cannot remember the last few miles driven"
+      ],
+      "answer": 3,
+      "explanation": "Not being able to remember the last few miles driven is listed as a warning sign of drowsy driving.",
+      "sourceQuote": "You cannot remember the last few miles driven.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "safety-004",
+      "topic": "safety",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 41,
+      "question": "A driver under age 18 may use a cell phone while the vehicle is in motion only to:",
+      "choices": [
+        "Check traffic and weather updates",
+        "Read a short text message",
+        "Call 911 in an emergency",
+        "Call a friend for directions"
+      ],
+      "answer": 2,
+      "explanation": "Drivers under 18 may not use a cell phone or related technology while the vehicle is in motion, except to call 911 in an emergency.",
+      "sourceQuote": "Exceptions: calling 911 in an emergency",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "safety-005",
+      "topic": "safety",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 41,
+      "question": "Before taking any medication and driving, you should:",
+      "choices": [
+        "Take a double dose to be safe",
+        "Skip your next meal",
+        "Find out how it will affect you",
+        "Take it with coffee"
+      ],
+      "answer": 2,
+      "explanation": "The handbook says before you take any medication, find out how it will affect you, and do as little driving as possible while taking it.",
+      "sourceQuote": "Before you take any medication, find out how it will affect you.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "safety-006",
+      "topic": "safety",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 42,
+      "question": "What is the only thing that sobers up a drinker?",
+      "choices": [
+        "A big meal",
+        "A cold shower",
+        "Time",
+        "Coffee"
+      ],
+      "answer": 2,
+      "explanation": "Coffee, a big meal and cold showers do not work; the only thing that sobers up a drinker is time.",
+      "sourceQuote": "The only thing that sobers up a drinker is time. Coffee, a big meal or cold showers will not work.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "safety-007",
+      "topic": "safety",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 42,
+      "question": "Which statement describes how alcohol affects your driving?",
+      "choices": [
+        "It improves your judgment on short trips",
+        "It reduces your ability to judge how fast you are moving and your distance from others",
+        "It sharpens your reaction time",
+        "It has no effect on your sense of balance"
+      ],
+      "answer": 1,
+      "explanation": "Alcohol is a depressant that reduces your ability to judge speed and distance and slows your reactions.",
+      "sourceQuote": "Reduces your ability to judge how fast you are moving or your distance from other cars, people or objects.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "safety-008",
+      "topic": "safety",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 43,
+      "question": "When must the driver and all passengers wear a properly fastened seat belt?",
+      "choices": [
+        "Only when traveling faster than 45 mph",
+        "Only on interstate highways",
+        "Only between sunset and sunrise",
+        "At all times when the vehicle is in forward motion on a street or highway"
+      ],
+      "answer": 3,
+      "explanation": "The seat belt law applies at all times when the vehicle is in forward motion on a street or highway in this state.",
+      "sourceQuote": "shall have a seat belt properly fastened about their body at all times when the vehicle is in forward motion on a street or highway",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "safety-009",
+      "topic": "safety",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 43,
+      "question": "If your vehicle is equipped with air bags, who must wear a seat belt?",
+      "choices": [
+        "Only the driver",
+        "Only front seat passengers",
+        "All occupants, even if the vehicle has air bags",
+        "No one, because air bags are enough"
+      ],
+      "answer": 2,
+      "explanation": "Under the seat belt law, all occupants must wear seat belts even if the vehicle is equipped with air bags.",
+      "sourceQuote": "Under the seat belt law, all occupants MUST wear seat belts even if the vehicle is equipped with air bags.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "safety-010",
+      "topic": "safety",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 44,
+      "question": "A child under age 8 who weighs less than 80 pounds must be secured in:",
+      "choices": [
+        "A regular adult seat belt",
+        "A weight appropriate child passenger restraint system",
+        "A belt-positioning pillow",
+        "No restraint if the child sits in the back seat"
+      ],
+      "answer": 1,
+      "explanation": "A child under age 8 who weighs less than 80 pounds must be properly secured in a weight appropriate child passenger restraint system.",
+      "sourceQuote": "A child under age 8 and weighing less than 80 pounds must be properly secured in a weight appropriate child passenger restraint system.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "safety-011",
+      "topic": "safety",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 44,
+      "question": "If a vehicle has an active passenger-side front air bag and a rear seat, a child under age 5 and under 40 pounds must:",
+      "choices": [
+        "Ride in the front seat if the air bag is turned off",
+        "Ride on an adult lap in the front seat",
+        "Ride in the front seat with a lap belt",
+        "Ride properly secured in the rear seat"
+      ],
+      "answer": 3,
+      "explanation": "Such a child must ride in the rear seat unless the child restraint system is designed for use with a front air bag system.",
+      "sourceQuote": "a child under age 5 and weighing less than 40 pounds must be properly secured in the rear seat",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "safety-013",
+      "topic": "safety",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 45,
+      "question": "Infants in rear-facing child safety seats should never:",
+      "choices": [
+        "Ride in a rear seat",
+        "Use a harness system",
+        "Be buckled in with a lap belt",
+        "Ride in the front seat of a vehicle with a passenger-side air bag"
+      ],
+      "answer": 3,
+      "explanation": "Infants in rear-facing seats should never ride in the front seat of a vehicle with a passenger-side air bag.",
+      "sourceQuote": "Infants in rear-facing child safety seats should NEVER ride in the front seat of a vehicle with a passenger-side air bag.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "safety-014",
+      "topic": "safety",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 45,
+      "question": "North Carolina law prohibits children of what age from riding in the open bed of a pick-up truck?",
+      "choices": [
+        "Less than age 8",
+        "Less than age 16",
+        "Less than age 12",
+        "Less than age 18"
+      ],
+      "answer": 1,
+      "explanation": "North Carolina law prohibits children less than age 16 from riding in the open bed of a pick-up truck.",
+      "sourceQuote": "North Carolina law prohibits children less than age 16 from riding in the open bed of a pick-up truck.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "safety-015",
+      "topic": "safety",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 78,
+      "question": "You must make an immediate report of a crash to law enforcement when:",
+      "choices": [
+        "Only when someone is taken to a hospital",
+        "Only when damage is over $5,000",
+        "Any person is killed or injured, or total damage is $1,000 or more",
+        "Only when a vehicle must be towed"
+      ],
+      "answer": 2,
+      "explanation": "A report is required when anyone is killed or injured or when the total damage appears to amount to $1,000 or more.",
+      "sourceQuote": "any crash when any person is killed or injured or the total damage to vehicles and other property appears to amount to $1,000 or more",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "safety-016",
+      "topic": "safety",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 78,
+      "question": "What is the first thing you must do if you are involved in a crash?",
+      "choices": [
+        "Drive to the nearest police station",
+        "Call your insurance company",
+        "Stop the vehicle immediately",
+        "Move the other vehicle off the road first"
+      ],
+      "answer": 2,
+      "explanation": "You must stop the vehicle immediately; not stopping is a violation of the law.",
+      "sourceQuote": "You must stop the vehicle immediately.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "safety-017",
+      "topic": "safety",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 78,
+      "question": "After a crash on a main lane with no injuries or fatalities, each vehicle should:",
+      "choices": [
+        "Stay in the travel lane until an officer arrives",
+        "Be moved out of the travel lane onto the shoulder if it can be driven safely",
+        "Be left in place for the insurance company",
+        "Be pushed to the nearest intersection"
+      ],
+      "answer": 1,
+      "explanation": "If there are no injuries or fatalities, each vehicle should be moved out of the travel lane onto the shoulder when it can be driven safely under its own power.",
+      "sourceQuote": "each vehicle should be moved out of the travel lane onto the shoulder of the road provided it can be driven safely under its own power",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "safety-018",
+      "topic": "safety",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 78,
+      "question": "Failure to make a required crash report may result in:",
+      "choices": [
+        "A $10 fine and no other penalty",
+        "A written warning only",
+        "Nothing, if the crash was minor",
+        "Prosecution, and your driver license could be suspended"
+      ],
+      "answer": 3,
+      "explanation": "Failure to make the report may result in prosecution, and your driver license could be suspended.",
+      "sourceQuote": "Failure to make the report may result in prosecution, and your driver license could be suspended.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "safety-021",
+      "topic": "safety",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 68,
+      "question": "How far ahead should good drivers try to see on the roadway?",
+      "choices": [
+        "1 to 2 seconds",
+        "3 to 5 seconds",
+        "30 to 45 seconds",
+        "10 to 15 seconds"
+      ],
+      "answer": 3,
+      "explanation": "Good drivers try to see 10 to 15 seconds ahead, about one city block.",
+      "sourceQuote": "Good drivers try to see 10 to 15 seconds ahead on the roadway (about one city block).",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "safety-022",
+      "topic": "safety",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 69,
+      "question": "Before changing lanes or turning, you should:",
+      "choices": [
+        "Rely on the mirrors alone",
+        "Sound your horn and move over",
+        "Turn your head and look over your shoulder to check the blind spot",
+        "Speed up to get ahead of traffic"
+      ],
+      "answer": 2,
+      "explanation": "Mirrors leave blind spots, so look over your shoulder before any lane change or turn.",
+      "sourceQuote": "before you make any lane changes or turns, quickly turn your head and look over your shoulder to see what is in the blind spot.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "safety-024",
+      "topic": "safety",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 71,
+      "question": "When does the law require you to use headlights?",
+      "choices": [
+        "Only when it is raining",
+        "Only on interstates and major highways",
+        "Only between midnight and dawn",
+        "From sunset to sunrise and when visibility is 400 feet or less"
+      ],
+      "answer": 3,
+      "explanation": "Headlights are required from sunset to sunrise and whenever visibility is 400 feet or less.",
+      "sourceQuote": "The law requires use of headlights from sunset to sunrise and when visibility is 400 feet or less.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "safety-026",
+      "topic": "safety",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 71,
+      "question": "An approaching driver is required to dim high-beam headlights. If the driver does not, you can remind the driver by:",
+      "choices": [
+        "Sounding a long blast of your horn",
+        "Turning on your emergency flashers",
+        "Flashing your parking lights",
+        "Blinking your high beams once"
+      ],
+      "answer": 3,
+      "explanation": "Blink your high beams once to remind the driver to dim; if the driver still does not dim, keep your lights on low beam.",
+      "sourceQuote": "you can remind the driver by blinking your high beams once",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "safety-027",
+      "topic": "safety",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 72,
+      "question": "On wet pavement you should allow yourself at least:",
+      "choices": [
+        "The normal following distance",
+        "Twice the normal following distance",
+        "Half the normal following distance",
+        "Three times the normal following distance"
+      ],
+      "answer": 1,
+      "explanation": "Stopping distances on wet pavement can increase from two to 10 times farther, so allow at least twice the normal following distance.",
+      "sourceQuote": "slow down and allow yourself at least twice the normal following distance.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "safety-028",
+      "topic": "safety",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 72,
+      "question": "When should you never use cruise control?",
+      "choices": [
+        "On the interstate",
+        "When it is raining or after it has been raining",
+        "At night",
+        "In light traffic"
+      ],
+      "answer": 1,
+      "explanation": "Cruise control delays your reaction if you start to hydroplane, so never use it in or after rain.",
+      "sourceQuote": "Never use cruise control when it is raining or after it has been raining.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "safety-029",
+      "topic": "safety",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 73,
+      "question": "According to the handbook, on an icy road you should:",
+      "choices": [
+        "Speed up to cross the ice quickly",
+        "Use cruise control",
+        "Slow to a crawl",
+        "Maintain the posted speed"
+      ],
+      "answer": 2,
+      "explanation": "The handbook recommends reducing speed by more than half for packed snow and slowing to a crawl on ice.",
+      "sourceQuote": "It is recommended that you reduce speed by more than half for packed snow and slow to a crawl on ice.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "safety-030",
+      "topic": "safety",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 73,
+      "question": "You must turn on your headlights in North Carolina:",
+      "choices": [
+        "Only from sunset to sunrise",
+        "Only when driving in fog",
+        "Whenever you are using your windshield wipers due to inclement weather",
+        "Only outside cities and towns"
+      ],
+      "answer": 2,
+      "explanation": "All North Carolina motorists must use headlights whenever they use windshield wipers due to inclement weather.",
+      "sourceQuote": "All North Carolina motorists are required to use headlights whenever they are using windshield wipers due to inclement weather.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "safety-032",
+      "topic": "safety",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 73,
+      "question": "If fog makes it impossible to see and you pull off the roadway, you should:",
+      "choices": [
+        "Leave the vehicle from the driver side onto the road",
+        "Stand behind the vehicle to warn traffic",
+        "Keep driving slowly until the fog lifts",
+        "Leave the vehicle from the passenger side and stay away from the road"
+      ],
+      "answer": 3,
+      "explanation": "In fog, pull far off the roadway, stop, turn on the emergency flashers, leave from the passenger side and stay away from the road.",
+      "sourceQuote": "Leave the vehicle from the passenger side and stay away from the road.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "safety-035",
+      "topic": "safety",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 70,
+      "question": "What color signs identify a work zone?",
+      "choices": [
+        "Red-on-white signs",
+        "Black-on-orange signs",
+        "Green-on-yellow signs",
+        "Blue-on-white signs"
+      ],
+      "answer": 1,
+      "explanation": "Orange signs with black letters are reserved strictly to identify work zones.",
+      "sourceQuote": "The orange signs with messages in black letters are reserved strictly to identify work zones.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "safety-036",
+      "topic": "safety",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 73,
+      "question": "What can six inches of fast moving water do to a car?",
+      "choices": [
+        "Nothing at all",
+        "Only splash the tires",
+        "Improve traction",
+        "Sweep it off the highway"
+      ],
+      "answer": 3,
+      "explanation": "Six inches of fast moving water can sweep a car off the highway, and 12 inches can float it or turn it over.",
+      "sourceQuote": "six inches of fast moving water can sweep a car off the highway",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "special-001",
+      "topic": "special",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 47,
+      "question": "When a school bus displays its mechanical stop signal or flashing red lights, the driver of any other vehicle approaching must:",
+      "choices": [
+        "Slow down and pass with caution",
+        "Stop only if children are visible",
+        "Pass if the bus is stopped in a driveway",
+        "Stop and not attempt to pass until the signal is withdrawn, the lights are off and the bus has started to move"
+      ],
+      "answer": 3,
+      "explanation": "Traffic must stop and not attempt to pass a school bus until the mechanical stop signal is withdrawn, the red lights are turned off and the bus has started to move.",
+      "sourceQuote": "the driver of any other vehicle approaching the school bus must stop and not attempt to pass the school bus",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "special-002",
+      "topic": "special",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 48,
+      "question": "On a two-lane roadway, when a school bus stops for passengers:",
+      "choices": [
+        "Only traffic behind the bus must stop",
+        "Only traffic in the bus lane must stop",
+        "No traffic must stop on two-lane roads",
+        "All traffic from both directions must stop"
+      ],
+      "answer": 3,
+      "explanation": "On a two-lane roadway, all traffic from both directions must stop when a school bus stops for passengers.",
+      "sourceQuote": "Two-lane roadway: When school bus stops for passengers, all traffic from both directions must stop.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "special-003",
+      "topic": "special",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 48,
+      "question": "On a divided highway of four lanes or more with a median separation, when a school bus stops for passengers:",
+      "choices": [
+        "All traffic from both directions must stop",
+        "Only traffic in the center turning lane must stop",
+        "Only traffic in the opposite direction must stop",
+        "Only traffic following the bus must stop"
+      ],
+      "answer": 3,
+      "explanation": "On a divided highway of four lanes or more with a median separation, only traffic following the bus must stop.",
+      "sourceQuote": "Divided highway of four lanes or more with a median separation: When school bus stops for passengers",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "special-004",
+      "topic": "special",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 47,
+      "question": "Why must drivers be careful around school bus stops even when no bus is in sight?",
+      "choices": [
+        "Children must cross only at marked crosswalks",
+        "A police officer always directs traffic there",
+        "Children at a bus stop sometimes run into the street unexpectedly",
+        "Buses always stop in the travel lane"
+      ],
+      "answer": 2,
+      "explanation": "Children waiting for the bus or leaving the bus might dart out into traffic, and children at a bus stop sometimes run into the street unexpectedly.",
+      "sourceQuote": "children at a bus stop sometimes will run into the street unexpectedly",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "special-005",
+      "topic": "special",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 48,
+      "question": "When an emergency vehicle with flashing lights and a siren approaches from ahead or behind, you must:",
+      "choices": [
+        "Speed up to stay ahead of it",
+        "Stop in your lane wherever you are",
+        "Drive to the right-hand curb or edge of the road and stop completely",
+        "Pull to the left and continue slowly"
+      ],
+      "answer": 2,
+      "explanation": "Drive to the right-hand curb or edge of the road and stop completely until the emergency vehicle has passed.",
+      "sourceQuote": "drive to the right-hand curb or edge of the road and stop completely",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "special-006",
+      "topic": "special",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 48,
+      "question": "You must not park within how many feet of an emergency vehicle that has stopped to investigate a crash or give assistance?",
+      "choices": [
+        "25 feet",
+        "50 feet",
+        "500 feet",
+        "100 feet"
+      ],
+      "answer": 3,
+      "explanation": "Do not park within 100 feet of an emergency vehicle that has stopped to investigate an accident or to give assistance.",
+      "sourceQuote": "Do not park within 100 feet of an emergency vehicle that has stopped to investigate an accident or to give assistance",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "special-007",
+      "topic": "special",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 48,
+      "question": "On a four-lane limited-access highway with a center median, do vehicles traveling in the opposite direction have to yield to an approaching emergency vehicle?",
+      "choices": [
+        "Yes, all vehicles must always yield",
+        "No, that part of the law does not apply to them",
+        "Only on weekends and holidays",
+        "Yes, but only for ambulances"
+      ],
+      "answer": 1,
+      "explanation": "All vehicles must yield to an approaching emergency vehicle, except vehicles traveling the opposite direction on a four-lane limited-access highway with a center median.",
+      "sourceQuote": "does not apply to vehicles traveling in the opposite direction of the emergency vehicle(s)",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "special-008",
+      "topic": "special",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 49,
+      "question": "On a highway with at least two lanes of traffic in the same direction, the Move Over law requires you to:",
+      "choices": [
+        "Stop completely until the vehicle leaves",
+        "Reduce speed by exactly 10 mph and stay in your lane",
+        "Change lanes only if an officer directs you to",
+        "Move into a lane that is not the lane nearest the stopped emergency or service vehicle"
+      ],
+      "answer": 3,
+      "explanation": "On such a highway you must move into a lane that is not nearest the parked or standing emergency vehicle and stay there until safely clear.",
+      "sourceQuote": "that is not the lane nearest the parked or standing emergency vehicle",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "special-009",
+      "topic": "special",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 49,
+      "question": "When you see emergency lights or hear a siren behind you, you should:",
+      "choices": [
+        "Stop immediately in your lane",
+        "Speed up to reach the next exit",
+        "Pull to the left edge of the road",
+        "Activate your turn signal and pull to the right, off the travel portion of the highway, at the nearest safe point"
+      ],
+      "answer": 3,
+      "explanation": "Stay calm, activate your turn signal, pull to the right and off the travel portion of the highway at the nearest point where it is safe.",
+      "sourceQuote": "pull the vehicle always to the right, and off the travel portion of the highway at the nearest point where it is safe to do so.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "special-010",
+      "topic": "special",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 49,
+      "question": "If there is no obvious safe place to stop when an officer is stopping you, you should turn on your four-way flashers and:",
+      "choices": [
+        "Stop in the middle of the road",
+        "Continue at the same speed until the officer uses a loudspeaker",
+        "Turn off your headlights",
+        "Reduce your speed by about 10 mph until you reach a safe place to stop"
+      ],
+      "answer": 3,
+      "explanation": "With the four-way flashers on, reduce your speed by about 10 mph to show the officer you are aware, and stop at the nearest safe area.",
+      "sourceQuote": "turn on your emergency 4 way flashers and reduce your speed (by about 10 mph)",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "special-011",
+      "topic": "special",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 49,
+      "question": "If an unmarked car is stopping you and you are not sure it is a real law enforcement officer, you may:",
+      "choices": [
+        "Drive home and ignore the stop",
+        "Speed up to reach a police station",
+        "Stop only after 10 miles",
+        "Call 9-1-1 before pulling over to verify that an officer is conducting the stop"
+      ],
+      "answer": 3,
+      "explanation": "If you have a legitimate concern about an unmarked car, you may call 9-1-1 before pulling over to verify the traffic stop.",
+      "sourceQuote": "you may call 9-1-1 before pulling over",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "special-012",
+      "topic": "special",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 50,
+      "question": "During a traffic stop, you are required to:",
+      "choices": [
+        "Answer every question the officer asks",
+        "Exit the vehicle and walk back to the patrol car",
+        "Sign a statement admitting the violation",
+        "Identify yourself and provide your driver license and registration"
+      ],
+      "answer": 3,
+      "explanation": "State law requires you to identify yourself and provide your driver license and registration; after that you may choose whether to answer additional questions.",
+      "sourceQuote": "you are required to identify yourself and provide your drivers license and registration for the vehicle",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "special-013",
+      "topic": "special",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 49,
+      "question": "During a traffic stop, you should not remove your seat belt unless:",
+      "choices": [
+        "You are parked in a parking lot",
+        "The stop lasts more than five minutes",
+        "A passenger asks you to",
+        "The officer asks you to do so"
+      ],
+      "answer": 3,
+      "explanation": "You and all passengers should remain seated, and you should not remove your seat belt unless asked to do so by the officer.",
+      "sourceQuote": "Do not remove your seatbelt unless asked to do so by the officer.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "special-014",
+      "topic": "special",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 51,
+      "question": "What types of crashes most typically involve farm equipment?",
+      "choices": [
+        "Rear-end crashes on wet pavement",
+        "Head-on crashes at night",
+        "Rollovers on interstate highways",
+        "Sideswipes and angle crashes"
+      ],
+      "answer": 3,
+      "explanation": "Typical crashes with farm equipment include sideswipes and angle crashes, often while equipment turns left and a vehicle attempts to pass.",
+      "sourceQuote": "Typical crashes with farm equipment include sideswipes and angle crashes.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "special-015",
+      "topic": "special",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 51,
+      "question": "Farm equipment on the road is required to have:",
+      "choices": [
+        "Two front red lights",
+        "One front white light and a rear red light visible for up to 500 feet",
+        "A flashing blue light on top",
+        "Four-way flashers only"
+      ],
+      "answer": 1,
+      "explanation": "Farm equipment must have one front white light and a rear red light visible up to 500 feet; two red reflectors at least four inches in diameter can replace the rear red light.",
+      "sourceQuote": "Farm equipment is required to have one front white light as well as a rear red light that is visible for up to 500 feet.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "special-016",
+      "topic": "special",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 52,
+      "question": "Where is farm equipment legally entitled to travel in North Carolina?",
+      "choices": [
+        "Only on unpaved roads",
+        "Only outside cities and towns",
+        "On most roads, but not on interstates",
+        "On any road, including interstates"
+      ],
+      "answer": 2,
+      "explanation": "Farm equipment is legally entitled to travel on most roads in North Carolina, except interstates.",
+      "sourceQuote": "Farm equipment is legally entitled to travel on most roads in North Carolina, except interstates.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "special-017",
+      "topic": "special",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 51,
+      "question": "The key to safety when sharing the road with farm equipment is:",
+      "choices": [
+        "Honk so the operator speeds up",
+        "Be patient, and let the operator move off the road at the nearest practical location so traffic can pass",
+        "Pass at the first opening in oncoming traffic",
+        "Follow closely to discourage delays"
+      ],
+      "answer": 1,
+      "explanation": "Be patient; if farm equipment is delaying traffic, the operator should move off the road at the nearest practical location and let traffic pass.",
+      "sourceQuote": "the operator should move off the road at the nearest practical location and allow the traffic to pass.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "special-018",
+      "topic": "special",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 52,
+      "question": "Every vehicle in a funeral procession must:",
+      "choices": [
+        "Display a flag on the antenna",
+        "Use only parking lights",
+        "Use high-beam headlights at all times",
+        "Have its headlights on, and its hazard warning signals on if so equipped"
+      ],
+      "answer": 3,
+      "explanation": "Every vehicle in a funeral procession must have its headlights on, and the hazard warning signals must also be on, if so equipped.",
+      "sourceQuote": "Every vehicle in a funeral procession must have its headlights on, and the hazard warning signals must also be on, if so equipped.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "special-019",
+      "topic": "special",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 52,
+      "question": "After the lead vehicle of a funeral procession has crossed an intersection in accordance with the traffic signal:",
+      "choices": [
+        "Each vehicle must stop again at the signal",
+        "The procession must stop and wait for a police escort",
+        "Only the last vehicle must stop",
+        "The other vehicles in the procession may proceed through the intersection without stopping"
+      ],
+      "answer": 3,
+      "explanation": "Once the lead vehicle has crossed in accordance with the signal or has been directed through, all vehicles in the procession may proceed without stopping, using extra care.",
+      "sourceQuote": "all vehicles in the funeral procession may proceed through the intersection without stopping",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "special-020",
+      "topic": "special",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 52,
+      "question": "A driver must not knowingly:",
+      "choices": [
+        "Follow a funeral procession",
+        "Drive between the vehicles in a funeral procession",
+        "Yield to a funeral procession",
+        "Stop for a funeral procession"
+      ],
+      "answer": 1,
+      "explanation": "The driver of a vehicle must not knowingly drive between vehicles in a funeral procession.",
+      "sourceQuote": "The driver of a vehicle shall not knowingly drive between vehicles in a funeral procession.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "emergencies-001",
+      "topic": "emergencies",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 75,
+      "question": "If your brakes fail while you are driving, you should:",
+      "choices": [
+        "Pump the gas pedal",
+        "Turn the ignition off immediately",
+        "Shift into a lower gear and apply the emergency brake",
+        "Steer into the nearest ditch"
+      ],
+      "answer": 2,
+      "explanation": "With brake failure, shift into a lower gear and apply the emergency brake; with an automatic transmission, apply the emergency brake and move the gear lever into low range.",
+      "sourceQuote": "Shift into a lower gear, release the clutch pedal (for manual transmissions) and apply the emergency brake.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "emergencies-002",
+      "topic": "emergencies",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 75,
+      "question": "If your gas pedal sticks, you should:",
+      "choices": [
+        "Turn the ignition off and coast",
+        "Shift to a higher gear",
+        "Pump the brakes rapidly",
+        "Shift to neutral and apply firm pressure to the brakes without locking the wheels"
+      ],
+      "answer": 3,
+      "explanation": "Tap the gas pedal to try to unstick it, shift to neutral and apply firm pressure to the brakes without locking the wheels, then move completely off the road.",
+      "sourceQuote": "Shift to neutral and apply firm pressure to the brakes without locking the wheels",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "emergencies-003",
+      "topic": "emergencies",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 76,
+      "question": "If a tire blows out, you should:",
+      "choices": [
+        "Brake hard immediately",
+        "Accelerate to stabilize the vehicle",
+        "Hold the steering wheel tightly and keep the vehicle straight",
+        "Turn sharply toward the shoulder"
+      ],
+      "answer": 2,
+      "explanation": "Hold the steering wheel tightly and keep the vehicle straight, then reduce speed by lifting your foot from the accelerator and move completely off the road.",
+      "sourceQuote": "Hold the steering wheel tightly and try to keep the vehicle straight on your side of the road",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "emergencies-004",
+      "topic": "emergencies",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 76,
+      "question": "While you change a flat tire, your passengers should:",
+      "choices": [
+        "Stay in the vehicle with seat belts fastened",
+        "Stand behind the vehicle to warn traffic",
+        "Stand in front of the vehicle to watch for traffic",
+        "Leave the vehicle by the passenger side and move off the road or shoulder"
+      ],
+      "answer": 3,
+      "explanation": "Never allow passengers to remain in the vehicle during a tire change; they should leave by the passenger side and stay off the road and away from the front or rear of the vehicle.",
+      "sourceQuote": "Never allow passengers to remain in the vehicle during a tire change.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "emergencies-005",
+      "topic": "emergencies",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 76,
+      "question": "If your vehicle breaks down and you need help, you should:",
+      "choices": [
+        "Stand behind the vehicle and wave",
+        "Remain in the driver seat with the windows up",
+        "Walk along the road to look for help",
+        "Tie a white cloth to the left door handle or radio aerial and raise the hood"
+      ],
+      "answer": 3,
+      "explanation": "Tie a white cloth to the left door handle or radio aerial and raise the hood; if it is dark, turn on the parking lights or emergency flashers.",
+      "sourceQuote": "tie a white cloth to the left door handle or the radio aerial and raise the hood of the vehicle",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "emergencies-006",
+      "topic": "emergencies",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 72,
+      "question": "If your vehicle begins to hydroplane, you should:",
+      "choices": [
+        "Brake firmly and steer hard",
+        "Take your foot off the gas pedal and keep the steering wheel straight",
+        "Accelerate to regain traction",
+        "Turn the steering wheel sharply to find grip"
+      ],
+      "answer": 1,
+      "explanation": "Take your foot off the gas pedal, resist the instinct to brake, keep the steering wheel straight and let the vehicle slow until the tires grip again.",
+      "sourceQuote": "take your foot off the gas pedal. Resist your instinct to use the brakes. Keep your steering wheel straight",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "emergencies-007",
+      "topic": "emergencies",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 77,
+      "question": "If you find yourself in a skid, you should turn the steering wheel:",
+      "choices": [
+        "In the opposite direction of the skid",
+        "Straight ahead and hold it there",
+        "In the direction the rear of the vehicle is skidding",
+        "Toward the edge of the road"
+      ],
+      "answer": 2,
+      "explanation": "Ease off the accelerator and turn the steering wheel in the direction the rear of the vehicle is skidding, then turn it back as the path straightens so you do not over-steer.",
+      "sourceQuote": "Turn the steering wheel in the direction the rear of the vehicle is skidding",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "emergencies-008",
+      "topic": "emergencies",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 77,
+      "question": "If your vehicle has anti-lock brakes and you must stop quickly, you should:",
+      "choices": [
+        "Pump the brake pedal gently",
+        "Pump the brake pedal rapidly",
+        "Apply the parking brake first",
+        "Apply firm, steady pressure to the brake pedal and do not pump the brakes"
+      ],
+      "answer": 3,
+      "explanation": "With ABS, brake hard and keep firm, steady pressure; pumping the pedal or releasing pressure reduces the effectiveness of the ABS.",
+      "sourceQuote": "Engage your anti-lock braking system using firm, steady pressure on the brake pedal. Do not PUMP anti-lock brakes.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "emergencies-009",
+      "topic": "emergencies",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 77,
+      "question": "If an approaching vehicle crosses the center line into your path, you should:",
+      "choices": [
+        "Swerve left into the oncoming lane",
+        "Stop in your lane and wait",
+        "Accelerate past the vehicle",
+        "Reduce speed, sound your horn and keep to the right even if it means running off the road"
+      ],
+      "answer": 3,
+      "explanation": "Reduce speed immediately, sound your horn and keep to the right even if this means running off the road.",
+      "sourceQuote": "Keep to the right even if this means running off the road.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "emergencies-010",
+      "topic": "emergencies",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 77,
+      "question": "If your vehicle runs off the pavement onto the shoulder, you should:",
+      "choices": [
+        "Brake hard and turn back onto the road",
+        "Brake and stop as fast as possible",
+        "Slowly remove your foot from the accelerator and steer straight ahead",
+        "Turn sharply back onto the pavement"
+      ],
+      "answer": 2,
+      "explanation": "Do not immediately brake or try to turn back; ease off the accelerator, steer straight, let the engine slow the vehicle, then ease back onto the road when it is safe.",
+      "sourceQuote": "Do not immediately apply the brakes or try to turn back; you could skid, lose control or overturn",
+      "image": null,
+      "imageAlt": null
+    }
+  ]
+}

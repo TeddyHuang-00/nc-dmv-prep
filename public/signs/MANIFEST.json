@@ -1,0 +1,306 @@
+[
+  {
+    "name": "Stop",
+    "file": "mutcd-r1-1.svg",
+    "source": "https://commons.wikimedia.org/wiki/Special:FilePath/MUTCD_R1-1.svg",
+    "bytes": 1702,
+    "ok": true
+  },
+  {
+    "name": "Yield",
+    "file": "mutcd-r1-2.svg",
+    "source": "https://commons.wikimedia.org/wiki/Special:FilePath/MUTCD_R1-2.svg",
+    "bytes": 2142,
+    "ok": true
+  },
+  {
+    "name": "Do Not Enter",
+    "file": "mutcd-r5-1.svg",
+    "source": "https://commons.wikimedia.org/wiki/Special:FilePath/MUTCD_R5-1.svg",
+    "bytes": 2836,
+    "ok": true
+  },
+  {
+    "name": "Wrong Way",
+    "file": "mutcd-r5-1a.svg",
+    "source": "https://commons.wikimedia.org/wiki/Special:FilePath/MUTCD_R5-1a.svg",
+    "bytes": 2389,
+    "ok": true
+  },
+  {
+    "name": "Speed Limit",
+    "file": "mutcd-r2-1.svg",
+    "source": "https://commons.wikimedia.org/wiki/Special:FilePath/MUTCD_R2-1.svg",
+    "bytes": 3773,
+    "ok": true
+  },
+  {
+    "name": "Minimum Speed",
+    "file": "minimum-speed-50.svg",
+    "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Minimum_Speed_50.svg",
+    "bytes": 10655,
+    "ok": true
+  },
+  {
+    "name": "No Right Turn",
+    "file": "mutcd-r3-1.svg",
+    "source": "https://commons.wikimedia.org/wiki/Special:FilePath/MUTCD_R3-1.svg",
+    "bytes": 1396,
+    "ok": true
+  },
+  {
+    "name": "No Left Turn",
+    "file": "mutcd-r3-2.svg",
+    "source": "https://commons.wikimedia.org/wiki/Special:FilePath/MUTCD_R3-2.svg",
+    "bytes": 1395,
+    "ok": true
+  },
+  {
+    "name": "No U-Turn",
+    "file": "mutcd-r3-4.svg",
+    "source": "https://commons.wikimedia.org/wiki/Special:FilePath/MUTCD_R3-4.svg",
+    "bytes": 1481,
+    "ok": true
+  },
+  {
+    "name": "No Turns",
+    "file": "mutcd-r3-3.svg",
+    "source": "https://commons.wikimedia.org/wiki/Special:FilePath/MUTCD_R3-3.svg",
+    "bytes": 2399,
+    "ok": true
+  },
+  {
+    "name": "Keep Right",
+    "file": "mutcd-r4-7.svg",
+    "source": "https://commons.wikimedia.org/wiki/Special:FilePath/MUTCD_R4-7.svg",
+    "bytes": 1495,
+    "ok": true
+  },
+  {
+    "name": "Left Turn Only",
+    "file": "mutcd-r3-5l.svg",
+    "source": "https://commons.wikimedia.org/wiki/Special:FilePath/MUTCD_R3-5L.svg",
+    "bytes": 1933,
+    "ok": true
+  },
+  {
+    "name": "One Way (left)",
+    "file": "mutcd-r6-1l.svg",
+    "source": "https://commons.wikimedia.org/wiki/Special:FilePath/MUTCD_R6-1L.svg",
+    "bytes": 1906,
+    "ok": true
+  },
+  {
+    "name": "Do Not Pass",
+    "file": "mutcd-r4-1.svg",
+    "source": "https://commons.wikimedia.org/wiki/Special:FilePath/MUTCD_R4-1.svg",
+    "bytes": 2964,
+    "ok": true
+  },
+  {
+    "name": "Left Curve",
+    "file": "mutcd-w1-2l.svg",
+    "source": "https://commons.wikimedia.org/wiki/Special:FilePath/MUTCD_W1-2L.svg",
+    "bytes": 1721,
+    "ok": true
+  },
+  {
+    "name": "Right Curve",
+    "file": "mutcd-w1-2r.svg",
+    "source": "https://commons.wikimedia.org/wiki/Special:FilePath/MUTCD_W1-2R.svg",
+    "bytes": 1704,
+    "ok": true
+  },
+  {
+    "name": "Winding Road",
+    "file": "mutcd-w1-5l.svg",
+    "source": "https://commons.wikimedia.org/wiki/Special:FilePath/MUTCD_W1-5L.svg",
+    "bytes": 1795,
+    "ok": true
+  },
+  {
+    "name": "Crossroad",
+    "file": "mutcd-w2-1.png",
+    "source": "https://commons.wikimedia.org/wiki/Special:FilePath/MUTCD_W2-1.svg?width=200",
+    "bytes": 2230,
+    "ok": true,
+    "fallback": "commons-200px-png",
+    "reason": "primary SVG <1KB (size check failed); Commons 200px PNG render used"
+  },
+  {
+    "name": "Roundabout Ahead",
+    "file": "mutcd-w2-6.svg",
+    "source": "https://commons.wikimedia.org/wiki/Special:FilePath/MUTCD_W2-6.svg",
+    "bytes": 2149,
+    "ok": true
+  },
+  {
+    "name": "Stop Ahead",
+    "file": "mutcd-w3-1.png",
+    "source": "https://commons.wikimedia.org/wiki/Special:FilePath/MUTCD_W3-1.svg?width=200",
+    "bytes": 3152,
+    "ok": true,
+    "fallback": "commons-200px-png",
+    "reason": "primary SVG <1KB (size check failed); Commons 200px PNG render used"
+  },
+  {
+    "name": "Yield Ahead",
+    "file": "mutcd-w3-2.png",
+    "source": "https://commons.wikimedia.org/wiki/Special:FilePath/MUTCD_W3-2.svg?width=200",
+    "bytes": 8888,
+    "ok": true,
+    "fallback": "commons-200px-png",
+    "reason": "primary SVG <1KB (size check failed); Commons 200px PNG render used"
+  },
+  {
+    "name": "Traffic Signal Ahead",
+    "file": "mutcd-w3-3.png",
+    "source": "https://commons.wikimedia.org/wiki/Special:FilePath/MUTCD_W3-3.svg?width=200",
+    "bytes": 6068,
+    "ok": true,
+    "fallback": "commons-200px-png",
+    "reason": "primary SVG <1KB (size check failed); Commons 200px PNG render used"
+  },
+  {
+    "name": "Merge",
+    "file": "mutcd-w4-1.svg",
+    "source": "https://commons.wikimedia.org/wiki/Special:FilePath/MUTCD_W4-1.svg",
+    "bytes": 1984,
+    "ok": true
+  },
+  {
+    "name": "Lane Ends",
+    "file": "mutcd-w4-2.svg",
+    "source": "https://commons.wikimedia.org/wiki/Special:FilePath/MUTCD_W4-2.svg",
+    "bytes": 1738,
+    "ok": true
+  },
+  {
+    "name": "Divided Highway Begins",
+    "file": "mutcd-w6-1.svg",
+    "source": "https://commons.wikimedia.org/wiki/Special:FilePath/MUTCD_W6-1.svg",
+    "bytes": 2745,
+    "ok": true
+  },
+  {
+    "name": "Divided Highway Ends",
+    "file": "mutcd-w6-2.svg",
+    "source": "https://commons.wikimedia.org/wiki/Special:FilePath/MUTCD_W6-2.svg",
+    "bytes": 2727,
+    "ok": true
+  },
+  {
+    "name": "Two-Way Traffic",
+    "file": "mutcd-w6-3.svg",
+    "source": "https://commons.wikimedia.org/wiki/Special:FilePath/MUTCD_W6-3.svg",
+    "bytes": 1709,
+    "ok": true
+  },
+  {
+    "name": "Hill (Steep Grade)",
+    "file": "mutcd-w7-1.svg",
+    "source": "https://commons.wikimedia.org/wiki/Special:FilePath/MUTCD_W7-1.svg",
+    "bytes": 1754,
+    "ok": true
+  },
+  {
+    "name": "Slippery When Wet",
+    "file": "mutcd-w8-5.svg",
+    "source": "https://commons.wikimedia.org/wiki/Special:FilePath/MUTCD_W8-5.svg",
+    "bytes": 5888,
+    "ok": true
+  },
+  {
+    "name": "Railroad Advance Warning",
+    "file": "mutcd-w10-1.png",
+    "source": "https://commons.wikimedia.org/wiki/Special:FilePath/MUTCD_W10-1.svg?width=200",
+    "bytes": 16184,
+    "ok": true,
+    "fallback": "commons-200px-png",
+    "reason": "primary SVG <1KB (size check failed); Commons 200px PNG render used"
+  },
+  {
+    "name": "Bicycle Crossing",
+    "file": "mutcd-w11-1.svg",
+    "source": "https://commons.wikimedia.org/wiki/Special:FilePath/MUTCD_W11-1.svg",
+    "bytes": 2826,
+    "ok": true
+  },
+  {
+    "name": "Pedestrian Crossing",
+    "file": "mutcd-w11-2.svg",
+    "source": "https://commons.wikimedia.org/wiki/Special:FilePath/MUTCD_W11-2.svg",
+    "bytes": 1571,
+    "ok": true
+  },
+  {
+    "name": "Deer Crossing",
+    "file": "mutcd-w11-3.svg",
+    "source": "https://commons.wikimedia.org/wiki/Special:FilePath/MUTCD_W11-3.svg",
+    "bytes": 3145,
+    "ok": true
+  },
+  {
+    "name": "No Passing Zone",
+    "file": "mutcd-w14-3.svg",
+    "source": "https://commons.wikimedia.org/wiki/Special:FilePath/MUTCD_W14-3.svg",
+    "bytes": 4937,
+    "ok": true
+  },
+  {
+    "name": "Road Work",
+    "file": "mutcd-w20-1.svg",
+    "source": "https://commons.wikimedia.org/wiki/Special:FilePath/MUTCD_W20-1.svg",
+    "bytes": 5093,
+    "ok": true
+  },
+  {
+    "name": "Railroad Crossbuck",
+    "file": "mutcd-r15-1.svg",
+    "source": "https://commons.wikimedia.org/wiki/Special:FilePath/MUTCD_R15-1.svg",
+    "bytes": 11690,
+    "ok": true
+  },
+  {
+    "name": "School (pentagon)",
+    "file": "mutcd-s1-1.svg",
+    "source": "https://commons.wikimedia.org/wiki/Special:FilePath/MUTCD_S1-1.svg",
+    "bytes": 3787,
+    "ok": true
+  },
+  {
+    "name": "School Crossing",
+    "file": "mutcd-sign-assembly-s1-1-with-w16-7pl.svg",
+    "source": "https://commons.wikimedia.org/wiki/Special:FilePath/MUTCD_Sign_Assembly_-_S1-1_with_W16-7PL.svg",
+    "bytes": 9583,
+    "ok": true
+  },
+  {
+    "name": "Reverse Turn",
+    "file": "mutcd-w1-4l.svg",
+    "source": "https://commons.wikimedia.org/wiki/Special:FilePath/MUTCD_W1-4L.svg",
+    "bytes": 1567,
+    "ok": true
+  },
+  {
+    "name": "Interstate Shield",
+    "file": "i-40.svg",
+    "source": "https://commons.wikimedia.org/wiki/Special:FilePath/I-40.svg",
+    "bytes": 7416,
+    "ok": true
+  },
+  {
+    "name": "US Route Shield",
+    "file": "us-64.svg",
+    "source": "https://commons.wikimedia.org/wiki/Special:FilePath/US_64.svg",
+    "bytes": 5458,
+    "ok": true
+  },
+  {
+    "name": "NC State Route Shield",
+    "file": "nc-24.svg",
+    "source": "https://commons.wikimedia.org/wiki/Special:FilePath/NC_24.svg",
+    "bytes": 4333,
+    "ok": true
+  }
+]

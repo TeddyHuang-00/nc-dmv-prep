@@ -1,0 +1,402 @@
+{
+  "version": 1,
+  "batch": "dmv",
+  "questions": [
+    {
+      "id": "dmv-001",
+      "topic": "dmv",
+      "chapter": "Chapter 7 — How DMV Serves You",
+      "page": 96,
+      "question": "What must be completed before you can obtain a copy of your driving record from the DMV?",
+      "choices": [
+        "The Driver Privacy Protection Act Request Form (DL-DPPA-I)",
+        "A notarized bill of sale",
+        "A certificate of self-insurance",
+        "A vehicle inspection report"
+      ],
+      "answer": 0,
+      "explanation": "The Driver Privacy Protection Act Request Form (DL-DPPA-I) must be completed before your driving record can be obtained. The form is available at DMV Headquarters and on the DMV website.",
+      "sourceQuote": "The Driver Privacy Protection Act Request Form (DL-DPPA-I), available at DMV Headquarters and on the DMV website",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "dmv-002",
+      "topic": "dmv",
+      "chapter": "Chapter 7 — How DMV Serves You",
+      "page": 96,
+      "question": "What is the fee for a certified copy of a North Carolina driving record?",
+      "choices": [
+        "$12.75",
+        "$16.75",
+        "$18",
+        "$25"
+      ],
+      "answer": 2,
+      "explanation": "A certified copy of a driving record costs $18 and is available online. The non-certified records cost $12.75.",
+      "sourceQuote": "$18 for certified copy of record (available online)",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "dmv-003",
+      "topic": "dmv",
+      "chapter": "Chapter 7 — How DMV Serves You",
+      "page": 97,
+      "question": "What is required before you can title or register a vehicle in North Carolina?",
+      "choices": [
+        "A certificate of self-insurance",
+        "A notarized bill of sale",
+        "An emissions inspection",
+        "A North Carolina driver license"
+      ],
+      "answer": 3,
+      "explanation": "A North Carolina driver license is required prior to titling or registering a vehicle in this state.",
+      "sourceQuote": "A North Carolina driver license is required prior to titling/registering a vehicle in this State.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "dmv-004",
+      "topic": "dmv",
+      "chapter": "Chapter 7 — How DMV Serves You",
+      "page": 97,
+      "question": "The registration card for a vehicle must be:",
+      "choices": [
+        "kept at your home address",
+        "mailed to the DMV each year",
+        "kept in the vehicle at all times",
+        "stored with the certificate of title"
+      ],
+      "answer": 2,
+      "explanation": "The registration card must be kept in the vehicle at all times and must always be available to show a law enforcement officer upon request.",
+      "sourceQuote": "The registration card must be kept in the vehicle at all times",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "dmv-005",
+      "topic": "dmv",
+      "chapter": "Chapter 7 — How DMV Serves You",
+      "page": 97,
+      "question": "Which of these is prohibited on a vehicle in North Carolina?",
+      "choices": [
+        "A validation sticker on the license plate",
+        "A plastic license plate cover",
+        "An expiration decal on the plate",
+        "A registration card in the vehicle"
+      ],
+      "answer": 1,
+      "explanation": "Plastic license plate covers are prohibited under General Statute 20-63g.",
+      "sourceQuote": "Plastic license plate covers are prohibited. GS 20-63g.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "dmv-006",
+      "topic": "dmv",
+      "chapter": "Chapter 7 — How DMV Serves You",
+      "page": 98,
+      "question": "Within how many days of moving within North Carolina must a license or ID holder update their physical address with the DMV?",
+      "choices": [
+        "10 days",
+        "30 days",
+        "60 days",
+        "90 days"
+      ],
+      "answer": 2,
+      "explanation": "Within 60 days of moving within North Carolina, a license or ID holder must update their physical address with the DMV and get a duplicate license or ID.",
+      "sourceQuote": "Within 60 days of moving within North Carolina, a license or ID holder must update their physical address with the DMV",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "dmv-007",
+      "topic": "dmv",
+      "chapter": "Chapter 7 — How DMV Serves You",
+      "page": 98,
+      "question": "For a new vehicle, which document serves as the official transfer document?",
+      "choices": [
+        "The manufacturer's certificate of origin",
+        "A notarized bill of sale",
+        "The vehicle registration card",
+        "A vehicle inspection report"
+      ],
+      "answer": 0,
+      "explanation": "For new vehicles, the manufacturer's certificate of origin is the official transfer document required as proof of ownership.",
+      "sourceQuote": "For new vehicles, the manufacturer's certificate of origin is the official transfer document",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "dmv-008",
+      "topic": "dmv",
+      "chapter": "Chapter 7 — How DMV Serves You",
+      "page": 98,
+      "question": "You purchase a used vehicle that has already been registered. What must you present when registering it?",
+      "choices": [
+        "A notarized bill of sale only",
+        "The manufacturer's certificate of origin",
+        "The former owner's insurance policy",
+        "The certificate of title properly assigned by the former owner"
+      ],
+      "answer": 3,
+      "explanation": "For a used vehicle that has already been registered, you must present the certificate of title properly assigned by the former owner.",
+      "sourceQuote": "must present the certificate of title properly assigned by the former owner",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "dmv-009",
+      "topic": "dmv",
+      "chapter": "Chapter 7 — How DMV Serves You",
+      "page": 98,
+      "question": "Which situation allows a valid out-of-state driver license to be accepted for a vehicle registration in North Carolina?",
+      "choices": [
+        "Owning more than one vehicle",
+        "Military active duty stationed in North Carolina",
+        "Living in North Carolina for 10 years",
+        "Paying the registration fee in cash"
+      ],
+      "answer": 1,
+      "explanation": "Out-of-state licenses or IDs may be accepted with documentation such as military active duty stationed in North Carolina, school enrollment in North Carolina, or a vehicle garaged in the state for a minimum of six months.",
+      "sourceQuote": "Valid driver licenses or identification cards issued by other states may be accepted for vehicle registrations",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "dmv-010",
+      "topic": "dmv",
+      "chapter": "Chapter 7 — How DMV Serves You",
+      "page": 99,
+      "question": "What is the minimum liability insurance required for injuries to any one person in a crash in North Carolina?",
+      "choices": [
+        "$25,000",
+        "$30,000",
+        "$60,000",
+        "$750,000"
+      ],
+      "answer": 1,
+      "explanation": "The minimum amount of liability insurance required is $30,000 for injuries to any one person in a crash.",
+      "sourceQuote": "$30,000 for injuries to any one person in a crash",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "dmv-011",
+      "topic": "dmv",
+      "chapter": "Chapter 7 — How DMV Serves You",
+      "page": 99,
+      "question": "If the DMV is notified that an owner is operating a vehicle without proper liability insurance, the license plate could be revoked for how long?",
+      "choices": [
+        "10 days",
+        "30 days",
+        "60 days",
+        "90 days"
+      ],
+      "answer": 1,
+      "explanation": "The license plate could be revoked for 30 days unless proof of continuous insurance coverage is provided.",
+      "sourceQuote": "could be revoked for 30 days unless proof of continuous insurance coverage is provided",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "dmv-012",
+      "topic": "dmv",
+      "chapter": "Chapter 7 — How DMV Serves You",
+      "page": 99,
+      "question": "Does North Carolina honor a grace period for lapsed liability insurance?",
+      "choices": [
+        "Yes, a 10 day grace period",
+        "Yes, a 30 day grace period",
+        "No, North Carolina does not honor a grace period",
+        "Yes, a six month grace period"
+      ],
+      "answer": 2,
+      "explanation": "North Carolina does not honor a grace period. A grace period is an agreement between the insured and the insurance company only.",
+      "sourceQuote": "North Carolina does not honor a grace period.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "dmv-013",
+      "topic": "dmv",
+      "chapter": "Chapter 7 — How DMV Serves You",
+      "page": 99,
+      "question": "To avoid a fine or penalty, what should you do before terminating or canceling liability insurance on a vehicle?",
+      "choices": [
+        "Renew the registration early",
+        "Get an emissions inspection",
+        "Transfer the certificate of title",
+        "Surrender the vehicle's valid license plate"
+      ],
+      "answer": 3,
+      "explanation": "Surrender a vehicle's valid license plate prior to the termination or cancellation of liability insurance to avoid a fine or penalty.",
+      "sourceQuote": "surrender a vehicle's valid license plate prior to the termination or cancellation of liability insurance",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "dmv-014",
+      "topic": "dmv",
+      "chapter": "Chapter 7 — How DMV Serves You",
+      "page": 99,
+      "question": "All self-propelled vehicles must receive a safety or safety and emission inspection within how many days prior to the registration expiration to renew their registration?",
+      "choices": [
+        "60 days",
+        "90 days",
+        "120 days",
+        "180 days"
+      ],
+      "answer": 1,
+      "explanation": "Within 90 days prior to the registration expiration, all self-propelled vehicles are required to receive a safety or safety and emission inspection to renew their registration.",
+      "sourceQuote": "Within 90 days prior to the registration expiration",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "dmv-015",
+      "topic": "dmv",
+      "chapter": "Chapter 7 — How DMV Serves You",
+      "page": 100,
+      "question": "When ownership of a vehicle is transferred, the reassignment on the certificate of title must be made in the presence of whom?",
+      "choices": [
+        "A Notary Public",
+        "A DMV inspector",
+        "A law enforcement officer",
+        "An insurance agent"
+      ],
+      "answer": 0,
+      "explanation": "Reassignment of ownership is made using section A on side two of the certificate of title, and it must be made in the presence of a Notary Public for the transfer to be valid.",
+      "sourceQuote": "the reassignment must be made in the presence of a Notary Public",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "dmv-016",
+      "topic": "dmv",
+      "chapter": "Chapter 7 — How DMV Serves You",
+      "page": 100,
+      "question": "License plates can be transferred from one vehicle to another of the same category provided that:",
+      "choices": [
+        "both vehicles are the same model year",
+        "the vehicles are registered in different states",
+        "ownership is in the same name and insurance coverage has been continuous",
+        "a new inspection is completed within 30 days"
+      ],
+      "answer": 2,
+      "explanation": "Plates can be transferred between vehicles of the same category if ownership is in the same name and insurance coverage has been continuous.",
+      "sourceQuote": "License plates can be transferred from one vehicle to another of the same category",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "dmv-017",
+      "topic": "dmv",
+      "chapter": "Chapter 7 — How DMV Serves You",
+      "page": 100,
+      "question": "How long after the application and fee are received by the DMV can a duplicate title be issued?",
+      "choices": [
+        "Immediately",
+        "5 days",
+        "10 days",
+        "15 days"
+      ],
+      "answer": 3,
+      "explanation": "A duplicate title cannot be issued until 15 days after the application and fee are received by the DMV.",
+      "sourceQuote": "A duplicate title cannot be issued until 15 days after the application and fee are received by the DMV",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "dmv-018",
+      "topic": "dmv",
+      "chapter": "Chapter 7 — How DMV Serves You",
+      "page": 100,
+      "question": "Under the Tag & Tax Together program, how are the license tag renewal and the vehicle property tax paid?",
+      "choices": [
+        "Separately, on different due dates",
+        "Only by mail",
+        "One payment for both bills",
+        "Only at the county tax office"
+      ],
+      "answer": 2,
+      "explanation": "The Tag & Tax Together program requires one payment for both bills, and both must be paid in full to renew a vehicle's annual registration.",
+      "sourceQuote": "The “Tag & Tax Together” program requires one payment for both bills.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "dmv-019",
+      "topic": "dmv",
+      "chapter": "Chapter 7 — How DMV Serves You",
+      "page": 101,
+      "question": "A vehicle that fails inspection is entitled to be re-inspected at the same station within how many days without paying another inspection fee?",
+      "choices": [
+        "15 days",
+        "60 days",
+        "30 days",
+        "90 days"
+      ],
+      "answer": 1,
+      "explanation": "A vehicle that fails inspection may be re-inspected at the same station within 60 days without paying another inspection fee.",
+      "sourceQuote": "A vehicle that fails inspection is entitled to be re-inspected at the same station within 60 days",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "dmv-020",
+      "topic": "dmv",
+      "chapter": "Chapter 7 — How DMV Serves You",
+      "page": 101,
+      "question": "Vehicles with less than 70,000 miles and within the three most recent model years will receive which type of inspection?",
+      "choices": [
+        "A safety only inspection",
+        "A safety and emissions inspection",
+        "No inspection at all",
+        "An emissions only inspection"
+      ],
+      "answer": 0,
+      "explanation": "Vehicles with less than 70,000 miles and within the three most recent model years will receive a safety only inspection.",
+      "sourceQuote": "Vehicles with less than 70,000 miles and within the “three most recent model years” will receive a safety only inspection",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "dmv-021",
+      "topic": "dmv",
+      "chapter": "Chapter 7 — How DMV Serves You",
+      "page": 102,
+      "question": "What is the minimum allowable light transmittance for after-factory tinted windows in North Carolina?",
+      "choices": [
+        "20%",
+        "25%",
+        "30%",
+        "35%"
+      ],
+      "answer": 3,
+      "explanation": "The allowable light transmittance for tinted windows is no less than 35%.",
+      "sourceQuote": "The allowable light transmittance for tinted windows is no less than 35%.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "dmv-022",
+      "topic": "dmv",
+      "chapter": "Chapter 7 — How DMV Serves You",
+      "page": 102,
+      "question": "Vehicles with after-factory window tinting are charged what additional fee as part of the vehicle inspection?",
+      "choices": [
+        "$10",
+        "$5",
+        "$15",
+        "$20"
+      ],
+      "answer": 0,
+      "explanation": "Vehicles with after-factory window tinting are charged an additional fee of $10 as part of the vehicle inspection.",
+      "sourceQuote": "Vehicles with after-factory window tinting will be charged an additional fee of $10 as part of the vehicle inspection",
+      "image": null,
+      "imageAlt": null
+    }
+  ]
+}

@@ -1,0 +1,978 @@
+{
+  "version": 1,
+  "batch": "signs",
+  "questions": [
+    {
+      "id": "signs-001",
+      "topic": "signs",
+      "chapter": "Chapter 5 — Signals and Signs",
+      "page": 83,
+      "question": "You see this sign at an intersection. What does the law require you to do?",
+      "choices": [
+        "Slow down and continue if the way looks clear",
+        "Come to a full stop and do not move again until you are sure the way is clear",
+        "Stop only when other traffic is present",
+        "Stop and then go without yielding to pedestrians"
+      ],
+      "answer": 1,
+      "explanation": "The octagonal red STOP sign requires a full stop. You may not move again until you are sure the way is clear.",
+      "sourceQuote": "When you approach this sign, the law requires you to come to a FULL stop. Do not proceed to move again until you are sure the way is clear.",
+      "image": "/signs/mutcd-r1-1.svg",
+      "imageAlt": "Red octagonal STOP sign"
+    },
+    {
+      "id": "signs-002",
+      "topic": "signs",
+      "chapter": "Chapter 5 — Signals and Signs",
+      "page": 83,
+      "question": "What must you do when you come to this sign?",
+      "choices": [
+        "Stop completely and wait for a signal to change",
+        "Speed up to merge with traffic",
+        "Slow down and yield the right of way, stopping if needed",
+        "Continue at the same speed because other traffic must yield to you"
+      ],
+      "answer": 2,
+      "explanation": "The yield sign is triangular with the point at the bottom. Slow down and yield the right of way; whether you must stop depends on the traffic on the intersecting street.",
+      "sourceQuote": "When you approach the yield sign, you must slow down and yield the right of way.",
+      "image": "/signs/mutcd-r1-2.svg",
+      "imageAlt": "Red and white triangular YIELD sign"
+    },
+    {
+      "id": "signs-003",
+      "topic": "signs",
+      "chapter": "Chapter 5 — Signals and Signs",
+      "page": 83,
+      "question": "What does this sign mean?",
+      "choices": [
+        "Do not enter; you may not drive onto that road or lane",
+        "No parking is allowed on this street",
+        "One-way traffic ahead",
+        "Stop only for pedestrians"
+      ],
+      "answer": 0,
+      "explanation": "The DO NOT ENTER sign means you must not drive onto the road or lane it faces.",
+      "sourceQuote": "Failure to obey these signs is unsafe as well as a violation of the traffic laws.",
+      "image": "/signs/mutcd-r5-1.svg",
+      "imageAlt": "Square sign reading DO NOT ENTER"
+    },
+    {
+      "id": "signs-004",
+      "topic": "signs",
+      "chapter": "Chapter 5 — Signals and Signs",
+      "page": 83,
+      "question": "You are about to enter a street and see this sign. What should you do?",
+      "choices": [
+        "Continue, but drive slowly",
+        "Sound your horn and continue",
+        "Move to the left lane and continue",
+        "Turn around, because you are facing oncoming traffic and going the wrong way"
+      ],
+      "answer": 3,
+      "explanation": "The WRONG WAY sign warns that you are heading into opposing traffic. Turn around and get back into the correct direction.",
+      "sourceQuote": "Failure to obey these signs is unsafe as well as a violation of the traffic laws.",
+      "image": "/signs/mutcd-r5-1a.svg",
+      "imageAlt": "Red and white rectangular WRONG WAY sign"
+    },
+    {
+      "id": "signs-005",
+      "topic": "signs",
+      "chapter": "Chapter 5 — Signals and Signs",
+      "page": 83,
+      "question": "What does this sign tell you?",
+      "choices": [
+        "The minimum speed you must drive",
+        "A speed that is only suggested for bad weather",
+        "The maximum legal speed on this road",
+        "The speed limit for trucks only"
+      ],
+      "answer": 2,
+      "explanation": "The white rectangular SPEED LIMIT sign shows the maximum legal speed for that road.",
+      "sourceQuote": "Rectangular and square-shaped signs, which are normally black and white or red and white, are also used to show speed limits",
+      "image": "/signs/mutcd-r2-1.svg",
+      "imageAlt": "White rectangular SPEED LIMIT sign"
+    },
+    {
+      "id": "signs-006",
+      "topic": "signs",
+      "chapter": "Chapter 5 — Signals and Signs",
+      "page": 83,
+      "question": "What does this sign mean?",
+      "choices": [
+        "Right turns are allowed only on a green light",
+        "Right turns are not allowed at this location",
+        "Right turns are permitted after a full stop",
+        "You must turn right at this intersection"
+      ],
+      "answer": 1,
+      "explanation": "The red circle and slash over a right-turn arrow means right turns are prohibited.",
+      "sourceQuote": "Failure to obey these signs is unsafe as well as a violation of the traffic laws.",
+      "image": "/signs/mutcd-r3-1.svg",
+      "imageAlt": "White sign with a red circle and slash over a right-turn arrow"
+    },
+    {
+      "id": "signs-007",
+      "topic": "signs",
+      "chapter": "Chapter 5 — Signals and Signs",
+      "page": 83,
+      "question": "What does this sign tell you?",
+      "choices": [
+        "You must turn left at this intersection",
+        "Left turns are allowed only for buses",
+        "Left turns are not allowed at this location",
+        "There is a left-turn lane ahead"
+      ],
+      "answer": 2,
+      "explanation": "The red circle and slash over a left-turn arrow means left turns are prohibited.",
+      "sourceQuote": "Failure to obey these signs is unsafe as well as a violation of the traffic laws.",
+      "image": "/signs/mutcd-r3-2.svg",
+      "imageAlt": "White sign with a red circle and slash over a left-turn arrow"
+    },
+    {
+      "id": "signs-008",
+      "topic": "signs",
+      "chapter": "Chapter 5 — Signals and Signs",
+      "page": 83,
+      "question": "This sign means that you must not do which of the following?",
+      "choices": [
+        "Turn around and go back the way you came",
+        "Pass another vehicle",
+        "Change lanes in the intersection",
+        "Make a right turn at the next corner"
+      ],
+      "answer": 0,
+      "explanation": "The NO U-TURN sign prohibits U-turns at this location.",
+      "sourceQuote": "These signs will also have messages such as “NO U-TURN” or “KEEP RIGHT EXCEPT TO PASS.”",
+      "image": "/signs/mutcd-r3-4.svg",
+      "imageAlt": "White rectangular NO U-TURN sign"
+    },
+    {
+      "id": "signs-009",
+      "topic": "signs",
+      "chapter": "Chapter 5 — Signals and Signs",
+      "page": 84,
+      "question": "What does this sign mean?",
+      "choices": [
+        "Do not drive in the left lane",
+        "Passing is allowed only at night",
+        "Do not stop on the road",
+        "Do not pass other vehicles on this section of road"
+      ],
+      "answer": 3,
+      "explanation": "The DO NOT PASS sign marks the beginning of a no-passing zone, where a solid yellow line runs in your lane.",
+      "sourceQuote": "The pennant–shaped yellow warning sign emphasizes, rather than replaces, the rectangular regulatory “DO NOT PASS” sign.",
+      "image": "/signs/mutcd-r4-1.svg",
+      "imageAlt": "White rectangular DO NOT PASS sign"
+    },
+    {
+      "id": "signs-010",
+      "topic": "signs",
+      "chapter": "Chapter 5 — Signals and Signs",
+      "page": 83,
+      "question": "What does this sign mean?",
+      "choices": [
+        "Traffic on this road moves only in the direction of the arrow",
+        "The road curves to the left ahead",
+        "You may turn left but not right",
+        "The left lane ends ahead"
+      ],
+      "answer": 0,
+      "explanation": "The ONE WAY sign shows that traffic on the road or in the lane flows only in the direction of the arrow, so you must not drive against it.",
+      "sourceQuote": "Failure to obey these signs is unsafe as well as a violation of the traffic laws.",
+      "image": "/signs/mutcd-r6-1l.svg",
+      "imageAlt": "White sign reading ONE WAY with an arrow pointing left"
+    },
+    {
+      "id": "signs-011",
+      "topic": "signs",
+      "chapter": "Chapter 5 — Signals and Signs",
+      "page": 83,
+      "question": "What does this sign instruct you to do?",
+      "choices": [
+        "Turn right at the next intersection",
+        "The right lane is closed ahead",
+        "Keep to the right of a divider or other obstruction",
+        "Right turns are not allowed"
+      ],
+      "answer": 2,
+      "explanation": "The KEEP RIGHT sign tells you to pass to the right of a divider, island or other obstruction.",
+      "sourceQuote": "These signs will also have messages such as “NO U-TURN” or “KEEP RIGHT EXCEPT TO PASS.”",
+      "image": "/signs/mutcd-r4-7.svg",
+      "imageAlt": "White sign with a black arrow curving to the right around a divider"
+    },
+    {
+      "id": "signs-012",
+      "topic": "signs",
+      "chapter": "Chapter 5 — Signals and Signs",
+      "page": 84,
+      "question": "What does this sign warn you about?",
+      "choices": [
+        "A sharp left turn onto a side road",
+        "A curve to the left ahead",
+        "A winding road for the next several miles",
+        "The left lane is closed"
+      ],
+      "answer": 1,
+      "explanation": "The yellow diamond with a left-curving arrow warns of a curve ahead. Slow down and drive with extra care.",
+      "sourceQuote": "Diamond-shaped signs are also caution or warning signs.",
+      "image": "/signs/mutcd-w1-2l.svg",
+      "imageAlt": "Yellow diamond sign with an arrow curving to the left"
+    },
+    {
+      "id": "signs-013",
+      "topic": "signs",
+      "chapter": "Chapter 5 — Signals and Signs",
+      "page": 84,
+      "question": "What does this sign mean?",
+      "choices": [
+        "A right turn is required",
+        "The road ends ahead",
+        "Traffic merges from the right",
+        "A curve to the right ahead"
+      ],
+      "answer": 3,
+      "explanation": "The sign warns of a curve to the right. Slow down and stay in your lane.",
+      "sourceQuote": "When you see one of these signs, drive with extra care.",
+      "image": "/signs/mutcd-w1-2r.svg",
+      "imageAlt": "Yellow diamond sign with an arrow curving to the right"
+    },
+    {
+      "id": "signs-014",
+      "topic": "signs",
+      "chapter": "Chapter 5 — Signals and Signs",
+      "page": 84,
+      "question": "What does this sign tell you about the road ahead?",
+      "choices": [
+        "There is one curve, then the road is straight",
+        "The road narrows to one lane",
+        "A river crossing is ahead",
+        "A series of curves begins ahead"
+      ],
+      "answer": 3,
+      "explanation": "The winding road sign warns of a series of curves ahead. Slow down and drive with extra care.",
+      "sourceQuote": "Diamond-shaped signs are also caution or warning signs.",
+      "image": "/signs/mutcd-w1-5l.svg",
+      "imageAlt": "Yellow diamond sign showing a winding road"
+    },
+    {
+      "id": "signs-015",
+      "topic": "signs",
+      "chapter": "Chapter 5 — Signals and Signs",
+      "page": 84,
+      "question": "What does this sign warn you about?",
+      "choices": [
+        "A crossroad intersection ahead",
+        "A church or cemetery entrance",
+        "A railroad crossing ahead",
+        "A pedestrian crossing ahead"
+      ],
+      "answer": 0,
+      "explanation": "The sign shows a crossroad ahead. Watch for traffic entering the highway from the side roads.",
+      "sourceQuote": "When you see one of these signs, drive with extra care.",
+      "image": "/signs/mutcd-w2-1.png",
+      "imageAlt": "Yellow diamond sign showing a crossroad intersection"
+    },
+    {
+      "id": "signs-016",
+      "topic": "signs",
+      "chapter": "Chapter 5 — Signals and Signs",
+      "page": 84,
+      "question": "What does this sign mean?",
+      "choices": [
+        "You must stop at this sign",
+        "A stop sign is ahead, so prepare to stop",
+        "Stop only if pedestrians are crossing",
+        "The road ahead is closed"
+      ],
+      "answer": 1,
+      "explanation": "The STOP AHEAD sign is placed far ahead of a stop sign when your view of the stop sign is blocked by a curve or other objects.",
+      "sourceQuote": "One of the most important caution signs is the “STOP AHEAD” sign.",
+      "image": "/signs/mutcd-w3-1.png",
+      "imageAlt": "Yellow diamond sign reading STOP AHEAD"
+    },
+    {
+      "id": "signs-017",
+      "topic": "signs",
+      "chapter": "Chapter 5 — Signals and Signs",
+      "page": 84,
+      "question": "What does this sign tell you?",
+      "choices": [
+        "Yield only to vehicles on your left",
+        "You have the right of way ahead",
+        "A yield sign is ahead",
+        "The road ahead is a one-way street"
+      ],
+      "answer": 2,
+      "explanation": "The sign warns that a yield sign is ahead, so slow down and be ready to yield the right of way.",
+      "sourceQuote": "When you approach the yield sign, you must slow down and yield the right of way.",
+      "image": "/signs/mutcd-w3-2.png",
+      "imageAlt": "Yellow diamond sign reading YIELD AHEAD"
+    },
+    {
+      "id": "signs-018",
+      "topic": "signs",
+      "chapter": "Chapter 5 — Signals and Signs",
+      "page": 84,
+      "question": "What does this sign warn you about?",
+      "choices": [
+        "A traffic signal is ahead",
+        "A railroad crossing is ahead",
+        "A traffic officer is directing traffic",
+        "The traffic signal ahead is out of order"
+      ],
+      "answer": 0,
+      "explanation": "The sign warns of a traffic signal ahead, so be ready to stop.",
+      "sourceQuote": "When you see one of these signs, drive with extra care.",
+      "image": "/signs/mutcd-w3-3.png",
+      "imageAlt": "Yellow diamond sign showing a traffic signal"
+    },
+    {
+      "id": "signs-019",
+      "topic": "signs",
+      "chapter": "Chapter 5 — Signals and Signs",
+      "page": 84,
+      "question": "What does this sign mean?",
+      "choices": [
+        "You must merge left immediately",
+        "The right lane ends in one mile",
+        "A divided highway begins",
+        "Traffic from the right will merge into your lane"
+      ],
+      "answer": 3,
+      "explanation": "The merge sign warns that traffic from another lane or ramp will join the through lanes. Watch for vehicles entering and adjust your speed.",
+      "sourceQuote": "When you see one of these signs, drive with extra care.",
+      "image": "/signs/mutcd-w4-1.svg",
+      "imageAlt": "Yellow diamond sign showing traffic merging from the right"
+    },
+    {
+      "id": "signs-020",
+      "topic": "signs",
+      "chapter": "Chapter 5 — Signals and Signs",
+      "page": 84,
+      "question": "What does this sign warn you about?",
+      "choices": [
+        "The road narrows but both lanes continue",
+        "A new lane is being added",
+        "The shoulder becomes a travel lane",
+        "A lane ends ahead, so traffic must merge"
+      ],
+      "answer": 3,
+      "explanation": "The sign shows that the right lane ends ahead. Merge safely into the lane that continues.",
+      "sourceQuote": "Diamond-shaped signs are also caution or warning signs.",
+      "image": "/signs/mutcd-w4-2.svg",
+      "imageAlt": "Yellow diamond sign showing the right lane ending"
+    },
+    {
+      "id": "signs-021",
+      "topic": "signs",
+      "chapter": "Chapter 5 — Signals and Signs",
+      "page": 84,
+      "question": "What does this sign mean?",
+      "choices": [
+        "The road becomes a divided highway",
+        "There are two lanes in each direction",
+        "Traffic will be moving in both directions ahead",
+        "Passing is permitted on both sides"
+      ],
+      "answer": 2,
+      "explanation": "The sign warns that two-way traffic is ahead, so keep to your lane and do not drive left of the center line.",
+      "sourceQuote": "When you see one of these signs, drive with extra care.",
+      "image": "/signs/mutcd-w6-3.svg",
+      "imageAlt": "Yellow diamond sign showing two-way traffic"
+    },
+    {
+      "id": "signs-022",
+      "topic": "signs",
+      "chapter": "Chapter 5 — Signals and Signs",
+      "page": 84,
+      "question": "What does this sign warn you about?",
+      "choices": [
+        "A hill used for sledding",
+        "A steep hill or downgrade ahead",
+        "A bridge that may freeze",
+        "Mountain scenery ahead"
+      ],
+      "answer": 1,
+      "explanation": "The sign warns of a steep grade ahead. Reduce speed and keep control of your vehicle on the downgrade.",
+      "sourceQuote": "Diamond-shaped signs are also caution or warning signs.",
+      "image": "/signs/mutcd-w7-1.svg",
+      "imageAlt": "Yellow diamond sign showing a steep downgrade"
+    },
+    {
+      "id": "signs-023",
+      "topic": "signs",
+      "chapter": "Chapter 5 — Signals and Signs",
+      "page": 84,
+      "question": "What does this sign mean?",
+      "choices": [
+        "A car wash is ahead",
+        "The road may flood in heavy rain",
+        "The road is slippery when wet, so slow down in rain",
+        "A bridge may freeze in winter"
+      ],
+      "answer": 2,
+      "explanation": "The sign warns that the road surface is slippery when it is wet. Slow down and allow extra space when the road is wet.",
+      "sourceQuote": "When you see one of these signs, drive with extra care.",
+      "image": "/signs/mutcd-w8-5.svg",
+      "imageAlt": "Yellow diamond sign showing a car with skid marks"
+    },
+    {
+      "id": "signs-024",
+      "topic": "signs",
+      "chapter": "Chapter 5 — Signals and Signs",
+      "page": 84,
+      "question": "You see this round yellow sign with a black cross and the letters RR. What does it mean?",
+      "choices": [
+        "A railroad crossing is ahead, so slow down",
+        "A railroad maintenance yard is next to the highway",
+        "Trains may cross the highway only at night",
+        "The railroad crossing ahead is closed"
+      ],
+      "answer": 0,
+      "explanation": "This circular sign gives advance warning of a railroad crossing. Slow down and stop if necessary to be sure you can safely clear the crossing.",
+      "sourceQuote": "A circular sign, with a black cross and the black letters “RR” on a yellow background, gives advance warning of a railroad crossing.",
+      "image": "/signs/mutcd-w10-1.png",
+      "imageAlt": "Round yellow sign with a black X and the letters RR"
+    },
+    {
+      "id": "signs-025",
+      "topic": "signs",
+      "chapter": "Chapter 5 — Signals and Signs",
+      "page": 84,
+      "question": "What does this sign warn you about?",
+      "choices": [
+        "A bicycle shop is ahead",
+        "A bicycle lane runs beside the road",
+        "Bicycles are not allowed on this road",
+        "Bicycles cross the road ahead"
+      ],
+      "answer": 3,
+      "explanation": "The sign warns that bicycles cross the road ahead. Watch for riders and be ready to slow down.",
+      "sourceQuote": "When you see one of these signs, drive with extra care.",
+      "image": "/signs/mutcd-w11-1.svg",
+      "imageAlt": "Yellow diamond sign showing a bicycle"
+    },
+    {
+      "id": "signs-026",
+      "topic": "signs",
+      "chapter": "Chapter 5 — Signals and Signs",
+      "page": 84,
+      "question": "What does this sign mean?",
+      "choices": [
+        "Pedestrians are not allowed on this road",
+        "Pedestrians cross the road here, so be ready to stop",
+        "A pedestrian overpass is ahead",
+        "Only school children cross here"
+      ],
+      "answer": 1,
+      "explanation": "The sign warns that pedestrians cross the road ahead. Slow down and be ready to yield to people in the crossing.",
+      "sourceQuote": "When you see one of these signs, drive with extra care.",
+      "image": "/signs/mutcd-w11-2.svg",
+      "imageAlt": "Yellow diamond sign showing a walking pedestrian"
+    },
+    {
+      "id": "signs-027",
+      "topic": "signs",
+      "chapter": "Chapter 5 — Signals and Signs",
+      "page": 84,
+      "question": "What does this sign warn you about?",
+      "choices": [
+        "Hunting is allowed in this area",
+        "A zoo or wildlife park is ahead",
+        "Deer often cross the road here",
+        "Livestock will be on the road"
+      ],
+      "answer": 2,
+      "explanation": "The sign warns that deer often cross the road in this area. Slow down and be ready for animals on the road.",
+      "sourceQuote": "When you see one of these signs, drive with extra care.",
+      "image": "/signs/mutcd-w11-3.svg",
+      "imageAlt": "Yellow diamond sign showing a leaping deer"
+    },
+    {
+      "id": "signs-028",
+      "topic": "signs",
+      "chapter": "Chapter 5 — Signals and Signs",
+      "page": 84,
+      "question": "What does this yellow pennant-shaped sign mean?",
+      "choices": [
+        "Passing is allowed on both sides",
+        "You are entering a no-passing zone",
+        "A curve is ahead",
+        "You must merge to the left"
+      ],
+      "answer": 1,
+      "explanation": "The pennant points to the beginning of a no-passing zone, where a solid yellow line runs in your lane.",
+      "sourceQuote": "The pennant is located on the left side of the road and points to the beginning of the no-passing zone (solid yellow line in your lane).",
+      "image": "/signs/mutcd-w14-3.svg",
+      "imageAlt": "Yellow pennant sign reading NO PASSING ZONE"
+    },
+    {
+      "id": "signs-029",
+      "topic": "signs",
+      "chapter": "Chapter 5 — Signals and Signs",
+      "page": 84,
+      "question": "What does this orange diamond-shaped sign mean?",
+      "choices": [
+        "A school crossing is ahead",
+        "The road is permanently closed",
+        "Construction or maintenance work is ahead",
+        "Traffic is being detoured for a special event"
+      ],
+      "answer": 2,
+      "explanation": "Orange diamond signs with black messages warn about construction or maintenance areas. Slow down and drive with extra care.",
+      "sourceQuote": "Diamond-shaped caution or warning signs that are orange with black messages warn about construction or maintenance areas.",
+      "image": "/signs/mutcd-w20-1.svg",
+      "imageAlt": "Orange diamond sign reading ROAD WORK 1000 FT"
+    },
+    {
+      "id": "signs-030",
+      "topic": "signs",
+      "chapter": "Chapter 5 — Signals and Signs",
+      "page": 84,
+      "question": "You are at a railroad crossing and see this crossbuck sign. What does it mean?",
+      "choices": [
+        "The railroad track has been abandoned",
+        "You must yield to trains at this crossing",
+        "Trains stop before crossing the road",
+        "The crossing is for pedestrians only"
+      ],
+      "answer": 1,
+      "explanation": "The crossbuck marks the railroad crossing itself, with the words RAILROAD CROSSING in black on the white crosspieces. Yield to trains and check both directions before crossing.",
+      "sourceQuote": "The words “RAILROAD CROSSING” are printed in black on the white crosspieces.",
+      "image": "/signs/mutcd-r15-1.svg",
+      "imageAlt": "White X-shaped crossbuck sign reading RAILROAD CROSSING"
+    },
+    {
+      "id": "signs-031",
+      "topic": "signs",
+      "chapter": "Chapter 5 — Signals and Signs",
+      "page": 85,
+      "question": "What does this five-sided sign mean?",
+      "choices": [
+        "A playground is closed",
+        "A church crossing is ahead",
+        "A hospital zone is ahead",
+        "A school zone or school crossing is ahead"
+      ],
+      "answer": 3,
+      "explanation": "The pentagon sign warns of a school zone or school crossing. Be especially watchful for children in these areas.",
+      "sourceQuote": "The five-sided (or pentagon) sign warns of a school zone or a school crossing.",
+      "image": "/signs/mutcd-s1-1.svg",
+      "imageAlt": "Fluorescent yellow-green pentagon sign showing two schoolchildren figures"
+    },
+    {
+      "id": "signs-032",
+      "topic": "signs",
+      "chapter": "Chapter 5 — Signals and Signs",
+      "page": 85,
+      "question": "What does this sign assembly mean?",
+      "choices": [
+        "Children are crossing the road here",
+        "The school bus stop is on the left",
+        "The school speed limit ends here",
+        "School parking is to the left"
+      ],
+      "answer": 0,
+      "explanation": "The school sign with an arrow plaque marks a school crossing. Watch for children in the area.",
+      "sourceQuote": "You should be especially watchful for children in these areas.",
+      "image": "/signs/mutcd-sign-assembly-s1-1-with-w16-7pl.svg",
+      "imageAlt": "Fluorescent yellow-green pentagon sign with schoolchildren figures above a plaque with a left-pointing arrow"
+    },
+    {
+      "id": "signs-033",
+      "topic": "signs",
+      "chapter": "Chapter 5 — Signals and Signs",
+      "page": 85,
+      "question": "What does this red, white and blue shield sign identify?",
+      "choices": [
+        "A U.S. highway",
+        "A North Carolina state route",
+        "An interstate highway",
+        "A county road"
+      ],
+      "answer": 2,
+      "explanation": "Interstate highways are marked by a red, white and blue shield.",
+      "sourceQuote": "Interstate highways are marked by a red, white and blue shield.",
+      "image": "/signs/i-40.svg",
+      "imageAlt": "Red, white and blue interstate shield for I-40"
+    },
+    {
+      "id": "signs-034",
+      "topic": "signs",
+      "chapter": "Chapter 5 — Signals and Signs",
+      "page": 85,
+      "question": "What kind of route is marked by this shield-shaped sign?",
+      "choices": [
+        "An interstate highway",
+        "A North Carolina state route",
+        "A secondary road",
+        "A U.S. highway"
+      ],
+      "answer": 3,
+      "explanation": "Route markers for U.S. highways are in the shape of a shield.",
+      "sourceQuote": "Route markers for U.S. highways are in the shape of a shield.",
+      "image": "/signs/us-64.svg",
+      "imageAlt": "White shield-shaped U.S. route marker for US 64"
+    },
+    {
+      "id": "signs-035",
+      "topic": "signs",
+      "chapter": "Chapter 5 — Signals and Signs",
+      "page": 85,
+      "question": "What does this diamond-shaped route marker identify?",
+      "choices": [
+        "A U.S. highway",
+        "An interstate highway",
+        "A North Carolina state highway",
+        "A private road"
+      ],
+      "answer": 2,
+      "explanation": "North Carolina route markers are diamond shaped.",
+      "sourceQuote": "North Carolina route markers are diamond shaped.",
+      "image": "/signs/nc-24.svg",
+      "imageAlt": "Diamond-shaped North Carolina route marker for NC 24"
+    },
+    {
+      "id": "signs-036",
+      "topic": "signs",
+      "chapter": "Chapter 5 — Signals and Signs",
+      "page": 84,
+      "question": "You must stop at a railroad crossing whenever which of the following happens?",
+      "choices": [
+        "A train passed through the crossing earlier in the day",
+        "A flagger, signal or gate indicates an approaching train",
+        "You see a crossbuck sign at the crossing",
+        "The crossing has more than one track"
+      ],
+      "answer": 1,
+      "explanation": "You must stop when a flagger, signal or gate indicates an approaching train, and remain stopped until the gate lifts or the signal or flagger says it is safe to proceed.",
+      "sourceQuote": "You must stop at a railroad crossing whenever a flagger, signal or gate indicates an approaching train.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "signs-037",
+      "topic": "signs",
+      "chapter": "Chapter 5 — Signals and Signs",
+      "page": 86,
+      "question": "What does the DO NOT STOP ON TRACKS sign remind a driver to do?",
+      "choices": [
+        "Stop only if a train is visible",
+        "Stop before the tracks and wait for a green light",
+        "Do not drive across the tracks at night",
+        "Never stop on the railroad track for any reason"
+      ],
+      "answer": 3,
+      "explanation": "The sign reminds drivers not to stop on the railroad track for any reason.",
+      "sourceQuote": "The DO NOT STOP ON TRACKS sign reminds the driver not to stop on the railroad track for any reason.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "signals-001",
+      "topic": "signals",
+      "chapter": "Chapter 5 — Signals and Signs",
+      "page": 80,
+      "question": "A steady circular green traffic signal means that you may do which of the following?",
+      "choices": [
+        "Proceed cautiously straight through or make a turn, yielding to oncoming traffic and pedestrians when turning",
+        "Proceed only if no pedestrians are nearby",
+        "Turn only, because through traffic must wait",
+        "Proceed without checking for other traffic"
+      ],
+      "answer": 0,
+      "explanation": "Green means you are permitted to proceed cautiously straight through or turn. Turning vehicles must yield the right of way to oncoming traffic and pedestrians.",
+      "sourceQuote": "A circular green signal means you are permitted to proceed cautiously straight through or make a turn.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "signals-002",
+      "topic": "signals",
+      "chapter": "Chapter 5 — Signals and Signs",
+      "page": 80,
+      "question": "The signal turns yellow as you approach an intersection. What should you do?",
+      "choices": [
+        "Speed up to clear the intersection before the red",
+        "Stop, unless you are too close to the intersection to stop safely",
+        "Always continue through at the same speed",
+        "Stop in the middle of the intersection and wait"
+      ],
+      "answer": 1,
+      "explanation": "Yellow means caution and shows that the signal is about to turn red. Stop unless you are too close to stop safely, and never speed up to beat the red.",
+      "sourceQuote": "Stop for a yellow signal unless you are too close to the intersection to stop safely",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "signals-003",
+      "topic": "signals",
+      "chapter": "Chapter 5 — Signals and Signs",
+      "page": 80,
+      "question": "You are stopped at a steady red circular signal and there is no NO TURN ON RED sign. When may you turn right?",
+      "choices": [
+        "Only when the light turns green",
+        "At any time, because right turns are always allowed",
+        "After coming to a complete stop, if you yield to other traffic and pedestrians",
+        "Only if a police officer waves you through"
+      ],
+      "answer": 2,
+      "explanation": "Unless a sign says NO TURN ON RED, a right turn can be made after coming to a complete stop. Right-turning vehicles must yield the right of way to other traffic and to pedestrians using the intersection.",
+      "sourceQuote": "Unless there is a sign indicating “NO TURN ON RED,” a right turn can be made after coming to a complete stop.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "signals-004",
+      "topic": "signals",
+      "chapter": "Chapter 5 — Signals and Signs",
+      "page": 80,
+      "question": "What does a green arrow signal mean?",
+      "choices": [
+        "You may make the movement only after yielding to all traffic",
+        "The signal is about to change to red",
+        "You must stop before making the movement",
+        "You have a protected movement and may cautiously enter the intersection to make the movement indicated"
+      ],
+      "answer": 3,
+      "explanation": "A green arrow gives you a protected movement. You may cautiously enter the intersection to make the movement shown by the arrow.",
+      "sourceQuote": "A green arrow means that you have a “protected” movement and are permitted to cautiously enter the intersection",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "signals-005",
+      "topic": "signals",
+      "chapter": "Chapter 5 — Signals and Signs",
+      "page": 81,
+      "question": "A flashing yellow arrow signal for a turn means that which of the following is true?",
+      "choices": [
+        "No turns are allowed in that direction",
+        "The turn is permitted, but you must yield to oncoming traffic and pedestrians",
+        "The turn is protected and you do not need to yield",
+        "The signal is not working and you should wait"
+      ],
+      "answer": 1,
+      "explanation": "With a flashing yellow arrow, the turn is permitted but drivers must yield to oncoming traffic and pedestrians.",
+      "sourceQuote": "When the flashing yellow arrow is shown, the indicated turn is permitted but drivers must yield to oncoming traffic and pedestrians.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "signals-006",
+      "topic": "signals",
+      "chapter": "Chapter 5 — Signals and Signs",
+      "page": 81,
+      "question": "A flashing red traffic signal has the same meaning as which of the following?",
+      "choices": [
+        "A yield sign",
+        "A warning sign",
+        "A green arrow",
+        "A stop sign"
+      ],
+      "answer": 3,
+      "explanation": "A flashing red signal means the same as a stop sign: stop and do not move until you can enter the intersection without interfering with approaching traffic.",
+      "sourceQuote": "The flashing red signal has the same meaning as the stop sign",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "signals-007",
+      "topic": "signals",
+      "chapter": "Chapter 5 — Signals and Signs",
+      "page": 81,
+      "question": "You reach an intersection where the traffic light has failed because of a power outage, and no officer is directing traffic. What should you do?",
+      "choices": [
+        "Proceed through without stopping, since the light is dark",
+        "Treat the intersection as if a stop sign controlled all approaches",
+        "Wait at the intersection until the light comes back on",
+        "Turn around and find another route"
+      ],
+      "answer": 1,
+      "explanation": "When a traffic light has malfunctioned, approach the intersection and proceed as though a stop sign controls all approaches to it.",
+      "sourceQuote": "you should approach the intersection and proceed as though the intersection is controlled by a stop sign on all approaches",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "signals-008",
+      "topic": "signals",
+      "chapter": "Chapter 5 — Signals and Signs",
+      "page": 82,
+      "question": "You are on a freeway entrance ramp and the ramp meter signal ahead is dark. What should you do?",
+      "choices": [
+        "Proceed without stopping and merge onto the freeway as conditions allow",
+        "Stop and wait for the signal to turn green",
+        "Back up and take another ramp",
+        "Stop and then go on the red"
+      ],
+      "answer": 0,
+      "explanation": "When a ramp meter display is dark or not showing red or green, a vehicle may proceed without stopping and merge onto the freeway as normal conditions allow.",
+      "sourceQuote": "When the display is dark or not emitting a red or green display, a vehicle may proceed without stopping and enter the freeway",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "signals-009",
+      "topic": "signals",
+      "chapter": "Chapter 5 — Signals and Signs",
+      "page": 88,
+      "question": "A traffic officer is directing traffic at an intersection where the signals are working. Whose directions should you follow?",
+      "choices": [
+        "The traffic signals",
+        "Other drivers in the intersection",
+        "The pedestrian signals",
+        "The officer's hand signals"
+      ],
+      "answer": 3,
+      "explanation": "Obey the officer's hand signals instead of the normal traffic signals or signs.",
+      "sourceQuote": "If so, obey the officer’s hand signals instead of the normal traffic signals or signs.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "markings-001",
+      "topic": "markings",
+      "chapter": "Chapter 5 — Signals and Signs",
+      "page": 88,
+      "question": "What do yellow lines on the roadway separate?",
+      "choices": [
+        "Travel lanes moving in opposite directions",
+        "Travel lanes moving in the same direction",
+        "Parking areas from travel lanes",
+        "Bicycle lanes from vehicle lanes"
+      ],
+      "answer": 0,
+      "explanation": "Yellow lines separate travel lanes moving in opposite directions; white lines separate lanes moving in the same direction.",
+      "sourceQuote": "Yellow lines separate travel lanes moving in opposite directions. White lines separate travel lanes moving in the same direction.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "markings-002",
+      "topic": "markings",
+      "chapter": "Chapter 5 — Signals and Signs",
+      "page": 88,
+      "question": "A two-lane, two-way road has a broken (skipped) yellow center line. What does this mean?",
+      "choices": [
+        "Passing is not permitted in either direction",
+        "Passing with care is permitted in both directions",
+        "Passing is permitted only in the direction of the solid line",
+        "The road is one way"
+      ],
+      "answer": 1,
+      "explanation": "A broken yellow line is the center line on a two-lane, two-way road where passing with care is permitted in both directions.",
+      "sourceQuote": "A yellow skipped or broken line is used as the center line on a two-lane, two-way road where passing with care is permitted",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "markings-003",
+      "topic": "markings",
+      "chapter": "Chapter 5 — Signals and Signs",
+      "page": 88,
+      "question": "What do continuous, double, solid yellow center lines mean?",
+      "choices": [
+        "You may cross them to pass when the road is clear",
+        "Passing is allowed only at night",
+        "You cannot cross them to pass in either direction",
+        "The lanes travel in the same direction"
+      ],
+      "answer": 2,
+      "explanation": "Continuous double solid yellow center lines may not be crossed to pass in either direction.",
+      "sourceQuote": "When continuous, double, solid, yellow lines are the center lines, you cannot cross them to pass in either direction.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "markings-004",
+      "topic": "markings",
+      "chapter": "Chapter 5 — Signals and Signs",
+      "page": 88,
+      "question": "Single, solid white lines along the roadway are used as which of the following?",
+      "choices": [
+        "Center lines for two-way traffic",
+        "Left-edge lines on divided highways",
+        "Markings for the two-way left-turn lane",
+        "Right-edge lines that guide traffic traveling in the same direction"
+      ],
+      "answer": 3,
+      "explanation": "Single, solid white lines are right-edge lines along the roadway and guide traffic traveling in the same direction.",
+      "sourceQuote": "Single, solid, white lines are used as right-edge lines along the roadway and for guiding traffic traveling in the same direction.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "markings-005",
+      "topic": "markings",
+      "chapter": "Chapter 5 — Signals and Signs",
+      "page": 88,
+      "question": "On a divided highway, what does a single, solid yellow line on your left mark?",
+      "choices": [
+        "The right edge of the roadway",
+        "The left edge of the roadway",
+        "The center of a two-way left-turn lane",
+        "A no-passing zone for the lane to your left"
+      ],
+      "answer": 1,
+      "explanation": "Single, solid yellow lines are left-edge lines on divided highways. If you see the reverse, you are traveling in the wrong direction.",
+      "sourceQuote": "Single, solid, yellow lines are used as left-edge lines on divided highways.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "markings-006",
+      "topic": "markings",
+      "chapter": "Chapter 5 — Signals and Signs",
+      "page": 88,
+      "question": "On some multi-lane highways a special center lane is reserved for two-way left-turn movements. What must you not use that lane for?",
+      "choices": [
+        "Making a left turn from either direction",
+        "Entering a driveway on the left",
+        "Passing another vehicle or merging into traffic",
+        "Slowing down before a turn"
+      ],
+      "answer": 2,
+      "explanation": "The two-way left-turn lane is reserved exclusively for two-way left-turn movements and must not be used for passing or merging.",
+      "sourceQuote": "The two-way left-turn lane must not be used for passing another vehicle or for the purpose of merging into traffic.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "markings-007",
+      "topic": "markings",
+      "chapter": "Chapter 5 — Signals and Signs",
+      "page": 88,
+      "question": "What do blue reflective pavement markers on a roadway indicate?",
+      "choices": [
+        "A wrong-way movement",
+        "The edge of a bicycle lane",
+        "The location of nearby fire hydrants or water supplies for fire-fighting units",
+        "A toll lane"
+      ],
+      "answer": 2,
+      "explanation": "Blue reflective pavement markers indicate the location of nearby fire hydrants or water supplies for fire-fighting units. Red markers indicate wrong-way movements.",
+      "sourceQuote": "blue reflective pavement markers on roadways indicate the location of nearby fire hydrants or water supplies for fire-fighting units",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "markings-008",
+      "topic": "markings",
+      "chapter": "Chapter 5 — Signals and Signs",
+      "page": 83,
+      "question": "A stop sign or traffic light requires you to stop. Where must you stop?",
+      "choices": [
+        "Anywhere within 50 feet of the intersection",
+        "In the crosswalk so that other drivers can see you",
+        "One car length past the stop line",
+        "At the appropriately marked stop line, or if there is none, before entering the intersection where you have a view of the intersecting street"
+      ],
+      "answer": 3,
+      "explanation": "A driver must stop at the appropriately marked stop line. If there is no stop line or marked crosswalk, stop before entering the intersection where you have a view of the intersecting street.",
+      "sourceQuote": "the driver must stop at the appropriately marked stop line",
+      "image": null,
+      "imageAlt": null
+    }
+  ]
+}

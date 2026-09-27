@@ -1,0 +1,762 @@
+{
+  "version": 1,
+  "batch": "license",
+  "questions": [
+    {
+      "id": "license-001",
+      "topic": "license",
+      "chapter": "Chapter 1 — Your License",
+      "page": 8,
+      "question": "A North Carolina learner permit is available to persons who are:",
+      "choices": [
+        "at least 15 years old and under 18",
+        "18 years old and older",
+        "at least 16 years old and under 18",
+        "21 years old and older"
+      ],
+      "answer": 1,
+      "explanation": "Learner permits are available to persons age 18 and older. Drivers under 18 follow the graduated licensing levels.",
+      "sourceQuote": "Learner permits are available to persons age 18 and older.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "license-002",
+      "topic": "license",
+      "chapter": "Chapter 1 — Your License",
+      "page": 8,
+      "question": "While driving with a learner permit, the permit holder must be accompanied by:",
+      "choices": [
+        "any passenger who is at least 21 years old",
+        "a parent or guardian seated in the back seat",
+        "a licensed driver following in another vehicle",
+        "a licensed driver seated beside the permit holder"
+      ],
+      "answer": 3,
+      "explanation": "The accompanying driver must be licensed to operate the motor vehicle being driven and must be seated beside the permit holder.",
+      "sourceQuote": "be accompanied by a person who is licensed to operate the motor vehicle being driven and is seated beside the permit holder.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "license-003",
+      "topic": "license",
+      "chapter": "Chapter 1 — Your License",
+      "page": 9,
+      "question": "The on-the-road driving test is required for an original license, but:",
+      "choices": [
+        "it is required for a learner permit",
+        "it is required only for applicants under 18",
+        "it is required only if the examiner requests it",
+        "it is not required for a learner permit"
+      ],
+      "answer": 3,
+      "explanation": "Applicants for an original driver license must take the on-the-road test, but it is not required for a learner permit.",
+      "sourceQuote": "It is not required for a learner permit.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "license-004",
+      "topic": "license",
+      "chapter": "Chapter 1 — Your License",
+      "page": 12,
+      "question": "To apply for a Level One Limited Learner Permit you must be at least:",
+      "choices": [
+        "14 years old",
+        "15 years old",
+        "16 years old",
+        "17 years old"
+      ],
+      "answer": 1,
+      "explanation": "You must be at least 15 years old but less than 18 years old and reside in North Carolina.",
+      "sourceQuote": "You must be at least 15 years old but less than 18 years old and reside in North Carolina.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "license-005",
+      "topic": "license",
+      "chapter": "Chapter 1 — Your License",
+      "page": 12,
+      "question": "The approved driver education course required before the learner permit test consists of:",
+      "choices": [
+        "20 hours of classroom instruction and 10 hours behind the wheel",
+        "30 hours of classroom instruction and 6 hours behind the wheel",
+        "30 hours of classroom instruction and 10 hours behind the wheel",
+        "6 hours of classroom instruction and 30 hours behind the wheel"
+      ],
+      "answer": 1,
+      "explanation": "North Carolina requires at least 30 hours of classroom instruction and six hours of behind-the-wheel instruction.",
+      "sourceQuote": "consisting of at least 30 hours classroom instruction and six hours behind-the wheel instruction",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "license-006",
+      "topic": "license",
+      "chapter": "Chapter 1 — Your License",
+      "page": 12,
+      "question": "During the first six months of holding a Level One permit, you may drive:",
+      "choices": [
+        "at any time, as long as a supervising driver is with you",
+        "between 5 a.m. and 9 p.m. while accompanied by your supervising driver",
+        "between 6 a.m. and 6 p.m. while accompanied by your supervising driver",
+        "only between sunrise and sunset"
+      ],
+      "answer": 1,
+      "explanation": "The Level One permit allows driving between 5 a.m. and 9 p.m. during the first six months, while accompanied by the supervising driver.",
+      "sourceQuote": "a level one permit authorizes you to drive between the hours of 5 a.m. and 9 p.m., while accompanied by your supervising driver",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "license-007",
+      "topic": "license",
+      "chapter": "Chapter 1 — Your License",
+      "page": 12,
+      "question": "You must hold a Level One Limited Learner Permit for how long before applying for a Limited Provisional License?",
+      "choices": [
+        "Three months",
+        "Six months",
+        "Nine months",
+        "Twelve months"
+      ],
+      "answer": 2,
+      "explanation": "The permit must be held for nine months before applying for a Limited Provisional License.",
+      "sourceQuote": "You must hold this permit for nine months prior to applying for a Limited Provisional License.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "license-008",
+      "topic": "license",
+      "chapter": "Chapter 1 — Your License",
+      "page": 12,
+      "question": "The Driving Log for a Level One permit must detail a minimum of:",
+      "choices": [
+        "40 hours, including 10 at night",
+        "50 hours, including 5 at night",
+        "60 hours, including 10 at night",
+        "60 hours, including 20 at night"
+      ],
+      "answer": 2,
+      "explanation": "The log must show at least 60 hours of operation, with at least 10 of those hours at night.",
+      "sourceQuote": "detailing a minimum of 60 hours of operation. At least 10 hours must occur during nighttime hours.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "license-009",
+      "topic": "license",
+      "chapter": "Chapter 1 — Your License",
+      "page": 12,
+      "question": "A supervising driver must have been licensed for at least:",
+      "choices": [
+        "one year",
+        "two years",
+        "five years",
+        "ten years"
+      ],
+      "answer": 2,
+      "explanation": "A supervising driver must hold a valid driver license and must have been licensed for at least five years.",
+      "sourceQuote": "A supervising driver must hold a valid driver license and must have been licensed for at least five years.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "license-010",
+      "topic": "license",
+      "chapter": "Chapter 1 — Your License",
+      "page": 13,
+      "question": "A Level Two Limited Provisional License is available to drivers who are at least:",
+      "choices": [
+        "15 years old",
+        "16 years old",
+        "17 years old",
+        "18 years old"
+      ],
+      "answer": 1,
+      "explanation": "Level Two drivers must be at least 16 years old, but less than 18.",
+      "sourceQuote": "Drivers must be at least 16 years old, but less than 18.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "license-011",
+      "topic": "license",
+      "chapter": "Chapter 1 — Your License",
+      "page": 13,
+      "question": "A Level Two licensee may drive without supervision from 5 a.m. until 9 p.m. and at any time when:",
+      "choices": [
+        "driving to or from any school event",
+        "driving with a passenger who is 21 or older",
+        "driving within 25 miles of home",
+        "driving directly to or from work or any volunteer fire, rescue or emergency medical service"
+      ],
+      "answer": 3,
+      "explanation": "Driving directly to or from work, or any volunteer fire, rescue or emergency medical service, is an exception to the 5 a.m. to 9 p.m. unsupervised limit.",
+      "sourceQuote": "at any time when driving directly to or from work or any volunteer fire, rescue or emergency medical service",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "license-012",
+      "topic": "license",
+      "chapter": "Chapter 1 — Your License",
+      "page": 13,
+      "question": "When driving unsupervised with a Level Two license, how many passengers under 21 who are not members of the same household may be in the vehicle?",
+      "choices": [
+        "None",
+        "One",
+        "Two",
+        "Three"
+      ],
+      "answer": 1,
+      "explanation": "There may be one passenger under 21 who is not a member of the same household as the driver.",
+      "sourceQuote": "there may be one passenger that is under 21 that is not a member of the same household as the driver",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "license-013",
+      "topic": "license",
+      "chapter": "Chapter 1 — Your License",
+      "page": 13,
+      "question": "Which statement about a Level Three Full Provisional License is correct?",
+      "choices": [
+        "The time of driving, supervision and passenger limits from levels one and two do not apply",
+        "The time of driving, supervision and passenger limits from levels one and two still apply",
+        "Only the passenger limit still applies",
+        "Only the nighttime driving limit still applies"
+      ],
+      "answer": 0,
+      "explanation": "The restrictions on levels one and two concerning time of driving, supervision and passenger limitations do not apply to a Full Provisional License.",
+      "sourceQuote": "The restrictions on level one and level two concerning time of driving, supervision and passenger limitations do not apply",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "license-014",
+      "topic": "license",
+      "chapter": "Chapter 1 — Your License",
+      "page": 14,
+      "question": "For a provisional licensee, a conviction for driving after or while consuming any amount of alcohol or drugs results in:",
+      "choices": [
+        "a 30-day suspension",
+        "a 60-day suspension",
+        "a one-year license revocation",
+        "a written warning only"
+      ],
+      "answer": 2,
+      "explanation": "It is unlawful for a provisional licensee to drive after consuming any amount of alcohol or drugs, and a conviction results in a one-year license revocation.",
+      "sourceQuote": "a conviction of such a violation will result in a one-year license revocation.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "license-015",
+      "topic": "license",
+      "chapter": "Chapter 1 — Your License",
+      "page": 15,
+      "question": "A student who is suspended for more than 10 consecutive days, or assigned to an alternative educational setting for more than 10 consecutive days, loses driving privileges for:",
+      "choices": [
+        "30 days",
+        "six months",
+        "12 months",
+        "until the student turns 18"
+      ],
+      "answer": 2,
+      "explanation": "That loss of license remains in effect for 12 months.",
+      "sourceQuote": "This suspension remains in effect for 12 months.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "license-016",
+      "topic": "license",
+      "chapter": "Chapter 1 — Your License",
+      "page": 15,
+      "question": "A first-time applicant for a North Carolina driver license, learner permit or ID card must provide proof of:",
+      "choices": [
+        "full name and date of birth, NC residence address, and Social Security number or legal presence",
+        "NC residence address only",
+        "date of birth and driving experience",
+        "Social Security number only"
+      ],
+      "answer": 0,
+      "explanation": "First-time applicants must prove their full name and date of birth, their NC residence address, and their SSN or legal presence in the U.S.",
+      "sourceQuote": "you will need to provide proof of your full name and date of birth, your NC residence address, proof of your Social Security number (SSN)",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "license-017",
+      "topic": "license",
+      "chapter": "Chapter 1 — Your License",
+      "page": 19,
+      "question": "A customer 18 or over applying for a driver license must show how many proofs of N.C. residency?",
+      "choices": [
+        "One",
+        "Two",
+        "Three",
+        "Four"
+      ],
+      "answer": 1,
+      "explanation": "Adults must show two proofs of N.C. residency.",
+      "sourceQuote": "Customers must show two proofs of N.C. residency.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "license-018",
+      "topic": "license",
+      "chapter": "Chapter 1 — Your License",
+      "page": 19,
+      "question": "If you are not eligible for a Social Security Number, you must provide:",
+      "choices": [
+        "a North Carolina voter precinct card",
+        "documents indicating your legal presence in the United States",
+        "a letter from your employer",
+        "proof of a permanent NC mailing address only"
+      ],
+      "answer": 1,
+      "explanation": "Applicants who are not eligible for an SSN must provide document(s) indicating their legal presence in the United States.",
+      "sourceQuote": "If you are not eligible for a SSN, you must provide document(s) indicating your legal presence in the United States.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "license-019",
+      "topic": "license",
+      "chapter": "Chapter 1 — Your License",
+      "page": 24,
+      "question": "A North Carolina REAL ID is:",
+      "choices": [
+        "a driver license, learner permit or identification card with a star",
+        "a card marked NOT FOR FEDERAL IDENTIFICATION",
+        "a separate federal identification card",
+        "a passport card issued by the state"
+      ],
+      "answer": 0,
+      "explanation": "A REAL ID is a driver license, learner permit or identification card with a star, and it meets federal identification requirements.",
+      "sourceQuote": "A REAL ID is a driver license, learner permit or identification card with a star.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "license-020",
+      "topic": "license",
+      "chapter": "Chapter 1 — Your License",
+      "page": 25,
+      "question": "A new resident has how long after establishing residence to obtain a North Carolina license or learner permit?",
+      "choices": [
+        "10 days",
+        "30 days",
+        "60 days",
+        "90 days"
+      ],
+      "answer": 2,
+      "explanation": "A new resident has 60 days after establishing residence to obtain a North Carolina license or learner permit.",
+      "sourceQuote": "A new resident has 60 days after establishing residence to obtain a North Carolina license or learner permit.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "license-021",
+      "topic": "license",
+      "chapter": "Chapter 1 — Your License",
+      "page": 26,
+      "question": "A driver license may be renewed anytime within how many days prior to its expiration?",
+      "choices": [
+        "30 days",
+        "60 days",
+        "180 days",
+        "365 days"
+      ],
+      "answer": 2,
+      "explanation": "A driver license may be renewed anytime within 180 days prior to expiration.",
+      "sourceQuote": "A driver license may be renewed anytime within 180 days prior to expiration.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "license-022",
+      "topic": "license",
+      "chapter": "Chapter 1 — Your License",
+      "page": 28,
+      "question": "To replace a lost or stolen license, you may:",
+      "choices": [
+        "show the examiner two documents of identification approved by the DMV",
+        "show one document of identification",
+        "report it to the police and wait 30 days",
+        "request the replacement by telephone only"
+      ],
+      "answer": 0,
+      "explanation": "A duplicate for a lost or stolen license may be issued after you show the examiner two approved documents of identification.",
+      "sourceQuote": "To replace a lost or stolen license, you may show the examiner two documents of identification approved by the DMV.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "license-023",
+      "topic": "license",
+      "chapter": "Chapter 3 — Your Driving Privilege",
+      "page": 34,
+      "question": "If you accumulate seven driver license points, you may be assigned to:",
+      "choices": [
+        "a license revocation hearing",
+        "an on-road driving retest",
+        "a defensive driving course required by your insurer",
+        "a driver improvement clinic"
+      ],
+      "answer": 3,
+      "explanation": "Seven points may result in assignment to a driver improvement clinic.",
+      "sourceQuote": "If you accumulate seven points, you may be assigned to a driver improvement clinic.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "license-024",
+      "topic": "license",
+      "chapter": "Chapter 3 — Your Driving Privilege",
+      "page": 34,
+      "question": "Upon satisfactory completion of the driver improvement clinic:",
+      "choices": [
+        "one point is deducted from your driving record",
+        "three points are deducted from your driving record",
+        "five points are deducted from your driving record",
+        "all points are removed from your driving record"
+      ],
+      "answer": 1,
+      "explanation": "Three points are deducted from your driving record upon satisfactory completion of the clinic.",
+      "sourceQuote": "Upon satisfactory completion of the clinic, three points are deducted from your driving record.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "license-025",
+      "topic": "license",
+      "chapter": "Chapter 3 — Your Driving Privilege",
+      "page": 34,
+      "question": "If you accumulate as many as 12 points within a three-year period:",
+      "choices": [
+        "you receive a warning letter only",
+        "your insurance rates are doubled",
+        "you must retake the knowledge test",
+        "your license may be suspended"
+      ],
+      "answer": 3,
+      "explanation": "Twelve points within a three-year period can result in suspension of your license.",
+      "sourceQuote": "If you accumulate as many as 12 points within a three-year period, your license may be suspended.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "license-026",
+      "topic": "license",
+      "chapter": "Chapter 3 — Your Driving Privilege",
+      "page": 34,
+      "question": "How many points within three years following reinstatement of your license can result in a second suspension?",
+      "choices": [
+        "Four",
+        "Seven",
+        "Eight",
+        "Twelve"
+      ],
+      "answer": 2,
+      "explanation": "Eight points within three years following reinstatement can result in a second suspension.",
+      "sourceQuote": "The accumulation of eight points within three years following the reinstatement of your license can result in a second suspension.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "license-027",
+      "topic": "license",
+      "chapter": "Chapter 3 — Your Driving Privilege",
+      "page": 34,
+      "question": "If your driver license is suspended by the point system, the first suspension may be for:",
+      "choices": [
+        "30 days",
+        "60 days",
+        "6 months",
+        "12 months"
+      ],
+      "answer": 1,
+      "explanation": "The first point-system suspension may be for 60 days, the second for 6 months and the third for 12 months.",
+      "sourceQuote": "60 days for the first suspension",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "license-028",
+      "topic": "license",
+      "chapter": "Chapter 3 — Your Driving Privilege",
+      "page": 34,
+      "question": "When your driving privilege is reinstated after a point suspension:",
+      "choices": [
+        "all driver license points and insurance points are canceled",
+        "no points are canceled",
+        "only insurance points are canceled",
+        "all previous driver license points are canceled, but insurance points are not"
+      ],
+      "answer": 3,
+      "explanation": "Reinstatement cancels all previous driver license points, but this does not pertain to insurance points.",
+      "sourceQuote": "When your driving privilege is reinstated, all previous driver license points are canceled. This does not pertain to insurance points.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "license-029",
+      "topic": "license",
+      "chapter": "Chapter 3 — Your Driving Privilege",
+      "page": 34,
+      "question": "How many driver license points are assessed for passing a stopped school bus?",
+      "choices": [
+        "Two",
+        "Three",
+        "Five",
+        "Eight"
+      ],
+      "answer": 2,
+      "explanation": "Passing a stopped school bus carries 5 driver license points.",
+      "sourceQuote": "Passing a stopped school bus 5",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "license-030",
+      "topic": "license",
+      "chapter": "Chapter 3 — Your Driving Privilege",
+      "page": 34,
+      "question": "How many driver license points are assessed for reckless driving?",
+      "choices": [
+        "One",
+        "Two",
+        "Four",
+        "Six"
+      ],
+      "answer": 2,
+      "explanation": "Reckless driving carries 4 driver license points.",
+      "sourceQuote": "Reckless driving 4",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "license-031",
+      "topic": "license",
+      "chapter": "Chapter 3 — Your Driving Privilege",
+      "page": 36,
+      "question": "Which of these convictions carries no driver license points?",
+      "choices": [
+        "Following too closely",
+        "Running through a red light",
+        "Speeding in excess of 55 mph",
+        "Illegal parking"
+      ],
+      "answer": 3,
+      "explanation": "Illegal parking is one of the offenses for which no points are assessed.",
+      "sourceQuote": "• Illegal parking;",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "license-032",
+      "topic": "license",
+      "chapter": "Chapter 3 — Your Driving Privilege",
+      "page": 36,
+      "question": "Insurance companies use:",
+      "choices": [
+        "a different point system to determine insurance rates",
+        "the same point system that the DMV uses",
+        "no point system at all",
+        "only court records of convictions"
+      ],
+      "answer": 0,
+      "explanation": "Insurance companies use a different point system to determine insurance rates. Contact your insurance agent with questions.",
+      "sourceQuote": "Insurance companies use a different point system to determine insurance rates.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "license-033",
+      "topic": "license",
+      "chapter": "Chapter 3 — Your Driving Privilege",
+      "page": 36,
+      "question": "Your driving privilege will be revoked for at least 30 days if you are convicted of driving more than how many miles per hour over the speed limit while driving at a speed higher than 55 mph?",
+      "choices": [
+        "10 miles per hour",
+        "15 miles per hour",
+        "20 miles per hour",
+        "25 miles per hour"
+      ],
+      "answer": 1,
+      "explanation": "Driving more than 15 mph over the speed limit while driving at a speed higher than 55 mph brings a revocation of at least 30 days.",
+      "sourceQuote": "Driving any vehicle more than 15 miles per hour over the speed limit, if you are driving at a speed higher than 55 mph.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "license-034",
+      "topic": "license",
+      "chapter": "Chapter 3 — Your Driving Privilege",
+      "page": 36,
+      "question": "Which conviction will result in a 60-day suspension of your driving privilege?",
+      "choices": [
+        "speeding plus reckless driving on the same occasion",
+        "a single conviction of speeding 10 mph over the limit",
+        "illegal parking",
+        "following too closely"
+      ],
+      "answer": 0,
+      "explanation": "Speeding plus reckless driving on the same occasion is listed among the convictions that bring a 60-day suspension.",
+      "sourceQuote": "Speeding plus reckless driving on the same occasion.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "license-035",
+      "topic": "license",
+      "chapter": "Chapter 3 — Your Driving Privilege",
+      "page": 37,
+      "question": "A conviction for prearranged racing with another motor vehicle on the highway results in a suspension of:",
+      "choices": [
+        "60 days",
+        "six months",
+        "one year",
+        "three years"
+      ],
+      "answer": 3,
+      "explanation": "Prearranged racing with another motor vehicle on the highway carries a three-year suspension.",
+      "sourceQuote": "Prearranged racing with another motor vehicle on the highway *3 years",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "license-036",
+      "topic": "license",
+      "chapter": "Chapter 3 — Your Driving Privilege",
+      "page": 37,
+      "question": "Attempting to obtain a license or learner permit under false pretense results in a suspension of:",
+      "choices": [
+        "30 days",
+        "six months",
+        "one year",
+        "permanent revocation"
+      ],
+      "answer": 2,
+      "explanation": "The suspension for attempting to obtain a license or learner permit under false pretense is one year.",
+      "sourceQuote": "Attempting to obtain a license or learner permit under false pretense 1 year",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "license-037",
+      "topic": "license",
+      "chapter": "Chapter 3 — Your Driving Privilege",
+      "page": 38,
+      "question": "Convictions that occur outside North Carolina:",
+      "choices": [
+        "have no effect on your North Carolina driving privilege",
+        "apply only to commercial drivers",
+        "are handled only by the other state",
+        "may result in your license being suspended or revoked just as if the violations occurred in this state"
+      ],
+      "answer": 3,
+      "explanation": "Out-of-state convictions can result in your license being suspended or revoked just as if the violations occurred in this state.",
+      "sourceQuote": "may result in your license being suspended or revoked just as if the violations occurred in this state",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "license-038",
+      "topic": "license",
+      "chapter": "Chapter 3 — Your Driving Privilege",
+      "page": 38,
+      "question": "When the Division is notified that you failed to appear in court or pay court fines for a citation, what happens?",
+      "choices": [
+        "your license is revoked for 30 days automatically",
+        "you must retake all license tests",
+        "you must appear at a DMV hearing within 10 days",
+        "you will be notified of the effective date of the revocation if the fines are not paid or waived in time"
+      ],
+      "answer": 3,
+      "explanation": "The Division notifies you of the effective date of the revocation if the fines are not paid or waived prior to the date indicated.",
+      "sourceQuote": "you will be notified of the effective date of the revocation if the fines are not paid or waived",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "license-039",
+      "topic": "license",
+      "chapter": "Chapter 3 — Your Driving Privilege",
+      "page": 39,
+      "question": "A provisional licensee's license may be suspended for 30 days upon conviction of:",
+      "choices": [
+        "a second moving violation occurring within a 12-month period",
+        "a first moving violation",
+        "a third moving violation occurring within a 12-month period",
+        "any seat belt infraction"
+      ],
+      "answer": 0,
+      "explanation": "For provisional licensees under 18, a second moving violation within a 12-month period brings a 30-day suspension.",
+      "sourceQuote": "30 days, upon conviction of a second moving violation occurring within a 12-month period",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "license-040",
+      "topic": "license",
+      "chapter": "Chapter 3 — Your Driving Privilege",
+      "page": 39,
+      "question": "A provisional licensee convicted of a fourth moving violation occurring within a 12-month period faces a suspension of:",
+      "choices": [
+        "30 days",
+        "90 days",
+        "six months",
+        "one year"
+      ],
+      "answer": 2,
+      "explanation": "A fourth moving violation within a 12-month period brings a six-month suspension.",
+      "sourceQuote": "Six months, upon conviction of a fourth moving violation occurring within a 12-month period.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "license-041",
+      "topic": "license",
+      "chapter": "Chapter 3 — Your Driving Privilege",
+      "page": 39,
+      "question": "How much must be paid to the DMV before a suspension or revocation can be cleared?",
+      "choices": [
+        "$16.75",
+        "$50.00",
+        "$83.50",
+        "$167.25"
+      ],
+      "answer": 2,
+      "explanation": "North Carolina law requires a restoration fee of $83.50 before a suspension or revocation can be cleared.",
+      "sourceQuote": "a restoration fee of $83.50 be paid to the DMV before a suspension or revocation can be cleared",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "license-042",
+      "topic": "license",
+      "chapter": "Chapter 3 — Your Driving Privilege",
+      "page": 39,
+      "question": "A restoration fee of $167.25 is required when the revocation results from:",
+      "choices": [
+        "a medical condition",
+        "a DWI conviction",
+        "a failure to appear in court",
+        "an out-of-state conviction"
+      ],
+      "answer": 1,
+      "explanation": "The $167.25 restoration fee is required when the revocation results from a DWI conviction.",
+      "sourceQuote": "A $167.25 restoration fee is required when the revocation results from a DWI conviction.",
+      "image": null,
+      "imageAlt": null
+    }
+  ]
+}

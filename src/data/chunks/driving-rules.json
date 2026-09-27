@@ -1,0 +1,965 @@
+{
+  "version": 1,
+  "batch": "driving-rules",
+  "questions": [
+    {
+      "id": "rules-001",
+      "topic": "rules",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 52,
+      "question": "Driving on the left side of the road is legal only in which situations?",
+      "choices": [
+        "When traffic is light",
+        "When you are driving a large vehicle",
+        "On any road where no one is behind you",
+        "On one-way streets and while passing"
+      ],
+      "answer": 3,
+      "explanation": "The law requires you to drive on the right side of the road. Driving on the left side is legal only in some cases, such as on one-way streets and while passing.",
+      "sourceQuote": "Driving on the left side is legal only in some cases, such as on one-way streets and while passing.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "rules-002",
+      "topic": "rules",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 52,
+      "question": "You are driving on a multi-lane highway slower than the posted speed limit. Which lane should you use?",
+      "choices": [
+        "The extreme right lane",
+        "The extreme left lane",
+        "The center lane",
+        "The lane with the least traffic"
+      ],
+      "answer": 0,
+      "explanation": "When you are moving slower than the posted speed limit on a multi-lane highway, drive in the extreme right lane unless you are passing, turning left or avoiding an obstruction.",
+      "sourceQuote": "When you are moving slower than the posted speed limit on a multi-lane highway, drive in the extreme right lane",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "rules-003",
+      "topic": "rules",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 54,
+      "question": "Why should you keep enough distance between your vehicle and the vehicle ahead on the open road?",
+      "choices": [
+        "So you can see road signs farther ahead",
+        "So your headlights are more visible",
+        "So a passing vehicle can safely move into and occupy the space"
+      ],
+      "answer": 2,
+      "explanation": "On the open road, keep enough distance between you and the vehicle ahead so that a passing vehicle can safely move into and occupy the space.",
+      "sourceQuote": "keep enough distance between you and the vehicle ahead so that a passing vehicle can safely move into and occupy the space.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "rules-004",
+      "topic": "rules",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 54,
+      "question": "Before changing lanes, why must you check over your shoulder?",
+      "choices": [
+        "To see how far behind you the next car is",
+        "To be certain the blind spot is clear",
+        "To check the lane markings for a passing zone"
+      ],
+      "answer": 1,
+      "explanation": "Important rules about changing lanes include checking the side and rear-view mirrors and checking over your shoulder to be certain the blind spot is clear.",
+      "sourceQuote": "Check over your shoulder to be certain the blind spot is clear;",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "rules-005",
+      "topic": "rules",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 54,
+      "question": "Why should you stay close to the right edge of the road when making a right turn?",
+      "choices": [
+        "So you can turn without signaling",
+        "So you can speed up before the turn",
+        "So you can see traffic signals better",
+        "So another vehicle cannot move between your vehicle and the curb"
+      ],
+      "answer": 3,
+      "explanation": "For right turns, stay close to the right edge of the road, so that another vehicle cannot move between your vehicle and the curb.",
+      "sourceQuote": "For right turns, stay close to the right edge of the road, so that another vehicle cannot move between your vehicle and the curb.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "rules-006",
+      "topic": "rules",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 54,
+      "question": "How should you handle your speed when making a turn?",
+      "choices": [
+        "Speed up before the turn and brake in the middle of it",
+        "Keep the same speed throughout the turn",
+        "Reduce speed before making the turn and then accelerate slightly"
+      ],
+      "answer": 2,
+      "explanation": "Reduce the vehicle's speed before making the turn and then accelerate slightly.",
+      "sourceQuote": "Reduce the vehicle’s speed before making the turn and then accelerate slightly.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "rules-007",
+      "topic": "rules",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 53,
+      "question": "What is the best way to handle a curve?",
+      "choices": [
+        "Brake firmly while you are in the middle of the curve",
+        "Slow down before you enter the curve so you will not need to brake in the curve",
+        "Speed up before the curve to keep your traction"
+      ],
+      "answer": 1,
+      "explanation": "Slow down before you enter the curve so that you will not need to brake while you are in the curve, then gradually increase your speed to maintain traction.",
+      "sourceQuote": "Slow down before you enter the curve so that you will not need to brake while you are in the curve;",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "rules-008",
+      "topic": "rules",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 55,
+      "question": "When passing a vehicle, how far to the left must the passing driver pass?",
+      "choices": [
+        "At least two feet",
+        "At least six feet",
+        "At least one foot"
+      ],
+      "answer": 0,
+      "explanation": "The law requires the passing driver to pass at least two feet to the left of the vehicle being passed.",
+      "sourceQuote": "The law requires the passing driver to pass at least two feet to the left of the vehicle being passed.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "rules-009",
+      "topic": "rules",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 55,
+      "question": "Passing is always unsafe and usually illegal on a curve or hill where the driver cannot see at least how far ahead?",
+      "choices": [
+        "100 feet",
+        "250 feet",
+        "500 feet"
+      ],
+      "answer": 2,
+      "explanation": "Passing is always unsafe and usually illegal on any curve or hill where the driver cannot see at least 500 feet ahead.",
+      "sourceQuote": "On any curve or hill where the driver cannot see at least 500 feet ahead;",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "rules-010",
+      "topic": "rules",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 55,
+      "question": "What does a double-solid yellow line mean for passing?",
+      "choices": [
+        "You may pass if the road ahead looks clear",
+        "Passing is always unsafe and usually illegal",
+        "You may pass only if the vehicle ahead is turning left",
+        "You may pass if you can see 500 feet ahead"
+      ],
+      "answer": 1,
+      "explanation": "Places where passing is always unsafe and usually illegal include wherever there is a double-solid yellow line.",
+      "sourceQuote": "Wherever there is a double-solid yellow line;",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "rules-011",
+      "topic": "rules",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 55,
+      "question": "Passing on the right is against the law except in which situation?",
+      "choices": [
+        "On highways having at least two lanes traveling in each direction",
+        "When the vehicle ahead is driving below the posted speed limit",
+        "When the road is clear and you are in a hurry",
+        "When the driver ahead waves you around"
+      ],
+      "answer": 0,
+      "explanation": "Passing on the right is against the law except in areas where it is specifically permitted, such as on highways having at least two lanes traveling in each direction.",
+      "sourceQuote": "On highways having at least two lanes traveling in each direction;",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "rules-012",
+      "topic": "rules",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 55,
+      "question": "On a three-lane highway, when may you pass?",
+      "choices": [
+        "In either outside lane",
+        "In any lane if the road is clear",
+        "Only in the center lane and only where it is marked for passing in your direction"
+      ],
+      "answer": 2,
+      "explanation": "On three-lane highways you must not pass except in the center lane, and then only where the center lane is marked for passing in your direction.",
+      "sourceQuote": "you must not pass except in the center lane, and then only where the center lane is marked for passing in your direction.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "rules-013",
+      "topic": "rules",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 55,
+      "question": "You are being passed and the driver of the passing vehicle blows the horn. What must you do?",
+      "choices": [
+        "Speed up to keep pace with the passing vehicle",
+        "Move to the left side of your lane",
+        "Sound your horn to warn the other driver",
+        "Move to the right edge of the road"
+      ],
+      "answer": 3,
+      "explanation": "When you are being passed, you must help the other driver pass. If the driver blows the horn, move to the right edge of the road and never increase your speed.",
+      "sourceQuote": "If the driver of the passing vehicle blows the horn, move to the right edge of the road.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "rules-014",
+      "topic": "rules",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 55,
+      "question": "You blow your horn to signal the driver ahead that you intend to pass. What does that horn signal do?",
+      "choices": [
+        "It places the driver of the vehicle you are passing under a legal obligation to help you pass",
+        "It gives you the right to pass even in a no-passing zone",
+        "It requires the driver ahead to stop"
+      ],
+      "answer": 0,
+      "explanation": "The horn signal places the driver of the vehicle you are passing under a legal obligation to help you pass.",
+      "sourceQuote": "The horn signal places the driver of the vehicle you are passing under a legal obligation to help you pass.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "rules-015",
+      "topic": "rules",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 55,
+      "question": "Under what condition have you NOT passed safely?",
+      "choices": [
+        "If you use your turn signal during the pass",
+        "If you pass at least two feet to the left",
+        "If the vehicle you have passed must slow down to allow you back into your correct lane"
+      ],
+      "answer": 2,
+      "explanation": "You have not passed safely if the vehicle you have passed must slow down to allow you back into your correct lane.",
+      "sourceQuote": "You have not passed safely if the vehicle you have passed must slow down to allow you back into your correct lane.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "rules-016",
+      "topic": "rules",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 56,
+      "question": "When backing your vehicle, how should you steer and look?",
+      "choices": [
+        "Steer with your right hand and look over your left shoulder",
+        "Steer with your left hand and look over your right shoulder through the back window",
+        "Steer with both hands and rely on your mirrors",
+        "Steer with your left hand and look through the side window"
+      ],
+      "answer": 1,
+      "explanation": "To maintain a full view of what is behind the vehicle, steer with your left hand and look over your right shoulder through the back window. Do not depend on mirrors alone or looking through the side window.",
+      "sourceQuote": "steer with your left hand and look over your right shoulder through the back window",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "rules-017",
+      "topic": "rules",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 69,
+      "question": "How far in advance must you signal before turning or stopping?",
+      "choices": [
+        "At least the last 100 feet",
+        "At least the last 50 feet",
+        "At least the last 500 feet"
+      ],
+      "answer": 0,
+      "explanation": "Signal at least the last 100 feet before turning or stopping. If the speed limit is 45 mph or more, signal at least the last 200 feet before turning.",
+      "sourceQuote": "Signal at least the last 100 feet before turning or stopping.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "rules-018",
+      "topic": "rules",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 69,
+      "question": "The posted speed limit is 50 mph. How far in advance must you signal before turning?",
+      "choices": [
+        "At least 100 feet",
+        "At least 150 feet",
+        "At least 200 feet",
+        "At least 300 feet"
+      ],
+      "answer": 2,
+      "explanation": "If the speed limit is 45 mph or more, signal at least the last 200 feet before turning. The faster you are driving, the farther ahead you should signal.",
+      "sourceQuote": "If the speed limit is 45 mph or more, signal at least the last 200 feet before turning.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "rules-019",
+      "topic": "rules",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 69,
+      "question": "Which hand signal means you are turning right?",
+      "choices": [
+        "Arm and hand straight out, pointing the first finger",
+        "Arm straight out with the forearm and hand straight up, palm facing forward",
+        "Arm and hand pointing down, palm facing back"
+      ],
+      "answer": 1,
+      "explanation": "Hand signals are given from the driver's window using the left arm and hand. To signal a right turn, hold the arm straight out and the forearm and hand straight up, palm facing forward.",
+      "sourceQuote": "To signal a right turn, hold the arm straight out and the forearm and hand straight up, palm facing forward.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "rules-020",
+      "topic": "rules",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 60,
+      "question": "When you must stop at a railroad grade crossing, where must you stop?",
+      "choices": [
+        "Within 50 feet but not less than 15 feet from the nearest rail",
+        "Within 15 feet but not less than 5 feet from the nearest rail",
+        "At least 100 feet from the nearest rail",
+        "Directly beside the nearest rail"
+      ],
+      "answer": 0,
+      "explanation": "The driver shall stop within 50 feet, but not less than 15 feet from the nearest rail of the railroad and shall not proceed until it can be done safely.",
+      "sourceQuote": "shall stop within 50 feet, but not less than 15 feet from the nearest rail of the railroad",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "rules-021",
+      "topic": "rules",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 61,
+      "question": "When may you stop on railroad tracks?",
+      "choices": [
+        "When traffic ahead is backed up",
+        "When you are waiting for a gate to rise",
+        "Never stop on train tracks for any reason"
+      ],
+      "answer": 2,
+      "explanation": "A railroad crossing sign means you must approach with caution, prepare to stop and never stop on train tracks for any reason.",
+      "sourceQuote": "Never stop on train tracks for any reason",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "rules-022",
+      "topic": "rules",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 61,
+      "question": "You are crossing the tracks when the warning lights begin flashing and the gates start to come down. What should you do?",
+      "choices": [
+        "Stop and back up off the tracks",
+        "Stop before the gate and wait",
+        "Sound your horn and continue slowly",
+        "Do not stop and do not back up; keep moving"
+      ],
+      "answer": 3,
+      "explanation": "If you are crossing the tracks and the warning lights begin flashing or gates start to come down, do not stop, do not backup, keep moving. If you stop and try to back up, your vehicle may stall.",
+      "sourceQuote": "do not stop, do not backup, KEEP MOVING",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "rules-023",
+      "topic": "rules",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 64,
+      "question": "How should you enter an interstate highway?",
+      "choices": [
+        "Use the acceleration lane until your speed matches other traffic, then merge safely",
+        "Stop at the end of the entrance ramp and wait for a gap",
+        "Merge at a slow speed so other drivers can see you"
+      ],
+      "answer": 0,
+      "explanation": "When entering the interstate, use the acceleration lane until your vehicle's speed matches that of the other traffic and then merge safely.",
+      "sourceQuote": "When entering the interstate, use the acceleration lane until your vehicle’s speed matches that of the other traffic and then merge safely;",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "rules-024",
+      "topic": "rules",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 65,
+      "question": "What should you do if you miss your exit on an interstate?",
+      "choices": [
+        "Back up along the shoulder to the exit",
+        "Stop and wait for traffic to clear, then turn around",
+        "Signal other drivers and make a U-turn at the next median opening",
+        "Proceed to the next exit and leave the highway there"
+      ],
+      "answer": 3,
+      "explanation": "If you miss an exit, do not slow down, back up or try to turn around. Proceed to the next exit and leave the highway there instead.",
+      "sourceQuote": "If you miss an exit, do not slow down, back up or try to turn around. Proceed to the next exit and leave the highway there instead.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "rules-025",
+      "topic": "rules",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 57,
+      "question": "When you are moving straight ahead through an intersection, what must you never do?",
+      "choices": [
+        "Signal your intentions",
+        "Change lanes",
+        "Yield to pedestrians"
+      ],
+      "answer": 1,
+      "explanation": "Never change lanes while you are moving straight ahead through an intersection.",
+      "sourceQuote": "Never change lanes while you are moving straight ahead through an intersection.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "rightofway-001",
+      "topic": "rightofway",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 57,
+      "question": "At an intersection without traffic signs or signals, which vehicle has the right of way?",
+      "choices": [
+        "The vehicle already in the intersection",
+        "The vehicle that is traveling faster",
+        "The vehicle that is closer to the intersection"
+      ],
+      "answer": 0,
+      "explanation": "In intersections without traffic signs or signals, the vehicle already in the intersection has the right of way ahead of any vehicle that has not yet entered.",
+      "sourceQuote": "The vehicle already in the intersection has the right of way",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "rightofway-002",
+      "topic": "rightofway",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 57,
+      "question": "Two vehicles reach an intersection without signs or signals at the same time. Which one has the right of way?",
+      "choices": [
+        "The vehicle on the left",
+        "The vehicle on the right",
+        "The vehicle going straight"
+      ],
+      "answer": 1,
+      "explanation": "When two or more vehicles reach an intersection at the same time, the vehicle to the right has the right of way.",
+      "sourceQuote": "the vehicle to the right has the right of way;",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "rightofway-003",
+      "topic": "rightofway",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 57,
+      "question": "Two vehicles face each other at an intersection. One is going straight and the other wants to turn left. Who has the right of way?",
+      "choices": [
+        "The driver traveling straight ahead",
+        "The driver turning left, if they signal first",
+        "Whichever driver enters the intersection first"
+      ],
+      "answer": 0,
+      "explanation": "If one driver is going straight while the other wants to turn left, the driver who wants to turn must wait. The driver who is traveling straight ahead has the right of way.",
+      "sourceQuote": "If one driver is going straight while the other wants to turn left, the driver who wants to turn must wait.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "rightofway-004",
+      "topic": "rightofway",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 46,
+      "question": "At intersections without traffic signals, when do pedestrians have the right of way?",
+      "choices": [
+        "Only when they are wearing light-colored clothing",
+        "Only when a crossing guard is present",
+        "Only in crosswalks marked with white lines",
+        "When they are in marked crosswalks or in unmarked crosswalks formed by imaginary lines extending from the sidewalks"
+      ],
+      "answer": 3,
+      "explanation": "At intersections without traffic signals, pedestrians have the right of way if they are in marked crosswalks or in unmarked crosswalks formed by imaginary lines extending from the sidewalks across the streets.",
+      "sourceQuote": "pedestrians have the right of way if they are in marked crosswalks or in unmarked crosswalks",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "rightofway-005",
+      "topic": "rightofway",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 46,
+      "question": "Pedestrians are crossing with a green signal. Who has the right of way?",
+      "choices": [
+        "Vehicles turning across their path",
+        "The pedestrians, over all vehicles including those turning across their path",
+        "Whichever arrives at the crosswalk first"
+      ],
+      "answer": 1,
+      "explanation": "When crossing with a green signal, pedestrians have the right of way over all vehicles, including those turning across the paths of the pedestrians.",
+      "sourceQuote": "When crossing with a green signal, pedestrians have the right of way over all vehicles,",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "rightofway-006",
+      "topic": "rightofway",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 46,
+      "question": "A pedestrian is still in the street when the traffic signal changes to red. What must drivers do?",
+      "choices": [
+        "Allow the pedestrian to complete the crossing safely",
+        "Sound the horn so the pedestrian hurries",
+        "Proceed because the pedestrian is crossing against the signal"
+      ],
+      "answer": 0,
+      "explanation": "If a traffic signal changes to yellow or red while any pedestrian remains in the street, drivers must allow the pedestrian to complete the crossing safely.",
+      "sourceQuote": "drivers must allow the pedestrian to complete the crossing safely.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "rightofway-007",
+      "topic": "rightofway",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 57,
+      "question": "You approach an intersection with a stop sign. What does the law require?",
+      "choices": [
+        "Slow down and proceed if no traffic is visible",
+        "Stop only if another vehicle is approaching",
+        "Come to a complete stop and yield to traffic on the through-street",
+        "Stop, then proceed without yielding if you arrived first"
+      ],
+      "answer": 2,
+      "explanation": "When you approach an intersection with a stop sign, you must come to a complete stop and yield to the traffic on the through-street. Do not move ahead or turn until you can proceed safely.",
+      "sourceQuote": "When you approach an intersection with a stop sign, you must come to a complete stop and yield to the traffic on the through-street.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "rightofway-008",
+      "topic": "rightofway",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 57,
+      "question": "When you exit a private driveway, to whom must you yield?",
+      "choices": [
+        "Only to vehicles on your side of the road",
+        "Every other vehicle and pedestrian",
+        "No one, if you signal first"
+      ],
+      "answer": 1,
+      "explanation": "When exiting a private driveway, stop and yield to all other vehicles and pedestrians.",
+      "sourceQuote": "When exiting a private driveway, stop and yield to all other vehicles and pedestrians.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "rightofway-009",
+      "topic": "rightofway",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 59,
+      "question": "As you approach a roundabout, to whom must you yield?",
+      "choices": [
+        "Any vehicle or bicyclist already in the roundabout",
+        "Vehicles approaching the roundabout from behind",
+        "Only buses and large trucks"
+      ],
+      "answer": 0,
+      "explanation": "Drivers yield to any vehicles or bicyclists already in the roundabout. Those already in it do not yield to approaching vehicles.",
+      "sourceQuote": "Drivers yield to any vehicles or bicyclists already in the roundabout.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "rightofway-010",
+      "topic": "rightofway",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 59,
+      "question": "In which direction does traffic move in a roundabout?",
+      "choices": [
+        "Clockwise, keeping to the left",
+        "In the direction marked for your lane",
+        "Toward the center of the roundabout",
+        "Counterclockwise around the center island"
+      ],
+      "answer": 3,
+      "explanation": "Everyone using the roundabout moves in a counterclockwise direction.",
+      "sourceQuote": "Everyone using the roundabout moves in a counterclockwise direction",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "rightofway-011",
+      "topic": "rightofway",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 60,
+      "question": "Who has the right of way at a railroad crossing?",
+      "choices": [
+        "The train, always",
+        "The first vehicle to reach the crossing",
+        "Vehicles, if the crossing has no gates or lights"
+      ],
+      "answer": 0,
+      "explanation": "The train always has the right of way. Trains have the right of way over all highway traffic.",
+      "sourceQuote": "The train always has the right of way",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "speed-001",
+      "topic": "speed",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 53,
+      "question": "Unless otherwise posted, what is the speed limit in cities and towns in North Carolina?",
+      "choices": [
+        "25 mph",
+        "35 mph",
+        "45 mph",
+        "55 mph"
+      ],
+      "answer": 1,
+      "explanation": "Unless otherwise posted, the speed limit is 35 mph in cities and towns. Special speed limits may be posted for special areas.",
+      "sourceQuote": "Unless otherwise posted, the speed limit is 35 mph in cities and towns.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "speed-002",
+      "topic": "speed",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 53,
+      "question": "What is the maximum speed limit outside cities and towns?",
+      "choices": [
+        "45 mph",
+        "55 mph",
+        "70 mph"
+      ],
+      "answer": 1,
+      "explanation": "The maximum speed limits are 35 mph in cities and towns, 45 mph for school buses, 55 mph for school activity buses and outside cities and towns, and 70 mph on interstates.",
+      "sourceQuote": "Outside cities and towns 55",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "speed-003",
+      "topic": "speed",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 53,
+      "question": "What is the maximum speed limit on North Carolina interstates?",
+      "choices": [
+        "55 mph",
+        "60 mph",
+        "65 mph",
+        "70 mph"
+      ],
+      "answer": 3,
+      "explanation": "The maximum speed limit for interstates is 70 mph.",
+      "sourceQuote": "For interstates 70",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "speed-004",
+      "topic": "speed",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 53,
+      "question": "Under ideal conditions, approximately how many feet does a vehicle traveling 55 mph need to stop completely?",
+      "choices": [
+        "121 feet",
+        "211 feet",
+        "311 feet",
+        "411 feet"
+      ],
+      "answer": 1,
+      "explanation": "Even with ideal conditions, if you are traveling 55 miles per hour your vehicle requires approximately 211 feet to stop completely.",
+      "sourceQuote": "Even with ideal conditions, if you are traveling 55 miles per hour your vehicle requires approximately 211 feet to stop completely.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "speed-005",
+      "topic": "speed",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 54,
+      "question": "What does the two-second rule mean?",
+      "choices": [
+        "Wait two seconds at a stop sign before proceeding",
+        "Signal at least two seconds before changing lanes",
+        "Allow two seconds between the time the vehicle ahead of you passes a given point and the time your vehicle reaches the same point"
+      ],
+      "answer": 2,
+      "explanation": "The two-second rule says you should allow two seconds between the time the vehicle ahead of you passes a given point and the time your vehicle reaches the same point. Following too closely is a leading cause of traffic crashes.",
+      "sourceQuote": "allow two seconds between the time the vehicle ahead of you passes a given point and the time your vehicle reaches the same point.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "speed-006",
+      "topic": "speed",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 53,
+      "question": "Studies show that which vehicle is much more likely to cause or be involved in a crash?",
+      "choices": [
+        "One moving at a speed considerably below the posted limit",
+        "One moving at a normal speed",
+        "One moving exactly at the posted speed limit"
+      ],
+      "answer": 0,
+      "explanation": "Studies show that the vehicle moving at a speed considerably below the posted limit is much more likely to cause or be involved in a crash than the vehicle moving at a normal speed.",
+      "sourceQuote": "vehicle moving at a speed considerably below the posted limit is much more likely to cause or be involved in a crash",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "speed-007",
+      "topic": "speed",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 56,
+      "question": "When backing your vehicle, how fast should you go?",
+      "choices": [
+        "No more than 5 mph",
+        "No more than 10 mph",
+        "No more than 20 mph"
+      ],
+      "answer": 1,
+      "explanation": "Back very slowly, not more than 10 mph. Your vehicle is harder to control and to stop when it is backing.",
+      "sourceQuote": "Back very slowly, not more than 10 mph",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "speed-008",
+      "topic": "speed",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 58,
+      "question": "At what speeds does the modern roundabout require vehicles to travel?",
+      "choices": [
+        "15 to 20 mph",
+        "25 to 30 mph",
+        "10 to 15 mph",
+        "35 to 40 mph"
+      ],
+      "answer": 0,
+      "explanation": "The modern roundabout is much smaller than older traffic circles and requires vehicles to travel at lower speeds of 15 to 20 mph, making them safer than traffic circles.",
+      "sourceQuote": "requires vehicles to travel at lower speeds (15–20 mph),",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "speed-009",
+      "topic": "speed",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 53,
+      "question": "If traffic is collecting behind you while you are driving, what is it wise to do?",
+      "choices": [
+        "Speed up to keep traffic moving",
+        "Wave the other drivers around you",
+        "Pull over to the side of the road, stop and allow the vehicles to pass",
+        "Drive at exactly the posted speed limit"
+      ],
+      "answer": 2,
+      "explanation": "If traffic is collecting behind you, it is wise to pull over to the side of the road, stop and allow the vehicles to pass.",
+      "sourceQuote": "If traffic is collecting behind you, it is wise to pull over to the side of the road, stop and allow the vehicles to pass.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "speed-010",
+      "topic": "speed",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 53,
+      "question": "Besides the posted limit, what speed must you never drive at?",
+      "choices": [
+        "Your vehicle's maximum rated speed",
+        "A speed that is unreasonable or unwise given the existing conditions",
+        "A speed lower than the flow of traffic"
+      ],
+      "answer": 1,
+      "explanation": "Never drive faster than the posted speed limit or at a speed that is unreasonable or unwise given the existing conditions.",
+      "sourceQuote": "Never drive faster than the posted speed limit or at a speed that is unreasonable or unwise given the existing conditions.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "speed-011",
+      "topic": "speed",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 53,
+      "question": "Why must you be able to see farther ahead when you are moving faster?",
+      "choices": [
+        "So you can read road signs sooner",
+        "So you can save fuel on the highway",
+        "So you can change lanes more often",
+        "To allow enough distance for stopping"
+      ],
+      "answer": 3,
+      "explanation": "The faster you are moving, the farther ahead you must be able to see to allow enough distance for stopping.",
+      "sourceQuote": "The faster you are moving, the farther ahead you must be able to see to allow enough distance for stopping.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "parking-001",
+      "topic": "parking",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 56,
+      "question": "On which side of the road should you always park?",
+      "choices": [
+        "The left side",
+        "The right side, except on one-way streets",
+        "Either side, as long as you are within 25 feet of the curb"
+      ],
+      "answer": 1,
+      "explanation": "Always park on the right side of the road, except on one-way streets.",
+      "sourceQuote": "Always park on the right side of the road, except on one-way streets.",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "parking-002",
+      "topic": "parking",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 56,
+      "question": "Before pulling out from a parallel parking space, what should you do?",
+      "choices": [
+        "Signal a right turn and move slowly",
+        "Sound your horn and wait for other drivers to stop",
+        "Check for approaching traffic and give a left-turn signal"
+      ],
+      "answer": 2,
+      "explanation": "Before pulling out from a parallel parking space, check for approaching traffic and give a left-turn signal, unless you are parked on the left side of a one-way street.",
+      "sourceQuote": "Before pulling out from a parallel parking space, check for approaching traffic and give a left-turn signal,",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "parking-003",
+      "topic": "parking",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 56,
+      "question": "How close to a fire hydrant may you park?",
+      "choices": [
+        "No closer than 15 feet",
+        "No closer than 5 feet",
+        "No closer than 25 feet",
+        "No closer than 50 feet"
+      ],
+      "answer": 0,
+      "explanation": "You should not park within 15 feet of a fire hydrant or the entrance to a fire station.",
+      "sourceQuote": "Within 15 feet of a fire hydrant or entrance to a fire station;",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "parking-004",
+      "topic": "parking",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 56,
+      "question": "How close to the curb line of an intersecting street may you park?",
+      "choices": [
+        "No closer than 15 feet",
+        "No closer than 25 feet",
+        "No closer than 50 feet"
+      ],
+      "answer": 1,
+      "explanation": "Do not park within 25 feet of the curb line of an intersecting street, or within 15 feet of the intersecting right of way lines if there is no curb.",
+      "sourceQuote": "Within 25 feet of the curb line of an intersecting street or within 15 feet of the intersecting right of way lines if there is no curb;",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "parking-005",
+      "topic": "parking",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 56,
+      "question": "Which of these is not a legal place to park?",
+      "choices": [
+        "In a designated parking space",
+        "On the right side of a one-way street",
+        "On a crosswalk, sidewalk or bridge",
+        "In a space marked for handicap use, with a placard"
+      ],
+      "answer": 2,
+      "explanation": "You should not park on a crosswalk, sidewalk or bridge.",
+      "sourceQuote": "On a crosswalk, sidewalk or bridge;",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "parking-006",
+      "topic": "parking",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 56,
+      "question": "In front of which of the following must you not park?",
+      "choices": [
+        "A driveway",
+        "A commercial parking lot",
+        "A marked parking space on the right side of a two-way street"
+      ],
+      "answer": 0,
+      "explanation": "You should not park at an intersection or in front of a driveway.",
+      "sourceQuote": "At an intersection or in front of a driveway;",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "parking-007",
+      "topic": "parking",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 56,
+      "question": "Parking on the paved or primary-travel portion of a highway is illegal. When is parking on the shoulder also against the law?",
+      "choices": [
+        "Whenever the speed limit is above 45 mph",
+        "Unless the parked vehicle can be seen by approaching drivers from both directions for at least 200 feet",
+        "Whenever the road has no shoulder",
+        "Whenever the vehicle is left unattended"
+      ],
+      "answer": 1,
+      "explanation": "Parking on the shoulder is against the law unless the parked vehicle can be seen by approaching drivers from both directions for a distance of at least 200 feet.",
+      "sourceQuote": "unless the parked vehicle can be seen by approaching drivers from both directions for a distance of at least 200 feet;",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "parking-008",
+      "topic": "parking",
+      "chapter": "Chapter 4 — Your Driving",
+      "page": 56,
+      "question": "When may you park in a space designated for handicap or disabled use?",
+      "choices": [
+        "When you are only stopping for a few minutes",
+        "When no other spaces are available",
+        "When a passenger remains in the vehicle",
+        "Only when your vehicle displays a handicap license plate or a disability parking placard"
+      ],
+      "answer": 3,
+      "explanation": "Do not park in spaces designated for handicap/disabled use unless your vehicle is displaying a handicap license plate or a disability parking placard.",
+      "sourceQuote": "unless your vehicle is displaying a handicap license plate or a disability parking placard.",
+      "image": null,
+      "imageAlt": null
+    }
+  ]
+}
