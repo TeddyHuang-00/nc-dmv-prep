@@ -8,10 +8,12 @@ import { Button, buttonVariants } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
 import { EXAM_SIZE, examPassMark } from "@/lib/config";
+import { loadRound, saveRound, type ExamRound } from "@/lib/round";
 import type { Question } from "@/lib/srs";
 import { loadStats, record, saveStats } from "@/lib/stats";
 
 const ALL = questions.questions as Question[];
+const BY_ID = new Map(ALL.map((q) => [q.id, q]));
 const LETTERS = "ABCD";
 
 function sampleUniform(items: Question[], count: number): Question[] {
@@ -30,13 +32,40 @@ export default function ExamPage() {
   const [submitted, setSubmitted] = useState(false);
 
   const start = () => {
-    setQueue(sampleUniform(ALL, Math.min(EXAM_SIZE, ALL.length)));
+    const ids = sampleUniform(ALL, Math.min(EXAM_SIZE, ALL.length)).map((x) => x.id);
+    saveRound("exam", { ids, i: 0, answers: {}, submitted: false, updatedAt: Date.now() });
+    setQueue(ids.map((id) => BY_ID.get(id)!));
     setI(0);
     setAnswers([]);
     setSubmitted(false);
   };
 
-  useEffect(start, []);
+  // Resume an in-flight exam after a remount (nav, back, reload) — including the result view.
+  useEffect(() => {
+    const saved = loadRound<ExamRound>("exam");
+    const ids = saved?.ids.filter((id) => BY_ID.has(id)) ?? [];
+    if (ids.length === 0) {
+      start();
+      return;
+    }
+    const restored: number[] = [];
+    for (const [idx, choice] of Object.entries(saved?.answers ?? {})) restored[Number(idx)] = choice;
+    // Rehydrate only: submitting already recorded stats, and a reload must not re-record them.
+    setQueue(ids.map((id) => BY_ID.get(id)!));
+    setI(Math.min(Math.max(0, saved?.i ?? 0), ids.length - 1));
+    setAnswers(restored);
+    setSubmitted(Boolean(saved?.submitted));
+  }, []);
+
+  // Mirror every exam change to sessionStorage so a remount lands on the same state.
+  useEffect(() => {
+    if (!queue) return;
+    const sparse: Record<number, number> = {};
+    answers.forEach((choice, idx) => {
+      if (choice !== undefined) sparse[idx] = choice;
+    });
+    saveRound("exam", { ids: queue.map((x) => x.id), i, answers: sparse, submitted, updatedAt: Date.now() });
+  }, [queue, i, answers, submitted]);
 
   const q = queue?.[i];
   const score = queue && submitted ? queue.filter((item, idx) => answers[idx] === item.answer).length : 0;

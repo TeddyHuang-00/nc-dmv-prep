@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "eslint",
     "bank:build": "node scripts/build-bank.mjs",
-    "test": "node --test src/lib/srs.test.ts"
+    "test": "node --test src/lib/srs.test.ts src/lib/round.test.ts"
   },
   "dependencies": {
     "@base-ui/react": "^1.8.0",

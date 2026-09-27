@@ -10,10 +10,12 @@ import { Button, buttonVariants } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
 import { PRACTICE_ROUND } from "@/lib/config";
+import { loadRound, saveRound, type PracticeRound } from "@/lib/round";
 import { sampleWeighted, type Question } from "@/lib/srs";
 import { loadStats, record, saveStats } from "@/lib/stats";
 
 const ALL = questions.questions as Question[];
+const BY_ID = new Map(ALL.map((q) => [q.id, q]));
 const CHAPTERS = handbook as { slug: string; title: string }[];
 const LETTERS = "ABCD";
 
@@ -32,7 +34,9 @@ export default function PracticePage() {
   const [done, setDone] = useState(false);
 
   const start = () => {
-    setQueue(sampleWeighted(ALL, loadStats(), Math.min(PRACTICE_ROUND, ALL.length), Date.now()));
+    const ids = sampleWeighted(ALL, loadStats(), Math.min(PRACTICE_ROUND, ALL.length), Date.now()).map((x) => x.id);
+    saveRound("practice", { ids, i: 0, picked: null, wrongIds: [], score: 0, done: false, updatedAt: Date.now() });
+    setQueue(ids.map((id) => BY_ID.get(id)!));
     setI(0);
     setPicked(null);
     setWrong([]);
@@ -40,7 +44,36 @@ export default function PracticePage() {
     setDone(false);
   };
 
-  useEffect(start, []);
+  // Resume an in-flight round after a remount (handbook link, back, reload); otherwise start one.
+  useEffect(() => {
+    const saved = loadRound<PracticeRound>("practice");
+    const ids = saved?.ids.filter((id) => BY_ID.has(id)) ?? [];
+    if (ids.length === 0) {
+      start();
+      return;
+    }
+    // Rehydrate only: stats were already recorded when each answer was clicked.
+    setQueue(ids.map((id) => BY_ID.get(id)!));
+    setI(Math.min(Math.max(0, saved?.i ?? 0), ids.length - 1));
+    setPicked(saved?.picked ?? null);
+    setWrong(saved?.wrongIds.flatMap(([id, picked]) => (BY_ID.has(id) ? [{ q: BY_ID.get(id)!, picked }] : [])) ?? []);
+    setScore(saved?.score ?? 0);
+    setDone(Boolean(saved?.done));
+  }, []);
+
+  // Mirror every round change to sessionStorage so a remount lands on the same state.
+  useEffect(() => {
+    if (!queue) return;
+    saveRound("practice", {
+      ids: queue.map((x) => x.id),
+      i,
+      picked,
+      wrongIds: wrong.map(({ q, picked }) => [q.id, picked] as [string, number]),
+      score,
+      done,
+      updatedAt: Date.now(),
+    });
+  }, [queue, i, picked, wrong, score, done]);
 
   const q = queue?.[i];
 

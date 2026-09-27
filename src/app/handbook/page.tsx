@@ -1,5 +1,6 @@
 import Link from "next/link";
 import handbook from "@/data/handbook.json";
+import { ResumeRoundLink } from "@/components/resume-round-link";
 
 const CHAPTERS = handbook as { slug: string; title: string }[];
 
@@ -12,6 +13,7 @@ export default function HandbookIndexPage() {
         </Link>
         <h1 className="text-2xl font-semibold">Handbook</h1>
       </div>
+      <ResumeRoundLink />
       {CHAPTERS.length === 0 ? (
         <p className="text-sm text-muted-foreground">Handbook text not installed yet.</p>
       ) : (

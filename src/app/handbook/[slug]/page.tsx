@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import handbook from "@/data/handbook.json";
+import { ResumeRoundLink } from "@/components/resume-round-link";
 
 type Chapter = { slug: string; title: string; html: string };
 const CHAPTERS = handbook as Chapter[];
@@ -18,6 +19,7 @@ export default async function ChapterPage({ params }: { params: Promise<{ slug: 
         </Link>
         <h1 className="text-2xl font-semibold">{chapter.title}</h1>
       </div>
+      <ResumeRoundLink />
       {/* HTML is generated at build time by scripts/build-handbook.mjs from local research markdown. */}
       <article
         className="space-y-3 text-sm leading-relaxed [&_a]:scroll-mt-16 [&_h2]:pt-2 [&_h2]:text-lg [&_h2]:font-semibold [&_h3]:font-medium [&_li]:ml-5 [&_li]:list-disc [&_ol>li]:list-decimal [&_p]:text-pretty [&_td]:border [&_td]:p-1 [&_th]:border [&_th]:p-1"

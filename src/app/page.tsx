@@ -6,6 +6,8 @@ import questions from "@/data/questions.json";
 import { Badge } from "@/components/ui/badge";
 import { buttonVariants } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { ResumeRoundLink } from "@/components/resume-round-link";
+import { clearRound } from "@/lib/round";
 import { STATS_KEY, loadStats } from "@/lib/stats";
 import type { Question, Stat } from "@/lib/srs";
 
@@ -41,6 +43,8 @@ export default function DashboardPage() {
   const reset = () => {
     if (!window.confirm("Reset all practice progress?")) return;
     localStorage.removeItem(STATS_KEY);
+    clearRound("practice");
+    clearRound("exam");
     setStats({});
   };
 
@@ -96,12 +100,13 @@ export default function DashboardPage() {
       </Card>
 
       <div className="flex flex-wrap gap-3">
-        <Link href="/practice" className={buttonVariants()}>
+        <Link href="/practice" onClick={() => clearRound("practice")} className={buttonVariants()}>
           Start Practice
         </Link>
-        <Link href="/exam" className={buttonVariants({ variant: "secondary" })}>
+        <Link href="/exam" onClick={() => clearRound("exam")} className={buttonVariants({ variant: "secondary" })}>
           Start Exam
         </Link>
+        <ResumeRoundLink />
         <Link href="/handbook" className={buttonVariants({ variant: "outline" })}>
           Handbook
         </Link>
