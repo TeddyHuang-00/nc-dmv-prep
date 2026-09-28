@@ -3,15 +3,19 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import questions from "@/data/questions.json";
-import { Badge } from "@/components/ui/badge";
 import { buttonVariants } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { ResumeRoundLink } from "@/components/resume-round-link";
+import { masteryDisplay, summarize, topicMastery } from "@/lib/mastery";
 import { clearRound } from "@/lib/round";
 import { STATS_KEY, loadStats } from "@/lib/stats";
 import type { Question, Stat } from "@/lib/srs";
 
 const ALL = questions.questions as Question[];
+
+const BAND_BAR = { green: "bg-green-600", amber: "bg-amber-500", red: "bg-red-600" } as const;
+const BAND_TEXT = { green: "text-green-600", amber: "text-amber-500", red: "text-red-600" } as const;
+const pct = (x: number) => `${(x * 100).toFixed(1)}%`;
 
 export default function DashboardPage() {
   const [stats, setStats] = useState<Record<string, Stat> | null>(null);
@@ -19,26 +23,9 @@ export default function DashboardPage() {
   useEffect(() => setStats(loadStats()), []);
 
   const s = stats ?? {};
-  const attempted = ALL.filter((q) => (s[q.id]?.attempts ?? 0) > 0).length;
-  const attempts = ALL.reduce((n, q) => n + (s[q.id]?.attempts ?? 0), 0);
-  const errors = ALL.reduce((n, q) => n + (s[q.id]?.errors ?? 0), 0);
-  // ponytail: errors decays by 0.5 per correct answer, so this is an estimate, not a raw score.
-  const accuracy = attempts > 0 ? Math.max(0, (attempts - errors) / attempts) : null;
-
-  const topics = new Map<string, { attempts: number; errors: number }>();
-  for (const q of ALL) {
-    const st = s[q.id];
-    if (!st?.attempts) continue;
-    const t = topics.get(q.topic) ?? { attempts: 0, errors: 0 };
-    t.attempts += st.attempts;
-    t.errors += st.errors;
-    topics.set(q.topic, t);
-  }
-  const weak = [...topics.entries()]
-    .filter(([, t]) => t.attempts >= 5)
-    .map(([topic, t]) => ({ topic, accuracy: Math.max(0, (t.attempts - t.errors) / t.attempts) }))
-    .sort((a, b) => a.accuracy - b.accuracy)
-    .slice(0, 3);
+  const overall = summarize(ALL, s, Date.now());
+  const topics = topicMastery(ALL, s, Date.now());
+  const overallDisplay = masteryDisplay(overall.mastery);
 
   const reset = () => {
     if (!window.confirm("Reset all practice progress?")) return;
@@ -57,45 +44,51 @@ export default function DashboardPage() {
         </p>
       </div>
 
-      <div className="grid grid-cols-2 gap-4">
-        <Card>
-          <CardHeader>
-            <CardDescription>Coverage</CardDescription>
-            <CardTitle className="text-2xl tabular-nums">
-              {attempted} / {ALL.length}
-            </CardTitle>
-          </CardHeader>
-        </Card>
-        <Card>
-          <CardHeader>
-            <CardDescription>Overall accuracy</CardDescription>
-            <CardTitle className="text-2xl tabular-nums">
-              {accuracy === null ? "—" : `${Math.round(accuracy * 100)}%`}
-            </CardTitle>
-          </CardHeader>
-        </Card>
-      </div>
+      <Card>
+        <CardHeader>
+          <CardTitle>Overall</CardTitle>
+          <CardDescription>Coverage × posterior accuracy</CardDescription>
+        </CardHeader>
+        <CardContent className="space-y-3">
+          <p className={`text-3xl font-semibold tabular-nums ${BAND_TEXT[overallDisplay.band]}`}>
+            {overallDisplay.percent}%
+          </p>
+          <div className="h-2 w-full overflow-hidden rounded-full bg-muted">
+            <div className={`h-full ${BAND_BAR[overallDisplay.band]}`} style={{ width: pct(overall.mastery) }} />
+          </div>
+          <p className="text-sm text-muted-foreground">
+            Coverage {overall.attempted}/{overall.total} · Accuracy{" "}
+            {overall.accuracy === null ? "—" : `${Math.round(overall.accuracy * 100)}%`} · Unseen {overall.unseen} · Due
+            for review {overall.dueForReview}
+          </p>
+        </CardContent>
+      </Card>
 
       <Card>
         <CardHeader>
-          <CardTitle>Weak topics</CardTitle>
-          <CardDescription>Lowest accuracy, minimum 5 attempts</CardDescription>
+          <CardTitle>Topic mastery</CardTitle>
+          <CardDescription>Weakest first</CardDescription>
         </CardHeader>
-        <CardContent>
-          {weak.length === 0 ? (
-            <p className="text-sm text-muted-foreground">
-              Not enough data yet — answer a few questions on a topic.
-            </p>
-          ) : (
-            <ul className="space-y-2">
-              {weak.map((w) => (
-                <li key={w.topic} className="flex items-center justify-between">
-                  <Badge variant="secondary">{w.topic}</Badge>
-                  <span className="text-sm tabular-nums">{Math.round(w.accuracy * 100)}%</span>
-                </li>
-              ))}
-            </ul>
-          )}
+        <CardContent className="space-y-3">
+          {topics.map((t) => {
+            const d = masteryDisplay(t.mastery);
+            return (
+              <div key={t.topic} className="space-y-1">
+                <div className="flex items-center justify-between text-sm">
+                  <span>{t.label}</span>
+                  <span className="tabular-nums">{d.percent}%</span>
+                </div>
+                <div className="h-2 w-full overflow-hidden rounded-full bg-muted">
+                  <div className={`h-full ${BAND_BAR[d.band]}`} style={{ width: pct(t.mastery) }} />
+                </div>
+                <p className="text-xs text-muted-foreground">
+                  {t.accuracy === null
+                    ? "not started"
+                    : `coverage ${t.attempted}/${t.total} · accuracy ${Math.round(t.accuracy * 100)}%`}
+                </p>
+              </div>
+            );
+          })}
         </CardContent>
       </Card>
 

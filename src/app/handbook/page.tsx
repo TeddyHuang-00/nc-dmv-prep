@@ -13,7 +13,7 @@ export default function HandbookIndexPage() {
         </Link>
         <h1 className="text-2xl font-semibold">Handbook</h1>
       </div>
-      <ResumeRoundLink />
+      <ResumeRoundLink floating />
       {CHAPTERS.length === 0 ? (
         <p className="text-sm text-muted-foreground">Handbook text not installed yet.</p>
       ) : (

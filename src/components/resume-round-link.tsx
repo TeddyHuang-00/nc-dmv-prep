@@ -8,7 +8,7 @@ import { loadRound, type ExamRound, type PracticeRound } from "@/lib/round";
 type Candidate = { href: string; label: string; updatedAt: number };
 
 /** Renders nothing until mounted (no SSR/hydration mismatch) and nothing when no round is in flight. */
-export function ResumeRoundLink() {
+export function ResumeRoundLink({ floating = false }: { floating?: boolean }) {
   const [candidate, setCandidate] = useState<Candidate | null>(null);
 
   useEffect(() => {
@@ -33,7 +33,15 @@ export function ResumeRoundLink() {
 
   if (!candidate) return null;
   return (
-    <Link href={candidate.href} className={buttonVariants({ variant: "outline" })}>
+    <Link
+      href={candidate.href}
+      // mb-0: handbook mains use space-y-6, which would otherwise add a 24px bottom margin to the fixed link
+      className={
+        floating
+          ? `${buttonVariants()} mb-0 fixed bottom-5 right-5 z-50 shadow-lg`
+          : buttonVariants({ variant: "outline" })
+      }
+    >
       {candidate.label}
     </Link>
   );

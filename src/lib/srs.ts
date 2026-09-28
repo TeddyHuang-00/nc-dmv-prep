@@ -20,13 +20,16 @@ export type Question = {
 
 const HOUR_MS = 3.6e6;
 
-/** Higher weight = more likely to be sampled. Unseen questions sit at the base weight 6. */
+/** Beta(1,1) posterior mean of the error probability. Unseen questions share the same prior, so they sit at 0.5. */
+export function posteriorError(attempts: number, errors: number): number {
+  return (1 + errors) / (2 + attempts);
+}
+
+/** Higher weight = more likely to be sampled. Unseen questions sit at the base weight 6 (12 × 0.5). */
 export function weight(question: Question, stats: Record<string, Stat>, now: number): number {
   const stat = stats[question.id];
-  if (!stat || stat.attempts === 0) return 6;
-  const hours = (now - stat.lastSeen) / HOUR_MS;
-  const overdue = Math.max(0, hours - stat.intervalHours);
-  return (1 + Math.min(overdue, 12)) ** 1.3 * (1 + 2.5 * stat.errors);
+  const overdue = stat ? Math.max(0, (now - stat.lastSeen) / HOUR_MS - stat.intervalHours) : 0;
+  return (1 + Math.min(overdue, 12)) ** 1.3 * (12 * posteriorError(stat?.attempts ?? 0, stat?.errors ?? 0));
 }
 
 export function update(stat: Stat | undefined, correct: boolean, now: number): Stat {
