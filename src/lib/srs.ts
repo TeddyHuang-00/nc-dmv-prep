@@ -20,16 +20,23 @@ export type Question = {
 
 const HOUR_MS = 3.6e6;
 
-/** Beta(1,1) posterior mean of the error probability. Unseen questions share the same prior, so they sit at 0.5. */
+/** Beta(1,1) posterior mean of the error probability. */
 export function posteriorError(attempts: number, errors: number): number {
   return (1 + errors) / (2 + attempts);
 }
 
-/** Higher weight = more likely to be sampled. Unseen questions sit at the base weight 6 (12 × 0.5). */
+/** Higher weight = more likely to be sampled. A one-night learner gets broad first exposure, then focuses on misses. */
 export function weight(question: Question, stats: Record<string, Stat>, now: number): number {
   const stat = stats[question.id];
-  const overdue = stat ? Math.max(0, (now - stat.lastSeen) / HOUR_MS - stat.intervalHours) : 0;
-  return (1 + Math.min(overdue, 12)) ** 1.3 * (12 * posteriorError(stat?.attempts ?? 0, stat?.errors ?? 0));
+  if (!stat || stat.attempts === 0) return 24;
+
+  // Once a question has only been answered correctly, keep it in the pool as a
+  // low-probability refresher. Missed questions take priority, especially when
+  // their short review interval has elapsed.
+  if (stat.errors <= 0) return 0.5 / stat.attempts;
+
+  const overdue = Math.max(0, (now - stat.lastSeen) / HOUR_MS - stat.intervalHours);
+  return (1 + Math.min(overdue, 12)) ** 1.3 * (12 * posteriorError(stat.attempts, stat.errors));
 }
 
 export function update(stat: Stat | undefined, correct: boolean, now: number): Stat {

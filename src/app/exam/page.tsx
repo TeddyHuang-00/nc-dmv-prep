@@ -7,7 +7,8 @@ import { Badge } from "@/components/ui/badge";
 import { Button, buttonVariants } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
-import { EXAM_SIZE, examPassMark } from "@/lib/config";
+import { BASE_PATH, EXAM_SIZE, examPassMark } from "@/lib/config";
+import { shuffleChoiceOrder, withChoiceOrder } from "@/lib/choices";
 import { loadRound, saveRound, type ExamRound } from "@/lib/round";
 import type { Question } from "@/lib/srs";
 import { loadStats, record, saveStats } from "@/lib/stats";
@@ -27,14 +28,18 @@ function sampleUniform(items: Question[], count: number): Question[] {
 
 export default function ExamPage() {
   const [queue, setQueue] = useState<Question[]>();
+  const [choiceOrders, setChoiceOrders] = useState<number[][]>([]);
   const [i, setI] = useState(0);
   const [answers, setAnswers] = useState<number[]>([]);
   const [submitted, setSubmitted] = useState(false);
 
   const start = () => {
-    const ids = sampleUniform(ALL, Math.min(EXAM_SIZE, ALL.length)).map((x) => x.id);
-    saveRound("exam", { ids, i: 0, answers: {}, submitted: false, updatedAt: Date.now() });
-    setQueue(ids.map((id) => BY_ID.get(id)!));
+    const sampled = sampleUniform(ALL, Math.min(EXAM_SIZE, ALL.length));
+    const ids = sampled.map((x) => x.id);
+    const orders = sampled.map((question) => shuffleChoiceOrder(question.choices.length));
+    saveRound("exam", { ids, choiceOrders: orders, i: 0, answers: {}, submitted: false, updatedAt: Date.now() });
+    setChoiceOrders(orders);
+    setQueue(sampled.map((question, idx) => withChoiceOrder(question, orders[idx])));
     setI(0);
     setAnswers([]);
     setSubmitted(false);
@@ -51,7 +56,16 @@ export default function ExamPage() {
     const restored: number[] = [];
     for (const [idx, choice] of Object.entries(saved?.answers ?? {})) restored[Number(idx)] = choice;
     // Rehydrate only: submitting already recorded stats, and a reload must not re-record them.
-    setQueue(ids.map((id) => BY_ID.get(id)!));
+    const orders = ids.map((id, idx) => {
+      const question = BY_ID.get(id)!;
+      const savedOrder = saved?.choiceOrders?.[idx];
+      return savedOrder && savedOrder.length === question.choices.length && new Set(savedOrder).size === question.choices.length &&
+        savedOrder.every((choice) => choice >= 0 && choice < question.choices.length)
+        ? savedOrder
+        : question.choices.map((_, choice) => choice);
+    });
+    setChoiceOrders(orders);
+    setQueue(ids.map((id, idx) => withChoiceOrder(BY_ID.get(id)!, orders[idx])));
     setI(Math.min(Math.max(0, saved?.i ?? 0), ids.length - 1));
     setAnswers(restored);
     setSubmitted(Boolean(saved?.submitted));
@@ -64,8 +78,8 @@ export default function ExamPage() {
     answers.forEach((choice, idx) => {
       if (choice !== undefined) sparse[idx] = choice;
     });
-    saveRound("exam", { ids: queue.map((x) => x.id), i, answers: sparse, submitted, updatedAt: Date.now() });
-  }, [queue, i, answers, submitted]);
+    saveRound("exam", { ids: queue.map((x) => x.id), choiceOrders, i, answers: sparse, submitted, updatedAt: Date.now() });
+  }, [queue, choiceOrders, i, answers, submitted]);
 
   const q = queue?.[i];
   const score = queue && submitted ? queue.filter((item, idx) => answers[idx] === item.answer).length : 0;
@@ -168,7 +182,7 @@ export default function ExamPage() {
       <Card>
         <CardContent className="space-y-4 pt-6">
           <p className="text-lg font-medium">{q.question}</p>
-          {q.image && <img src={q.image} alt={q.imageAlt ?? ""} className="max-h-48" />}
+          {q.image && <img src={`${BASE_PATH}${q.image}`} alt={q.imageAlt ?? ""} className="max-h-48" />}
           <div className="space-y-2">
             {(q.choices ?? []).map((choice, idx) => (
               <Button

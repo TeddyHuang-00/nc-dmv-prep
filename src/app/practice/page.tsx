@@ -9,7 +9,8 @@ import { Badge } from "@/components/ui/badge";
 import { Button, buttonVariants } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
-import { PRACTICE_ROUND } from "@/lib/config";
+import { BASE_PATH, PRACTICE_ROUND } from "@/lib/config";
+import { shuffleChoiceOrder, withChoiceOrder } from "@/lib/choices";
 import { loadRound, saveRound, type PracticeRound } from "@/lib/round";
 import { sampleWeighted, type Question } from "@/lib/srs";
 import { loadStats, record, saveStats } from "@/lib/stats";
@@ -27,6 +28,7 @@ function handbookHref(q: Question): string | null {
 
 export default function PracticePage() {
   const [queue, setQueue] = useState<Question[]>();
+  const [choiceOrders, setChoiceOrders] = useState<number[][]>([]);
   const [i, setI] = useState(0);
   const [picked, setPicked] = useState<number | null>(null);
   const [wrong, setWrong] = useState<{ q: Question; picked: number }[]>([]);
@@ -34,9 +36,12 @@ export default function PracticePage() {
   const [done, setDone] = useState(false);
 
   const start = () => {
-    const ids = sampleWeighted(ALL, loadStats(), Math.min(PRACTICE_ROUND, ALL.length), Date.now()).map((x) => x.id);
-    saveRound("practice", { ids, i: 0, picked: null, wrongIds: [], score: 0, done: false, updatedAt: Date.now() });
-    setQueue(ids.map((id) => BY_ID.get(id)!));
+    const sampled = sampleWeighted(ALL, loadStats(), Math.min(PRACTICE_ROUND, ALL.length), Date.now());
+    const ids = sampled.map((x) => x.id);
+    const orders = sampled.map((question) => shuffleChoiceOrder(question.choices.length));
+    saveRound("practice", { ids, choiceOrders: orders, i: 0, picked: null, wrongIds: [], score: 0, done: false, updatedAt: Date.now() });
+    setChoiceOrders(orders);
+    setQueue(sampled.map((question, idx) => withChoiceOrder(question, orders[idx])));
     setI(0);
     setPicked(null);
     setWrong([]);
@@ -53,10 +58,23 @@ export default function PracticePage() {
       return;
     }
     // Rehydrate only: stats were already recorded when each answer was clicked.
-    setQueue(ids.map((id) => BY_ID.get(id)!));
+    const orders = ids.map((id, idx) => {
+      const question = BY_ID.get(id)!;
+      const savedOrder = saved?.choiceOrders?.[idx];
+      return savedOrder && savedOrder.length === question.choices.length && new Set(savedOrder).size === question.choices.length &&
+        savedOrder.every((choice) => choice >= 0 && choice < question.choices.length)
+        ? savedOrder
+        : question.choices.map((_, choice) => choice);
+    });
+    setChoiceOrders(orders);
+    setQueue(ids.map((id, idx) => withChoiceOrder(BY_ID.get(id)!, orders[idx])));
     setI(Math.min(Math.max(0, saved?.i ?? 0), ids.length - 1));
     setPicked(saved?.picked ?? null);
-    setWrong(saved?.wrongIds.flatMap(([id, picked]) => (BY_ID.has(id) ? [{ q: BY_ID.get(id)!, picked }] : [])) ?? []);
+    setWrong(saved?.wrongIds.flatMap(([id, picked]) => {
+      const position = ids.indexOf(id);
+      const question = BY_ID.get(id);
+      return question && position >= 0 ? [{ q: withChoiceOrder(question, orders[position]), picked }] : [];
+    }) ?? []);
     setScore(saved?.score ?? 0);
     setDone(Boolean(saved?.done));
   }, []);
@@ -66,6 +84,7 @@ export default function PracticePage() {
     if (!queue) return;
     saveRound("practice", {
       ids: queue.map((x) => x.id),
+      choiceOrders,
       i,
       picked,
       wrongIds: wrong.map(({ q, picked }) => [q.id, picked] as [string, number]),
@@ -73,7 +92,7 @@ export default function PracticePage() {
       done,
       updatedAt: Date.now(),
     });
-  }, [queue, i, picked, wrong, score, done]);
+  }, [queue, choiceOrders, i, picked, wrong, score, done]);
 
   const q = queue?.[i];
 
@@ -194,7 +213,7 @@ export default function PracticePage() {
       <Card>
         <CardContent className="space-y-4 pt-6">
           <p className="text-lg font-medium">{q.question}</p>
-          {q.image && <img src={q.image} alt={q.imageAlt ?? ""} className="max-h-48" />}
+          {q.image && <img src={`${BASE_PATH}${q.image}`} alt={q.imageAlt ?? ""} className="max-h-48" />}
           <div className="space-y-2">
             {(q.choices ?? []).map((choice, idx) => {
               let variant: "outline" | "default" | "destructive" = "outline";

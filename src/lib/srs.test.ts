@@ -17,10 +17,10 @@ const q = (id: string): Question => ({
   imageAlt: null,
 });
 
-test("unseen question weighs base 6", () => {
-  assert.equal(weight(q("a"), {}, NOW), 6); // 12 × prior 0.5
+test("unseen question weighs base 24", () => {
+  assert.equal(weight(q("a"), {}, NOW), 24);
   const fresh: Stat = { attempts: 0, errors: 0, lastSeen: NOW, intervalHours: 1 };
-  assert.equal(weight(q("a"), { a: fresh }, NOW), 6);
+  assert.equal(weight(q("a"), { a: fresh }, NOW), 24);
 });
 
 test("posteriorError is the Beta(1,1) posterior mean of the error probability", () => {
@@ -52,12 +52,12 @@ test("a never-seen question weighs more than a 5-correct one", () => {
 });
 
 test("overdue hours increase weight, capped at 12 hours overdue", () => {
-  const oneFirstTry: Stat = { attempts: 1, errors: 0, lastSeen: NOW - 3 * 3.6e6, intervalHours: 1 };
-  assert.equal(weight(q("a"), { a: oneFirstTry }, NOW), 3 ** 1.3 * (12 * (1 / 3))); // overdue = 2h
-  const veryOverdue: Stat = { ...oneFirstTry, lastSeen: NOW - 100 * 3.6e6 };
-  const cap: Stat = { ...oneFirstTry, lastSeen: NOW - 13 * 3.6e6 };
+  const oneMiss: Stat = { attempts: 1, errors: 1, lastSeen: NOW - 3 * 3.6e6, intervalHours: 1 };
+  assert.equal(weight(q("a"), { a: oneMiss }, NOW), 3 ** 1.3 * (12 * (2 / 3))); // overdue = 2h
+  const veryOverdue: Stat = { ...oneMiss, lastSeen: NOW - 100 * 3.6e6 };
+  const cap: Stat = { ...oneMiss, lastSeen: NOW - 13 * 3.6e6 };
   assert.equal(weight(q("a"), { a: veryOverdue }, NOW), weight(q("a"), { a: cap }, NOW)); // clamped to 12h
-  assert.ok(weight(q("a"), { a: oneFirstTry }, NOW) > weight(q("a"), { a: { ...oneFirstTry, lastSeen: NOW } }, NOW));
+  assert.ok(weight(q("a"), { a: oneMiss }, NOW) > weight(q("a"), { a: { ...oneMiss, lastSeen: NOW } }, NOW));
 });
 
 test("wrong answer resets interval to 0.2 and increments errors", () => {
@@ -84,4 +84,21 @@ test("sampleWeighted returns count distinct questions, never more than exist", (
   assert.equal(out.length, 20);
   assert.equal(new Set(out.map((x) => x.id)).size, 20);
   assert.equal(sampleWeighted(qs.slice(0, 5), {}, 20, NOW).length, 5);
+});
+
+test("a question only ever answered correctly weighs exactly 0.5 / attempts", () => {
+  // The refresher branch, pinned by value: deleting the branch (or `errors <= 0` -> `< 0`) falls
+  // through to the overdue formula, and both 0.5 × attempts and a 0.4 numerator move these numbers.
+  const refresher = (attempts: number): Stat => ({ attempts, errors: 0, lastSeen: NOW, intervalHours: 1 });
+  assert.equal(weight(q("a"), { a: refresher(5) }, NOW), 0.5 / 5);
+  assert.equal(weight(q("a"), { a: refresher(2) }, NOW), 0.5 / 2);
+});
+
+test("overdue clamps at exactly 12 hours: the capped weight is 13^1.3 × 12 × posterior", () => {
+  // 13h since last seen with a 1h interval is 12h overdue, at the cap; 100h overdue clamps to the
+  // same value, so both must equal (1 + 12)^1.3 × (12 × 2/3), not e.g. (1 + 6)^1.3 × (12 × 2/3).
+  const oneMiss: Stat = { attempts: 1, errors: 1, lastSeen: NOW - 13 * 3.6e6, intervalHours: 1 };
+  assert.equal(weight(q("a"), { a: oneMiss }, NOW), 13 ** 1.3 * (12 * (2 / 3)));
+  const farPast: Stat = { ...oneMiss, lastSeen: NOW - 100 * 3.6e6 };
+  assert.equal(weight(q("a"), { a: farPast }, NOW), 13 ** 1.3 * (12 * (2 / 3)));
 });

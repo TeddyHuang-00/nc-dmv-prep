@@ -10,6 +10,7 @@ export type RoundKind = keyof typeof ROUND_KEYS;
 
 export type PracticeRound = {
   ids: string[];
+  choiceOrders?: number[][];
   i: number;
   picked: number | null;
   wrongIds: [string, number][];
@@ -20,6 +21,7 @@ export type PracticeRound = {
 
 export type ExamRound = {
   ids: string[];
+  choiceOrders?: number[][];
   i: number;
   answers: Record<number, number>;
   submitted: boolean;
@@ -60,17 +62,23 @@ export function loadRound<T extends Round>(kind: RoundKind, s?: RoundStore): T |
     if (ids.length === 0) return null;
     const i = index(p.i, 0);
     const updatedAt = num(p.updatedAt, 0);
+    const choiceOrders = Array.isArray(p.choiceOrders)
+      ? p.choiceOrders.map((order) => Array.isArray(order)
+          ? order.filter((choice): choice is number => typeof choice === "number" && Number.isInteger(choice) && choice >= 0)
+          : [])
+      : undefined;
 
     if (kind === "exam") {
       const answers: Record<number, number> = {};
       if (p.answers && typeof p.answers === "object" && !Array.isArray(p.answers))
         for (const [k, v] of Object.entries(p.answers))
           if (/^\d+$/.test(k) && typeof v === "number" && Number.isInteger(v) && v >= 0) answers[Number(k)] = v;
-      return { ids, i, answers, submitted: typeof p.submitted === "boolean" ? p.submitted : false, updatedAt } as T;
+      return { ids, ...(choiceOrders ? { choiceOrders } : {}), i, answers, submitted: typeof p.submitted === "boolean" ? p.submitted : false, updatedAt } as T;
     }
 
     return {
       ids,
+      ...(choiceOrders ? { choiceOrders } : {}),
       i,
       picked: typeof p.picked === "number" && Number.isInteger(p.picked) && p.picked >= 0 ? p.picked : null,
       wrongIds: Array.isArray(p.wrongIds)
