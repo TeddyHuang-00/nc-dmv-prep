@@ -15,6 +15,11 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "NC DMV Permit Prep",
   description: "Local practice app for the North Carolina learner permit test",
+  metadataBase: new URL("https://teddyhuang.is-a.dev/nc-dmv-prep/"),
+  openGraph: {
+    title: "NC DMV Permit Prep",
+    description: "Local practice app for the North Carolina learner permit test",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

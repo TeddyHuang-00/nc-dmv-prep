@@ -6,6 +6,12 @@ import { ResumeRoundLink } from "@/components/resume-round-link";
 type Chapter = { slug: string; title: string; html: string };
 const CHAPTERS = handbook as Chapter[];
 
+// Static export needs every slug enumerated at build time (static-exports.md: dynamic
+// routes without generateStaticParams are unsupported).
+export function generateStaticParams() {
+  return CHAPTERS.map((c) => ({ slug: c.slug }));
+}
+
 export default async function ChapterPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const chapter = CHAPTERS.find((c) => c.slug === slug);

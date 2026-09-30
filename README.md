@@ -1,4 +1,5 @@
 # NC DMV Permit Prep
+Live: https://teddyhuang.is-a.dev/nc-dmv-prep/
 Local learner-permit practice app (Next.js App Router + shadcn/ui, light mode): dashboard, weighted practice rounds, 25-question exam, handbook reader. `pnpm install` then `pnpm dev`.
 
 Scripts: `pnpm dev` · `pnpm test` · `pnpm build` (runs `scripts/build-handbook.mjs` first) · `pnpm start`.
