@@ -82,16 +82,14 @@ Change of Name:
 If you change your name, you must notify the DMV within 60 days to obtain a
 duplicate card with the new name.
 The process must be completed at a driver license office, More information
-is on the DMV website at https://www.ncdot.gov/dmv/help/moving/Pages/
-name-changes.aspx.
+is on the DMV website at https://www.ncdot.gov/dmv/help/moving/Pages/name-changes.aspx.
 Change of Address:
 Within 60 days of moving within North Carolina, a license or ID holder must
 update their physical address with the DMV and get a duplicate license or ID.
 If you also own a vehicle, a duplicate registration card needs to be
 ordered. Most people can handle those steps online or at a local driver
 license or license plate agency office (for the registration card).
-More information can be found on the DMV website at https://www.ncdot.
-gov/dmv/help/moving/Pages/moving-within-nc.aspx.
+More information can be found on the DMV website at https://www.ncdot.gov/dmv/help/moving/Pages/moving-within-nc.aspx.
 
 Remember these things when registering a vehicle:
 • Before a vehicle can be registered in North Carolina, the DMV requires
