@@ -1,6 +1,6 @@
 # REPORT — NC DMV Driver Handbook download, extraction & exam facts
 
-*Agent run: 2026-09-27, ~18:00–18:20 EDT. All paths relative to `/home/teddyhuang/.hermes/cache/scratch/ncdmv-research/`.*
+*Agent run: 2026-09-27, ~18:00–18:20 EDT. All paths relative to `~/.hermes/cache/scratch/ncdmv-research/`.*
 
 ## Executive Summary
 

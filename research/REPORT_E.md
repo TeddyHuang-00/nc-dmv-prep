@@ -1,7 +1,7 @@
 # Evaluation: yuki4266/nc-dmv-chinese — supplementary NC DMV question bank
 
 Repo cloned 2026-09-27: `git clone --depth 1 https://github.com/yuki4266/nc-dmv-chinese` into
-`/home/teddyhuang/.hermes/cache/scratch/ncdmv-bank-eval/repo` (single 3.6 MB `index.html`, pure frontend,
+`~/.hermes/cache/scratch/ncdmv-bank-eval/repo` (single 3.6 MB `index.html`, pure frontend,
 no backend, MIT claimed in LICENSE with a carve-out that the exam questions themselves belong to their
 original compilers / authorities).
 
@@ -37,7 +37,7 @@ site chrome are bilingual, but the questions are not. Numbers/units use Chinese 
   current handbook — one of the spot checks below shows the option set can be softer than handbook guidance.
 
 ## Cross-check vs official handbook (5 random questions, seed 42 → #7, #29, #58, #63, #71)
-Handbooks: `/home/teddyhuang/.hermes/cache/scratch/ncdmv-research/handbook/*.md`. Extraction:
+Handbooks: `~/.hermes/cache/scratch/ncdmv-research/handbook/*.md`. Extraction:
 `sample.json` (first 20 verbatim) and the full parse of all 140 in this directory.
 
 | # | Question (zh) | Repo answer | Handbook evidence | Result |

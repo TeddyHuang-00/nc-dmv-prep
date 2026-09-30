@@ -24,7 +24,7 @@ ncdot.gov) covers documents, appointment rules, fee, tests, and retake policy.
 ## Deep Dive
 
 ### 1. `signs.json` — verified Wikimedia Commons sign manifest
-Path: `/home/teddyhuang/.hermes/cache/scratch/ncdmv-research/signs.json`
+Path: `~/.hermes/cache/scratch/ncdmv-research/signs.json`
 
 Stable URL form per entry: `https://commons.wikimedia.org/wiki/Special:FilePath/<FILENAME>` (redirect),
 `page` = the Commons file description page, `license` = per-file license from the Commons API
@@ -97,7 +97,7 @@ NOT FOUND: explicit "SSN denial letter" acceptance in official lists (the rule i
 for an SSN, provide legal-presence documentation); adult Class C learner-permit fee row
 (the fee table is JS-rendered; Level 1 $25.50 verified instead).
 
-## Files written (all under /home/teddyhuang/.hermes/cache/scratch/ncdmv-research/)
+## Files written (all under ~/.hermes/cache/scratch/ncdmv-research/)
 - `signs.json` — deliverable 1 (42 entries)
 - `existing_banks.md` — deliverable 2
 - `logistics.md` — deliverable 3

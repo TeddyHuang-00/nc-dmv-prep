@@ -18,7 +18,7 @@ Source: https://carolinaroaddriving.com/wp-content/uploads/2016/02/Sample-Test.p
 ("Carolina Road Driving School Sample Test Questions" — a scan/OCR of the official NCDMV sample test:
 90 numbered questions, then "Answer Sheet" listing answers 1-90.)
 Fetched 2026-09-27 via web_extract; full extracted text saved at
-/home/teddyhuang/.hermes/cache/web/carolinaroaddriving.com-25c92b8460.md
+~/.hermes/cache/web/carolinaroaddriving.com-25c92b8460.md
 OCR artifacts present in the original ("0" = D, "8" = B, "8}" = B)).
 
 Note: this PDF is the apparent source of the yuki4266/nc-dmv-chinese question bank (its Q1, Q2, Q7, Q8,
